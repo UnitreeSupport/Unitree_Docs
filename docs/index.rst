@@ -20,7 +20,7 @@ Welcome to 🎉🎉🎉 URE!
       <div class="row" style="display:flex; align-items: center; justify-content: center; gap: 10px">
 
 .. app_card::
-   :title: Legged Locomotion
+   :title: Legged 
    :description: Legged Locomotion in Challenging Terrains using Egocentric Vision
    :width: 280
    :image: _static/sources/index/1.PNG
