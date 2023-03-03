@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../moving_to_the_cloud.rst:7
+msgid "Moving to the Cloud"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:9
+msgid "This is in progress and not yet fully supported."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:11
+msgid ""
+"In the :ref:`quick_start` guide, you learned how to implement a simple "
+"app that trains an image classifier and serve it once trained."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:14
+msgid ""
+"In this tutorial, you'll learn how to extend that application so that it "
+"works seamlessly both locally and in the cloud."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:21
+msgid "Step 1: Distributed Application"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:25
+msgid "Distributed Storage"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:27
+msgid ""
+"When running your application in a fully-distributed setting, the data "
+"available on one machine won't necessarily be available on another."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:29
+msgid ""
+"To solve this problem, Lightning introduces the "
+":class:`~lightning_app.storage.Path` object. This ensures that your code "
+"can run both locally and in the cloud."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:32
+msgid ""
+"The :class:`~lightning_app.storage.Path` object keeps track of the work "
+"which creates the path. This enables Lightning to transfer the files "
+"correctly in a distributed setting."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:35
+msgid ""
+"Instead of passing a string representing a file or directory, Lightning "
+"simply wraps them into a :class:`~lightning_app.storage.Path` object and "
+"makes them an attribute of your LightningWork."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:38
+msgid ""
+"Without doing this conscientiously for every single path, your "
+"application will fail in the cloud."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:40
+msgid ""
+"In the example below, a file written by **SourceFileWork** is being "
+"transferred by the flow to the **DestinationFileAndServeWork** work. The "
+"Path object is the reference to the file."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:46
+msgid ""
+"In the ``scripts/serve.py`` file, we are creating a **FastApi Service** "
+"running on port ``1111`` that returns the content of the file received "
+"from **SourceFileWork** when a post request is sent to ``/file``."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:56
+msgid "Distributed Frontend"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:58
+msgid ""
+"In the above example, the **FastAPI Service** was running on one machine,"
+" and the frontend UI in another."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:61
+msgid "In order to assemble them, you need to do two things:"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:63
+msgid ""
+"Provide **port** argument to your work's ``__init__`` method to expose a "
+"single service."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:65
+msgid "Here's how to expose the port:"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:72
+msgid ""
+"And here's how to expose your services within the ``configure_layout`` "
+"flow hook:"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:78
+msgid ""
+"In this example, we're appending ``/file`` to our **FastApi Service** "
+"url. This means that our ``Boring Tab`` triggers the ``get_file_content``"
+" from the **FastAPI Service** and embeds its content as an `IFrame "
+"<https://en.wikipedia.org/wiki/HTML_element#Frames>`_."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:86
+msgid "Here's a visualization of the application described above:"
+msgstr ""
+
+msgid "Storage API Animation"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:96
+msgid "Step 2: Scalable Application"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:98
+msgid ""
+"The benefit of defining long-running code inside a "
+":class:`~lightning_app.core.work.LightningWork` component is that you can"
+" run it on different hardware by providing "
+":class:`~lightning_app.utilities.packaging.cloud_compute.CloudCompute` to"
+" the ``__init__`` method of your "
+":class:`~lightning_app.core.work.LightningWork`."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:104
+msgid ""
+"By adapting the :ref:`quick_start` example as follows, you can easily run"
+" your component on multiple GPUs:"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:107
+msgid ""
+"Without doing much, you’re now running a script on its own cluster of "
+"machines! 🤯"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:113
+msgid "Step 3: Resilient Application"
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:115
+msgid ""
+"We designed Lightning with a strong emphasis on supporting failure cases."
+" The framework shines when the developer embraces our fault-tolerance "
+"best practices, enabling them to create ML applications with a high "
+"degree of complexity as well as a strong support for unhappy cases."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:120
+msgid "An entire section would be dedicated to this concept."
+msgstr ""
+
+#: ../../moving_to_the_cloud.rst:122
+msgid "TODO"
+msgstr ""
+

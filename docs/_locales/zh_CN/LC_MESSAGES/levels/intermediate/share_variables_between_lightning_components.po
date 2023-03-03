@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:3
+msgid "Level 7: Share variables between components"
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:4
+msgid ""
+"**Audience:** Users who want to share variables and files across "
+"Lightning components."
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:6
+msgid ""
+"**Prereqs:** You must have finished `intermediate level 5+ "
+"<run_lightning_work_in_parallel.rst>`_."
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:12
+msgid "Send a variable from Flow to a Component"
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:13
+msgid ""
+"When a variable is defined on the LightningFlow (orchestrator), and then "
+"it's passed into functions for the work components, under the hood "
+"Lightning sends the variables across the machines for you automatically."
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:40
+msgid ""
+"In this example, we learned that we can send variables to components like"
+" in regular Python. On a local machine, it will behave like Python. When "
+"the workflow is distributed on the cloud, it makes network calls under "
+"the hood, but still functions like Python to you."
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:48
+msgid "Send a variable between two components"
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:49
+msgid ""
+"A majority of workflows (especially in ML), require components to respond"
+" to a change in a component likely running on a separate machine or even "
+"cluster."
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:52
+msgid ""
+"Example Continuous deployment: Every time a model saves a checkpoint, we "
+"redeploy a model:"
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:105
+msgid "Send a large variable between two components"
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:106
+msgid ""
+"For large variables such as arrays, tensors, embeddings and so on, use "
+"Payload to enable transfering them across components."
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:133
+msgid ""
+"The payload object keeps the data on the machine and passes a pointer to "
+"the data around the app until the data is needed by a component."
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:140
+msgid "Next steps: Share files between components"
+msgstr ""
+
+#: ../../levels/intermediate/share_variables_between_lightning_components.rst:141
+msgid ""
+"Now that you know how to run components in parallel, we'll learn to share"
+" variables across components to simplify complex workflows."
+msgstr ""
+

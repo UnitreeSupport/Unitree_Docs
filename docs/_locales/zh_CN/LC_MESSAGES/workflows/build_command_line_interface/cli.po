@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/build_command_line_interface/cli.rst:5
+msgid "1. Develop a CLI with server side code only"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:7
+msgid "We are going to learn how to create a simple command-line interface."
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:9
+msgid ""
+"Lightning provides a flexible way to create complex CLI without much "
+"effort."
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:15
+msgid "1. Implement a simple CLI"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:17
+msgid ""
+"To create your first CLI, you need to override the "
+":class:`~lightning_app.core.flow.LightningFlow.configure_commands` hook "
+"and return a list of dictionaries where the keys are the commands and the"
+" values are the server side handlers."
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:19
+msgid ""
+"First, create a file ``app.py`` and copy-paste the following code in to "
+"the file:"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:27
+msgid "2. Run the App"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:29
+msgid "Execute the following command in a terminal:"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:35
+msgid "The following appears the terminal:"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:47
+msgid "3. Connect to a running App"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:49
+msgid ""
+"In another terminal, connect to the running App. When you connect to an "
+"App, the Lightning CLI is replaced by the App CLI. To exit the App CLI, "
+"you need to run ``lightning disconnect``."
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:56
+msgid "To see a list of available commands:"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:69
+msgid "To find the arguments of the commands:"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:84
+msgid "4. Execute a command"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:86
+msgid "Trigger the command line exposed by your App:"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:93
+msgid ""
+"In your first terminal, **Received name: my_name** and **[\"my_name\"]** "
+"are printed."
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:107
+msgid "5. Disconnect from the App"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:109
+msgid "To exit the App CLI, you need to run ``lightning disconnect``."
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/cli.rst:120
+msgid "Learn more"
+msgstr ""
+

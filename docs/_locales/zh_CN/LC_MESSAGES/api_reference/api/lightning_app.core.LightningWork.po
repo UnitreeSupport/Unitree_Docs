@@ -1,0 +1,394 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/api/lightning_app.core.LightningWork.rst:1
+msgid "﻿.. role:: hidden"
+msgstr ""
+
+#: ../../api_reference/api/lightning_app.core.LightningWork.rst
+msgid "class"
+msgstr ""
+
+#: ../../api_reference/api/lightning_app.core.LightningWork.rst:2
+msgid "hidden-section"
+msgstr ""
+
+#: ../../api_reference/api/lightning_app.core.LightningWork.rst:7
+msgid "LightningWork"
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:1 of
+msgid "Bases: :py:class:`object`"
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:1 of
+msgid ""
+"LightningWork, or Work in short, is a building block for long-running "
+"jobs."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:3 of
+msgid ""
+"The LightningApp runs its :class:`~lightning.app.core.flow.LightningFlow`"
+" component within an infinite loop and track the ``LightningWork`` status"
+" update."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:6 of
+msgid ""
+"Use LightningWork for third-party services or for launching heavy jobs "
+"such as downloading data, training or serving a model."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:9 of
+msgid ""
+"Each LightningWork is running in its own independent process. Works are "
+"self-isolated from the rest, e.g any state changes happening within the "
+"work will be reflected within the flow but not the other way around."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork of
+msgid "Parameters"
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:13 of
+msgid ""
+"Whether to run in parallel mode or not. When False, the flow waits for "
+"the work to finish."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:15 of
+msgid ""
+"Whether the ``run`` method should cache its input arguments and not run "
+"again when provided with the same arguments in subsequent calls."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:18 of
+msgid ""
+"Whether to re-raise an exception in the flow when raised from within the "
+"work run method."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:20 of
+msgid "Bind socket to this host"
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:22 of
+msgid ""
+"Bind socket to this port. Be default, this is None and should be called "
+"within your run method."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:24 of
+msgid "The local BuildConfig isn't used until Lightning supports DockerRuntime."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:26 of
+msgid ""
+"The cloud BuildConfig enables user to easily configure machine before "
+"running this work."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:28 of
+msgid "Deprecated in favor of cache_calls. This will be removed soon."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:30 of
+msgid ""
+"Whether the work should be started at the same time as the root flow. "
+"Only applies to works defined in ``__init__``."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork:33 of
+msgid "**Learn More About Lightning Work Inner Workings**"
+msgstr ""
+
+#: lightning.app.core.work.LightningWork._aggregate_status_timeout:1 of
+msgid ""
+"Method used to return the first request and the total count of timeout "
+"after the latest succeeded status."
+msgstr ""
+
+#: lightning.app.core.LightningWork.cache_calls
+#: lightning.app.core.LightningWork.cloud_build_config
+#: lightning.app.core.LightningWork.has_failed
+#: lightning.app.core.LightningWork.has_started
+#: lightning.app.core.LightningWork.has_stopped
+#: lightning.app.core.LightningWork.has_succeeded
+#: lightning.app.core.LightningWork.has_timeout
+#: lightning.app.core.LightningWork.host
+#: lightning.app.core.LightningWork.internal_ip
+#: lightning.app.core.LightningWork.is_pending
+#: lightning.app.core.LightningWork.is_running
+#: lightning.app.core.LightningWork.lightningignore
+#: lightning.app.core.LightningWork.num_successes
+#: lightning.app.core.LightningWork.num_timeouts
+#: lightning.app.core.LightningWork.parallel
+#: lightning.app.core.LightningWork.status
+#: lightning.app.core.LightningWork.statuses
+#: lightning.app.core.LightningWork.url
+#: lightning.app.core.work.LightningWork._aggregate_status_timeout
+#: lightning.app.core.work.LightningWork._is_state_attribute
+#: lightning.app.core.work.LightningWork.configure_layout of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.core.LightningWork.status:5
+#: lightning.app.core.work.LightningWork._aggregate_status_timeout:5 of
+msgid ":py:class:`~lightning.app.utilities.enum.WorkStatus`"
+msgstr ""
+
+#: lightning.app.core.work.LightningWork._is_state_attribute:1 of
+msgid ""
+"Every public attribute is part of the state by default and all protected "
+"(prefixed by '_') or private (prefixed by '__') attributes are not."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork._is_state_attribute:4 of
+msgid "Exceptions are listed in the `_INTERNAL_STATE_VARS` class variable."
+msgstr ""
+
+#: lightning.app.core.LightningWork.cache_calls:4
+#: lightning.app.core.LightningWork.has_failed:3
+#: lightning.app.core.LightningWork.has_started:3
+#: lightning.app.core.LightningWork.has_stopped:3
+#: lightning.app.core.LightningWork.has_succeeded:3
+#: lightning.app.core.LightningWork.has_timeout:3
+#: lightning.app.core.LightningWork.is_pending:3
+#: lightning.app.core.LightningWork.is_running:3
+#: lightning.app.core.LightningWork.parallel:5
+#: lightning.app.core.work.LightningWork._is_state_attribute:7 of
+msgid ":py:class:`bool`"
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.apply_flow_delta:1 of
+msgid "Override to customize how the flow should update the work state."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.configure_layout:1 of
+msgid "Configure the UI of this LightningWork."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.configure_layout:3 of
+msgid "You can either"
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.configure_layout:5 of
+msgid ""
+"Return a single :class:`~lightning.app.frontend.frontend.Frontend` object"
+" to serve a user interface for this Work."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.configure_layout:7 of
+msgid ""
+"Return a string containing a URL to act as the user interface for this "
+"Work."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.configure_layout:8 of
+msgid ""
+"Return ``None`` to indicate that this Work doesn't currently have a user "
+"interface."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.configure_layout:10 of
+msgid ""
+"**Example:** Serve a static directory (with at least a file index.html "
+"inside)."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.configure_layout:21 of
+msgid ""
+"**Example:** Arrange the UI of my children in tabs (default UI by "
+"Lightning)."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.configure_layout:33 of
+msgid ""
+"If you don't implement ``configure_layout``, Lightning will use "
+"``self.url``."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.configure_layout:37 of
+msgid ""
+"This hook gets called at the time of app creation and then again as part "
+"of the loop. If desired, a returned URL can depend on the state. This is "
+"not the case if the work returns a "
+":class:`~lightning.app.frontend.frontend.Frontend`. These need to be "
+"provided at the time of app creation in order for the runtime to start "
+"the server."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.configure_layout:43 of
+msgid ""
+":py:data:`~typing.Union`\\[:py:obj:`None`, :py:class:`str`, "
+":py:class:`~lightning.app.frontend.frontend.Frontend`]"
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.on_exception:1 of
+msgid "Override to customize how to handle exception in the run method."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.on_exit:1 of
+msgid "Override this hook to add your logic when the work is exiting."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.run:1 of
+msgid "Override to add your own logic."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.run of
+msgid "Raises"
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.run:3 of
+msgid "If resource exceeds platform quotas or other constraints."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.start:1 of
+msgid "Starts LightingWork component via L.CloudCompute."
+msgstr ""
+
+#: lightning.app.core.work.LightningWork.stop:1 of
+msgid ""
+"Stops LightingWork component and shuts down hardware provisioned via "
+"L.CloudCompute."
+msgstr ""
+
+#: lightning.app.core.LightningWork.cache_calls:1 of
+msgid ""
+"Returns whether the ``run`` method should cache its input arguments and "
+"not run again when provided with the same arguments in subsequent calls."
+msgstr ""
+
+#: lightning.app.core.LightningWork.cloud_build_config:1 of
+msgid ""
+"Returns the cloud build config used to prepare the selected cloud "
+"hardware."
+msgstr ""
+
+#: lightning.app.core.LightningWork.cloud_build_config:3 of
+msgid ":py:class:`~lightning.app.utilities.packaging.build_config.BuildConfig`"
+msgstr ""
+
+#: lightning.app.core.LightningWork.has_failed:1 of
+msgid "Return whether the work has failed."
+msgstr ""
+
+#: lightning.app.core.LightningWork.has_started:1
+#: lightning.app.core.LightningWork.has_stopped:1 of
+msgid "Return whether the work has started."
+msgstr ""
+
+#: lightning.app.core.LightningWork.has_succeeded:1 of
+msgid "Return whether the work has succeeded."
+msgstr ""
+
+#: lightning.app.core.LightningWork.has_timeout:1 of
+msgid "Return whether the work has time-out."
+msgstr ""
+
+#: lightning.app.core.LightningWork.host:1 of
+msgid "Returns the current host of the work."
+msgstr ""
+
+#: lightning.app.core.LightningWork.host:3
+#: lightning.app.core.LightningWork.internal_ip:6
+#: lightning.app.core.LightningWork.url:3 of
+msgid ":py:class:`str`"
+msgstr ""
+
+#: lightning.app.core.LightningWork.internal_ip:1 of
+msgid ""
+"The internal ip address of this LightningWork, reachable by other Work "
+"locally and in the cloud."
+msgstr ""
+
+#: lightning.app.core.LightningWork.internal_ip:3 of
+msgid ""
+"By default, this attribute returns the empty string and the ip address "
+"will only be returned once the work runs. Locally, the address is "
+"127.0.0.1 and in the cloud it will be determined by the cluster."
+msgstr ""
+
+#: lightning.app.core.LightningWork.is_pending:1 of
+msgid "Return whether the work is pending."
+msgstr ""
+
+#: lightning.app.core.LightningWork.is_running:1 of
+msgid "Return whether the work is running."
+msgstr ""
+
+#: lightning.app.core.LightningWork.lightningignore:1 of
+msgid "Programmatic equivalent of the ``.lightningignore`` file."
+msgstr ""
+
+#: lightning.app.core.LightningWork.lightningignore:3 of
+msgid ":py:data:`~typing.Tuple`\\[:py:class:`str`, :py:data:`...<Ellipsis>`]"
+msgstr ""
+
+#: lightning.app.core.LightningWork.name:1 of
+msgid "Returns the name of the LightningWork."
+msgstr ""
+
+#: lightning.app.core.LightningWork.num_successes:1 of
+msgid "Returns the number of successful runs."
+msgstr ""
+
+#: lightning.app.core.LightningWork.num_successes:3
+#: lightning.app.core.LightningWork.num_timeouts:3 of
+msgid ":py:class:`int`"
+msgstr ""
+
+#: lightning.app.core.LightningWork.num_timeouts:1 of
+msgid "Return the number of timeout status since the lastest succeeded run."
+msgstr ""
+
+#: lightning.app.core.LightningWork.parallel:1 of
+msgid "Whether to run in parallel mode or not."
+msgstr ""
+
+#: lightning.app.core.LightningWork.parallel:3 of
+msgid "When parallel is False, the flow waits for the work to finish."
+msgstr ""
+
+#: lightning.app.core.LightningWork.state:1 of
+msgid "Returns the current state of this LightningWork."
+msgstr ""
+
+#: lightning.app.core.LightningWork.status:1 of
+msgid "Return the current status of the work."
+msgstr ""
+
+#: lightning.app.core.LightningWork.status:3 of
+msgid "All statuses are stored in the state."
+msgstr ""
+
+#: lightning.app.core.LightningWork.statuses:1 of
+msgid "Return all the status of the work."
+msgstr ""
+
+#: lightning.app.core.LightningWork.statuses:3 of
+msgid ":py:class:`~typing.List`\\[:py:class:`~lightning.app.utilities.enum.WorkStatus`]"
+msgstr ""
+
+#: lightning.app.core.LightningWork.url:1 of
+msgid "Returns the current url of the work."
+msgstr ""
+

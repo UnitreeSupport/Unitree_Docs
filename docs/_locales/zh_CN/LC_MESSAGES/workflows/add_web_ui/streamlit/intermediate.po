@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/streamlit/intermediate.rst:3
+msgid "Add a web UI with Streamlit (intermediate)"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/intermediate.rst:4
+msgid ""
+"**Audience:** Users who want to communicate between the Lightning App and"
+" Streamlit."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/intermediate.rst:6
+msgid "**Prereqs:** Must have read the `streamlit basic <basic.html>`_ guide."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/intermediate.rst:12
+msgid "Interact with the App from Streamlit"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/intermediate.rst:13
+msgid ""
+"The streamlit UI enables user interactions with the Lightning App via UI "
+"elements like buttons. To modify the variables of a Lightning component, "
+"access the ``lightning_app_state`` variable in ."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/intermediate.rst:16
+msgid ""
+"For example, here we increase the count variable of the Lightning "
+"Component every time a user presses a button:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/intermediate.rst:61
+msgid "Interact with Streamlit from a component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/intermediate.rst:62
+msgid ""
+"To update the streamlit UI from any Lightning component, update the "
+"property in the component and make sure to call ``run`` from the parent "
+"component."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/intermediate.rst:65
+msgid "In this example we update the value of the counter from the component:"
+msgstr ""
+

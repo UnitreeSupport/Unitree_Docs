@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/aws_arn.rst:7
+msgid "AWS ARN"
+msgstr ""
+
+#: ../../glossary/aws_arn.rst:9
+msgid "**Audience:** Users who want to run on their AWS account"
+msgstr ""
+
+#: ../../glossary/aws_arn.rst:11
+msgid "**Level:** Intermediate"
+msgstr ""
+
+#: ../../glossary/aws_arn.rst:17
+msgid "What is an AWS ARN?"
+msgstr ""
+
+#: ../../glossary/aws_arn.rst:18
+msgid ""
+"An AWS Amazon Resource Name (ARN) are unique identifiers of Amazon "
+"resources (datasets, buckets, machines, clusters) with customized access "
+"controls."
+msgstr ""
+
+#: ../../glossary/aws_arn.rst:25
+msgid "Create an ARN"
+msgstr ""
+
+#: ../../glossary/aws_arn.rst:26
+msgid "To create an ARN, first install the AWS CLI"
+msgstr ""
+
+#: ../../glossary/aws_arn.rst:42
+msgid ""
+"Or `follow the AWS guide "
+"<https://docs.aws.amazon.com/cli/latest/userguide/getting-started-"
+"install.html>`_."
+msgstr ""
+
+#: ../../glossary/aws_arn.rst:44
+msgid "Then enter the following commands:"
+msgstr ""
+
+#: ../../glossary/aws_arn.rst:54
+msgid "Run on your AWS account"
+msgstr ""
+
+#: ../../glossary/aws_arn.rst:55
+msgid ""
+"To run on your own AWS account, set up a Lightning cluster (here we name "
+"it pikachu):"
+msgstr ""
+
+#: ../../glossary/aws_arn.rst:61
+msgid "Run your code on the pikachu cluster by passing it into CloudCompute:"
+msgstr ""
+

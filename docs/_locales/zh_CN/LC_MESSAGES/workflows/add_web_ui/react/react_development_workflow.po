@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/react/react_development_workflow.rst:3
+msgid "Add a web UI with React.js (intermediate)"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/react_development_workflow.rst:4
+msgid ""
+"**Audience:** Anyone who wants to add a web user interface (UI) written "
+"in react to their app."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/react_development_workflow.rst:6
+msgid ""
+"**pre-requisites:** You already have a React app connected with a "
+"Lightning app."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/react_development_workflow.rst:12
+msgid "Develop your react app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/react_development_workflow.rst:13
+msgid ""
+"Every time you make a change to your React.js app, you must call `yarn "
+"build` to apply the changes (this is a React.js thing):"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/react_development_workflow.rst:21
+msgid ""
+"This can get very repetitive, there is a \"hot reload\" command that you "
+"can enable with:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/react_development_workflow.rst:27
+msgid ""
+"There are many other tricks that React.js developers use to improve their"
+" development speed."
+msgstr ""
+

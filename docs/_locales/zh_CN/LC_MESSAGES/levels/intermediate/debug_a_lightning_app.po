@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../levels/intermediate/debug_a_lightning_app.rst:3
+msgid "Level 5: Debug A Lightning app"
+msgstr ""
+
+#: ../../levels/intermediate/debug_a_lightning_app.rst:4
+msgid "**Audience:** Users who want to debug a distributed app locally."
+msgstr ""
+
+#: ../../levels/intermediate/debug_a_lightning_app.rst:6
+msgid "**Prereqs:** You must have finished the `Basic levels <../basic/>`_."
+msgstr ""
+
+#: ../../levels/intermediate/debug_a_lightning_app.rst:12
+msgid "Enable breakpoints"
+msgstr ""
+
+#: ../../levels/intermediate/debug_a_lightning_app.rst:13
+msgid ""
+"To enable a breakpoint, use `L.pdb.set_trace()` (note direct python pdb "
+"support is work in progress and open to contributions)."
+msgstr ""
+
+#: ../../levels/intermediate/debug_a_lightning_app.rst:27
+msgid "Next: Run a component in parallel"
+msgstr ""
+
+#: ../../levels/intermediate/debug_a_lightning_app.rst:28
+msgid "Learn to run components in parallel to enable more powerful workflows."
+msgstr ""
+

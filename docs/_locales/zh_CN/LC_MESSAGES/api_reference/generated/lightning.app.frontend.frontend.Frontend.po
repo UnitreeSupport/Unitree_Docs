@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/generated/lightning.app.frontend.frontend.Frontend.rst:7
+msgid "Frontend"
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend:1 of
+msgid "Bases: :py:class:`abc.ABC`"
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend:1 of
+msgid "Base class for any frontend that gets exposed by LightningFlows."
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend:3 of
+msgid "The flow attribute will be set by the app while bootstrapping."
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend.start_server:1 of
+msgid ""
+"Start the process that serves the UI at the given hostname and port "
+"number."
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend.start_server of
+msgid "Parameters"
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend.start_server:4 of
+msgid ""
+"The hostname where the UI will be served. This gets determined by the "
+"dispatcher (e.g., cloud), but defaults to localhost when running locally."
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend.start_server:7 of
+msgid ""
+"The port number where the UI will be served. This gets determined by the "
+"dispatcher, which by default chooses any free port when running locally."
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend.start_server:10 of
+msgid "root_path for the server if app in exposed via a proxy at `/<root_path>`"
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend.start_server:13
+#: lightning.app.frontend.frontend.Frontend.stop_server:6 of
+msgid "Example"
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend.start_server:14 of
+msgid "An custom implementation could look like this:"
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend.start_server
+#: lightning.app.frontend.frontend.Frontend.stop_server of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend.start_server:22
+#: lightning.app.frontend.frontend.Frontend.stop_server:13 of
+msgid ":py:obj:`None`"
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend.stop_server:1 of
+msgid ""
+"Stop the process that was started with :meth:`start_server` so the App "
+"can shut down."
+msgstr ""
+
+#: lightning.app.frontend.frontend.Frontend.stop_server:3 of
+msgid "This method gets called when the LightningApp terminates."
+msgstr ""
+

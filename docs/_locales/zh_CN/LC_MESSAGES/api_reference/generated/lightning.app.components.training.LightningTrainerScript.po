@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/generated/lightning.app.components.training.LightningTrainerScript.rst:7
+msgid "LightningTrainerScript"
+msgstr ""
+
+#: lightning.app.components.training.LightningTrainerScript:1 of
+msgid "Bases: :py:class:`lightning.app.core.flow.LightningFlow`"
+msgstr ""
+
+#: lightning.app.components.training.LightningTrainerScript:1 of
+msgid ""
+"This component enables performing distributed multi-node multi-device "
+"training."
+msgstr ""
+
+#: lightning.app.components.training.LightningTrainerScript:3 of
+msgid "Example::"
+msgstr ""
+
+#: lightning.app.components.training.LightningTrainerScript of
+msgid "Parameters"
+msgstr ""
+
+#: lightning.app.components.training.LightningTrainerScript:18 of
+msgid "Path to the script to be executed."
+msgstr ""
+
+#: lightning.app.components.training.LightningTrainerScript:20 of
+msgid "The arguments to be pass to the script."
+msgstr ""
+
+#: lightning.app.components.training.LightningTrainerScript:22 of
+msgid "Number of nodes."
+msgstr ""
+
+#: lightning.app.components.training.LightningTrainerScript:24 of
+msgid "The cloud compute object used in the cloud."
+msgstr ""
+
+#: lightning.app.components.training.LightningTrainerScript:26 of
+msgid ""
+"Whether to validate that the model correctly implements the "
+"ServableModule API"
+msgstr ""
+
+#: lightning.app.components.training.LightningTrainerScript.run:1 of
+msgid "Override with your own logic."
+msgstr ""
+

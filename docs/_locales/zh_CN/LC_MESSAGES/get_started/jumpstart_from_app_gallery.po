@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:5
+msgid "Start from Ready-to-Run Template Apps"
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:9
+msgid ""
+"Anyone can build Apps for their own use cases and promote them on the "
+"`App Gallery <https://lightning.ai/apps>`_."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:11
+msgid ""
+"In return, you can benefit from the work of others and get started faster"
+" by re-using a ready-to-run App close to your own use case."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:20
+msgid "User Workflow"
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:22
+msgid ""
+"Visit the `App Gallery <https://lightning.ai/apps>`_ and look for an App "
+"close to your own use case."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:28
+msgid ""
+"If **Launch** is available, it means the App is live and ready to be "
+"used! Take it for a spin."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst
+msgid "Launch Button on lightning.ai"
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:34
+msgid ""
+"By clicking **Clone & Run**, a copy of the App is added to your account "
+"and an instance starts running."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:43
+msgid ""
+"If you found an App that matches what you need, move to **step 5**! "
+"Otherwise, go back to **step 1**."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:49
+msgid ""
+"Copy the installation command (optionally from the clipboard on the "
+"right)."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst
+msgid "Install command on lightning.ai"
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:55
+msgid "Copy the command to your local terminal."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:61
+msgid "Go through the installation steps."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:70
+msgid "Run the App locally."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:84
+msgid ""
+"Open the code with your favorite IDE, modify it, and run it back in the "
+"cloud."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_app_gallery.rst:98
+msgid "Next Steps"
+msgstr ""
+

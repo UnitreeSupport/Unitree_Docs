@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/ios_and_android.rst:4
+msgid "Apple and Android mobile devices with Lightning"
+msgstr ""
+
+#: ../../glossary/ios_and_android.rst:6
+msgid ""
+"Audience: Users who want to develop Lightning Apps for Apple or Android "
+"mobile devices."
+msgstr ""
+
+#: ../../glossary/ios_and_android.rst:12
+msgid "Develop a Lightning App for Apple or Android mobile devices"
+msgstr ""
+
+#: ../../glossary/ios_and_android.rst:14
+msgid ""
+"There are a couple of ways you can go about building Lightning Apps that "
+"work on Apple or Android mobile devices."
+msgstr ""
+
+#: ../../glossary/ios_and_android.rst:17
+msgid "Option 1"
+msgstr ""
+
+#: ../../glossary/ios_and_android.rst:19
+msgid ""
+"You can develop a Lightning App that interacts with an iOS or Android "
+"app. The ML and backend services live on the Lightning App, but the iOS "
+"or Android code (obj-c/swift or android) lives on the mobile devices."
+msgstr ""
+
+#: ../../glossary/ios_and_android.rst:23
+msgid "Option 2"
+msgstr ""
+
+#: ../../glossary/ios_and_android.rst:25
+msgid ""
+"You can build a mobile-first React Lightning App that works on both Apple"
+" and Android mobile devices. The `InVideo app <https://lightning.ai/app"
+"/7pmQNIDxAE-InVideo%20Search>`_ is a good example of a Lightning App that"
+" does just that."
+msgstr ""
+

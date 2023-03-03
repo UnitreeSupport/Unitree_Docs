@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/generated/lightning.app.runners.cloud.CloudRuntime.rst:7
+msgid "CloudRuntime"
+msgstr ""
+
+#: lightning.app.runners.cloud.CloudRuntime:1 of
+msgid "Bases: :py:class:`lightning.app.runners.runtime.Runtime`"
+msgstr ""
+
+#: lightning.app.runners.cloud.CloudRuntime._check_uploaded_folder:1 of
+msgid ""
+"This method is used to inform the users if their folder files are large "
+"and how to filter them."
+msgstr ""
+
+#: lightning.app.runners.cloud.CloudRuntime._check_uploaded_folder
+#: lightning.app.runners.cloud.CloudRuntime._get_default_cluster
+#: lightning.app.runners.cloud.CloudRuntime.dispatch
+#: lightning.app.runners.cloud.CloudRuntime.load_app_from_file of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.runners.cloud.CloudRuntime._check_uploaded_folder:4
+#: lightning.app.runners.cloud.CloudRuntime.dispatch:4 of
+msgid ":py:obj:`None`"
+msgstr ""
+
+#: lightning.app.runners.cloud.CloudRuntime._get_default_cluster:1 of
+msgid ""
+"This utility implements a minimal version of the cluster selection logic "
+"used in the cloud."
+msgstr ""
+
+#: lightning.app.runners.cloud.CloudRuntime._get_default_cluster:3 of
+msgid "TODO: This should be requested directly from the platform."
+msgstr ""
+
+#: lightning.app.runners.cloud.CloudRuntime._get_default_cluster:6 of
+msgid ":py:class:`str`"
+msgstr ""
+
+#: lightning.app.runners.cloud.CloudRuntime._project_has_sufficient_credits:1
+#: of
+msgid ""
+"check if user has enough credits to run the app with its hardware if app "
+"is not passed return True if user has 1 or more credits."
+msgstr ""
+
+#: lightning.app.runners.cloud.CloudRuntime.dispatch:1 of
+msgid ""
+"Method to dispatch and run the "
+":class:`~lightning.app.core.app.LightningApp` in the cloud."
+msgstr ""
+
+#: lightning.app.runners.cloud.CloudRuntime.load_app_from_file:1 of
+msgid "Load a LightningApp from a file, mocking the imports."
+msgstr ""
+
+#: lightning.app.runners.cloud.CloudRuntime.load_app_from_file:4 of
+msgid ":py:class:`~lightning.app.core.app.LightningApp`"
+msgstr ""
+

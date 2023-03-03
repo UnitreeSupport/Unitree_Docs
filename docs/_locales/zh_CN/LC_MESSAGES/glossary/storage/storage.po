@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/storage/storage.rst:5
+msgid "Storage"
+msgstr ""
+
+#: ../../glossary/storage/storage.rst:7
+msgid "**Audience:** Users who want to share files between components."
+msgstr ""
+
+#: ../../glossary/storage/storage.rst:10
+msgid ""
+"The Lightning Storage system makes it easy to share files between "
+"LightningWork so you can run your app both locally and in the cloud "
+"without changing the code."
+msgstr ""
+
+#: ../../glossary/storage/storage.rst:13
+msgid ""
+"Lightning storage provides two solutions "
+":class:`~lightning_app.storage.drive.Drive` and "
+":class:`~lightning_app.storage.path.Path` to deal with files locally and "
+"in the cloud likewise."
+msgstr ""
+
+#: ../../glossary/storage/storage.rst:57
+msgid "Examples"
+msgstr ""
+

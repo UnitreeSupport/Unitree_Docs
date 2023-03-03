@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/sharing_components.rst:3
+msgid "Sharing my components"
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:5
+msgid "**Audience:** Users who want to know how to share component."
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:7
+msgid "**Level:** Basic"
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:13
+msgid "Why should I consider sharing my components ?"
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:15
+msgid ""
+"Lightning is community driven and its core objective is to make AI "
+"accessible to everyone."
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:17
+msgid ""
+"By creating components and sharing them with everyone else, the barrier "
+"to entry will be go down."
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:23
+msgid "How should I organize my components ?"
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:25
+msgid ""
+"By design, Lightning components are nested to form component trees where "
+"the LightningFlows are its branches and LightningWorks are its leaves."
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:27
+msgid "This design has two primary advantages:"
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:29
+msgid "This help users to organize and maintain their code with more ease."
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:30
+msgid "This help creating an ecosystem with **re-usable** components."
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:32
+msgid ""
+"Now, imagine you have implemented a **KerasScriptRunner** component for "
+"training any `Keras <https://github.com/keras-team/keras>`_ model with "
+"`Tensorboard UI <https://github.com/tensorflow/tensorboard>`_ integrated."
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:34
+msgid "Here are the best practices steps before sharing the component:"
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:36
+msgid ""
+"**Testing**: Ensure your component is well tested by following the "
+":ref:`testing` guide."
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:37
+msgid ""
+"**Documented**: Ensure your component has docstring and comes with some "
+"usage explications."
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:39
+msgid ""
+"As a Lightning user, it helps to implement your components thinking "
+"someone else is going use them."
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:45
+msgid "How should I proceed to share components ?"
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:47
+msgid ""
+"Once your component is ready, create a PiPy package with your own library"
+" and then it can be re-used by anyone else."
+msgstr ""
+
+#: ../../glossary/sharing_components.rst:49
+msgid ""
+"Here is a `Component Template <https://github.com/Lightning-AI/LAI-slack-"
+"messenger>`_ from `William Falcon <https://www.williamfalcon.com/>`_ to "
+"guide your component"
+msgstr ""
+

@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/storage/differences.rst:5
+msgid "Differences between Drive and Path"
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:7
+msgid "**Audience:** Users who want to share files between components."
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:10
+msgid ""
+"The Lightning Storage system makes it easy to share files between "
+"LightningWork so you can run your app both locally and in the cloud "
+"without changing the code."
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:13
+msgid ""
+"Lightning storage provides two solutions "
+":class:`~lightning_app.storage.drive.Drive` and "
+":class:`~lightning_app.storage.path.Path` to deal with files locally and "
+"in the cloud likewise."
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:20
+msgid "What is a Drive ?"
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:22
+msgid ""
+"The Drive object provides a central place for your components to share "
+"data."
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:24
+msgid ""
+"The drive acts as an isolate folder and any component can access it by "
+"knowing its name."
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:26
+msgid ""
+"Your components can put, list, get, delete files from and to the Drive "
+"(except LightningFlow's)."
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:32
+msgid "What is a Path ?"
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:34
+msgid ""
+"The Path object is a reference to a specific file or directory from a "
+"LightningWork and can be used to transfer those files to another "
+"LightningWork (one way, from source to destination)."
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:36
+msgid ""
+"A good mental representation of the Path Object usage is the `relay race "
+"<https://en.wikipedia.org/wiki/Relay_race>`_. To make a transfer, the "
+"LightningWork Receiver asks (e.g when the path object is passed by the "
+"flow to the Receiver) for a copy of the files (baton) owned by their "
+"LightningWork Producer (e.g the work that created the files)."
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:44
+msgid "When should I use Drive vs Path ?"
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:46
+msgid ""
+"The Drive should be used when you want to easily share data between "
+"components but the Path enables to create cleaner shareable component "
+"where you want to exposes some files to be transferred (like an HPO "
+"component sharing the best model weights) for anyone else to use."
+msgstr ""
+
+#: ../../glossary/storage/differences.rst:49
+msgid ""
+"The Drive is more intuitive and easier to get on-boarded with, but in "
+"more advanced use cases, you might appreciate the Path Object which makes"
+" uni-directional files transfer simpler."
+msgstr ""
+

@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/share_app.rst:3
+msgid "Share an App"
+msgstr ""
+
+#: ../../workflows/share_app.rst:4
+msgid "**Audience:** Users who want to show off their work."
+msgstr ""
+
+#: ../../workflows/share_app.rst:10
+msgid "Option 1: Run on the cloud to share"
+msgstr ""
+
+#: ../../workflows/share_app.rst:11
+msgid "To share an app, simply run your app on the cloud:"
+msgstr ""
+
+#: ../../workflows/share_app.rst:17
+msgid ""
+"Then share the link that's generated (`like this one "
+"<https://01g3p4bf3m61xsm2yzn0966q59.litng-ai-03.litng.ai/view/home>`_)."
+msgstr ""
+
+#: ../../workflows/share_app.rst:23
+msgid "Option 2: Expose a tunnel to share"
+msgstr ""
+
+#: ../../workflows/share_app.rst:24
+msgid ""
+"If you'd like to share yourself, feel free to run the app in local mode "
+"and expose the URlapp."
+msgstr ""
+
+#: ../../workflows/share_app.rst:27
+msgid "Run local:"
+msgstr ""
+
+#: ../../workflows/share_app.rst:33
+msgid ""
+"And then, use one of the many guides to `expose a tunnel "
+"<https://medium.com/botfuel/how-to-expose-a-local-development-server-to-"
+"the-internet-c31532d741cc>`_."
+msgstr ""
+

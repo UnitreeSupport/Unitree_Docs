@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/build_command_line_interface/index.rst:3
+msgid "Command-line Interface (CLI)"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/index.rst:5
+msgid ""
+"**Audience:** Users looking to create a command line interface (CLI) for "
+"their application."
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/index.rst:11
+msgid "What is a CLI?"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/index.rst:13
+msgid ""
+"A Command-line Interface (CLI) is an user interface (UI) in a terminal to"
+" interact with a specific program."
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/index.rst:17
+msgid ""
+"The Lightning guideline to build CLI is `lightning <VERB> <NOUN> ...` or "
+"`<ACTION> <OBJECT> ...`."
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/index.rst:19
+msgid ""
+"As an example, Lightning provides a CLI to interact with your Lightning "
+"Apps and the `lightning.ai <https://lightning.ai/>`_ platform as follows:"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/index.rst:51
+msgid ""
+"Learn more about `Command-line interfaces here "
+"<https://en.wikipedia.org/wiki/Command-line_interface>`_."
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/index_content.rst:3
+msgid "Develop a command line interface (CLI)"
+msgstr ""
+
+#: ../../workflows/build_command_line_interface/index_content.rst:34
+msgid "Learn more"
+msgstr ""
+

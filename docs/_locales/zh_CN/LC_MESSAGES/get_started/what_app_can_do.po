@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../get_started/what_app_can_do.rst:5
+msgid "Discover what Lightning Apps can do in 5 min"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:9
+msgid ""
+"Lightning Apps can be plenty things, and while a picture is worth a "
+"thousand words, videos showing you examples should be worth even more."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:18
+msgid "Flashy - Auto ML App (Public)"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:20
+msgid ""
+"Train a model on any image or text dataset without writing any code. "
+"Flashy uses `React.js <https://reactjs.org/>`_ for its frontend."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:22
+msgid ""
+"Find `Flashy <https://lightning.ai/app/PgM82rHUWu-Flashy>`_ on the App "
+"Gallery and the `Flashy codebase. <https://github.com/Lightning-AI/LAI-"
+"Flashy-App>`_ on GitHub."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:48
+msgid "Research App (Public)"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:50
+msgid ""
+"Share your paper ``bundled`` with the arxiv link, poster, live jupyter "
+"notebook, interactive demo to try the model, and more!"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:52
+msgid ""
+"Find the `Research App <https://lightning.ai/app/KDKgKk3HVW-"
+"Research%20Poster>`_  on the App Gallery and the `Research App codebase. "
+"<https://github.com/Lightning-AI/LAI-research-template-App>`_ on GitHub."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:64
+msgid "ScratchPad - Notebook Manager for Team  (Public)"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:66
+msgid ""
+"Run multiple Jupyter Notebooks on cloud CPUs or machines with multiple "
+"GPUs."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:68
+#, python-format
+msgid ""
+"Find the `ScratchPad App <https://lightning.ai/app/hvUwbEG70B-"
+"ScratchPad%2C%20Notebook%20Manager%20for%20Teams>`_  on the App Gallery "
+"and the `ScratchPad App codebase <https://github.com/Lightning-AI/LAI-"
+"lightning-template-jupyterlab-App>`_ on GitHub."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:70
+msgid ""
+"ScratchPad is `tested end-to-end <https://github.com/Lightning-AI/LAI-"
+"lightning-template-jupyterlab-"
+"App/blob/master/tests/test_template_jupyterlab.py#L6>`_ on every "
+"Lightning App commit with `pytest <https://docs.pytest.org/en/7.1.x/>`_."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:82
+msgid "InVideo Search (Public)"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:84
+msgid ""
+"This App lets you find anything you're looking for inside a video. The "
+"engine is powered by `Open AI CLIP <https://openai.com/blog/clip/>`_."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:86
+msgid ""
+"Find the `InVideo Search App <https://lightning.ai/app/7pmQNIDxAE-"
+"InVideo%20Search>`_  on the App Gallery and the `InVideo Search App "
+"codebase. <https://github.com/Lightning-AI/LAI-InVideo-search-App>`_ in "
+"GitHub."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:98
+msgid "AI-powered HackerNews (Public)"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:100
+msgid ""
+"Save yourself time, and get Hacker News story recommendations, chosen for"
+" you specifically. This Lightning App was designed to illustrate a full "
+"end-to-end MLOPs workflow aimed at enterprise recommendation systems."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:102
+msgid ""
+"Find the `AI-powered HackerNews App <https://lightning.ai/app/g1VJ8GZ7XF-"
+"AI-powered%20HackerNews>`_  on the App Gallery and the `AI-powered "
+"HackerNews App codebase. <https://github.com/Lightning-AI/LAI-Hackernews-"
+"App>`_ on GitHub."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:114
+msgid "Lightning Apps can turn ML into scalable systems in days — not months"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:116
+msgid ""
+"Use the Lightning framework to develop any ML system: train and deploy a "
+"model, create an ETL pipeline, or spin up a research demo — using the "
+"intuitive principles we pioneered with PyTorch Lightning."
+msgstr ""
+
+msgid "Apps with Logos"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:123
+msgid ""
+"Anyone who knows Python can build a Lightning App, even without machine "
+"learning experience."
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:125
+msgid "Lightning Apps are:"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:127
+msgid "cloud agnostic"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:128
+msgid "fault-tolerant, distributed, cost optimized"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:129
+msgid "production ready"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:130
+msgid "local and cloud debuggable"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:131
+msgid "highly reactive & interactive"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:132
+msgid "connect multiple UIs together"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:133
+msgid "built for team collaboration"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:134
+msgid "framework agnostic, use your own stack"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:135
+msgid "and much more"
+msgstr ""
+
+#: ../../get_started/what_app_can_do.rst:148
+msgid "Next Steps"
+msgstr ""
+

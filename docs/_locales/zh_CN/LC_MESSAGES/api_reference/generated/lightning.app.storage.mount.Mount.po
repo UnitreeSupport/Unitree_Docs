@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/generated/lightning.app.storage.mount.Mount.rst:7
+msgid "Mount"
+msgstr ""
+
+#: lightning.app.storage.mount.Mount:1 of
+msgid "Bases: :py:class:`object`"
+msgstr ""
+
+#: lightning.app.storage.mount.Mount:1 of
+msgid ""
+"Allows you to mount the contents of an AWS S3 bucket on disk when running"
+" an app on the cloud."
+msgstr ""
+
+#: lightning.app.storage.mount.Mount of
+msgid "Parameters"
+msgstr ""
+
+#: lightning.app.storage.mount.Mount:4 of
+msgid ""
+"The location which contains the external data which should be mounted in "
+"the running work. At the moment, only AWS S3 mounts are supported. This "
+"must be a full `s3` style identifier pointing to a bucket and "
+"(optionally) prefix to mount. For example: `s3://foo/bar/`."
+msgstr ""
+
+#: lightning.app.storage.mount.Mount:9 of
+msgid ""
+"An absolute directory path in the work where external data source should "
+"be mounted as a filesystem. This path should not already exist in your "
+"codebase. If not included, then the root_dir will be set to `/data/<last "
+"folder name in the bucket>`"
+msgstr ""
+
+#: lightning.app.storage.mount.Mount.protocol:1 of
+msgid "The backing storage protocol indicated by this drive source."
+msgstr ""
+
+#: lightning.app.storage.mount.Mount.protocol of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.storage.mount.Mount.protocol:3 of
+msgid ":py:class:`str`"
+msgstr ""
+

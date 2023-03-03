@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../README.md:1
+msgid "PyTorch-Lightning Docs"
+msgstr ""
+
+#: ../../README.md:3
+msgid ""
+"We are using Sphinx with Napoleon extension. Moreover, we set Google "
+"style to follow with type convention."
+msgstr ""
+
+#: ../../README.md:6
+msgid ""
+"[Napoleon formatting with Google style](https://sphinxcontrib-"
+"napoleon.readthedocs.io/en/latest/example_google.html)"
+msgstr ""
+
+#: ../../README.md:7
+msgid ""
+"[ReStructured Text (reST)](https://docs.pylonsproject.org/projects/docs-"
+"style-guide/)"
+msgstr ""
+
+#: ../../README.md:8
+msgid ""
+"[Paragraph-level markup](https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/basics.html#paragraphs)"
+msgstr ""
+
+#: ../../README.md:10
+msgid ""
+"See following short example of a sample function taking one position "
+"string and optional"
+msgstr ""
+
+#: ../../README.md:38
+msgid "Building Docs"
+msgstr ""
+
+#: ../../README.md:40
+msgid ""
+"When updating the docs, make sure to build them first locally and "
+"visually inspect the html files in your browser for formatting errors. In"
+" certain cases, a missing blank line or a wrong indent can lead to a "
+"broken layout. Run these commands"
+msgstr ""
+
+#: ../../README.md:49
+msgid "and open `docs/build/html/index.html` in your browser."
+msgstr ""
+
+#: ../../README.md:51
+msgid ""
+"When you send a PR the continuous integration will run tests and build "
+"the docs."
+msgstr ""
+
+#: ../../README.md:53
+msgid "Notes:"
+msgstr ""
+
+#: ../../README.md:55
+msgid ""
+"You need to have LaTeX installed for rendering math equations. You can "
+"for example install TeXLive with the necessary extras by doing one of the"
+" following:"
+msgstr ""
+
+#: ../../README.md:56
+msgid ""
+"on Ubuntu (Linux) run `sudo apt-get update && sudo apt-get install -y "
+"texlive-latex-extra dvipng texlive-pictures`"
+msgstr ""
+
+#: ../../README.md:57
+msgid "use the [RTD docker image](https://hub.docker.com/r/readthedocs/build)"
+msgstr ""
+
+#: ../../README.md:58
+msgid ""
+"You need to have pandoc installed for rendering Jupyter Notebooks. On "
+"Ubuntu (Linux), you can run: `sudo apt-get install pandoc`"
+msgstr ""
+
+#: ../../README.md:60
+msgid "Developing docs"
+msgstr ""
+
+#: ../../README.md:62
+msgid ""
+"When developing the docs, building docs can be VERY slow locally because "
+"of the notebook tutorials. To speed this up, enable this flag in before "
+"building docs:"
+msgstr ""
+
+#: ../../README.md:73
+msgid "docs CSS/theme"
+msgstr ""
+
+#: ../../README.md:75
+msgid ""
+"To change the CSS theme of the docs, go [here](https://github.com"
+"/Lightning-AI/lightning_sphinx_theme). Apologies in advance... this is a "
+"bit complex to build and requires basic understanding of javascript/npm."
+msgstr ""
+

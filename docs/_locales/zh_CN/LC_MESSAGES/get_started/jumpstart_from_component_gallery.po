@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:5
+msgid "Add Component made by others to your App"
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:9
+msgid ""
+"Anyone can build components for their own use case and promote them on "
+"the `Component Gallery <https://lightning.ai/components>`_."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:11
+msgid ""
+"In return, you can benefit from the work of others and add new "
+"functionalities to your Apps with minimal effort."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:20
+msgid "User Workflow"
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:22
+msgid ""
+"Visit the `Component Gallery <https://lightning.ai/components>`_ and look"
+" for a Component close to something you want to do."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:28
+msgid ""
+"Check out the code for inspiration or simply install the component from "
+"PyPi and use it."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:34
+msgid "Success Story"
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:36
+msgid ""
+"The default `Train and Demo Application <https://github.com/Lightning-AI"
+"/lightning-quick-start>`_ trains a PyTorch Lightning model and then "
+"starts a demo with `Gradio <https://gradio.app/>`_."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:72
+msgid ""
+"However, someone who wants to use this Aop (maybe you) found `Lightning "
+"HPO <https://lightning.ai/component/BA2slXI093-Lightning%20HPO>`_ from "
+"browsing the `Component Gallery <https://lightning.ai/components>`_ and "
+"decided to give it a spin after checking the associated `Github "
+"Repository <https://github.com/Lightning-AI/LAI-lightning-hpo-App>`_."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:76
+msgid ""
+"Once ``lightning_hpo`` installed, they improved the default App by easily"
+" adding HPO support to their project."
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:78
+msgid ""
+"Here is the resulting App. It is almost the same code, but it's way more "
+"powerful now!"
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:80
+msgid "This is the power of `lightning.ai <https://lightning.ai/>`_ ecosystem 🔥⚡🔥"
+msgstr ""
+
+#: ../../get_started/jumpstart_from_component_gallery.rst:130
+msgid "Next Steps"
+msgstr ""
+

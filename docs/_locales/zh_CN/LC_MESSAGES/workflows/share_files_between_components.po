@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/share_files_between_components.rst:5
+msgid "Share Files Between Components"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:7
+msgid "The contents of this page is still in progress!"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:9
+msgid "**Audience:** Users who want to share files between components."
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:15
+msgid "Why do I need distributed storage?"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:16
+msgid ""
+"In a Lightning App some components can be executed on their own hardware."
+" Distributed storage enables a file saved by a component on one machine "
+"to be used by components in other machines (transparently)."
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:19
+msgid ""
+"If you've asked the question \"how do I use the checkpoint from this "
+"model to deploy this other thing\", you've needed distributed storage."
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:26
+msgid "Write a file"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:27
+msgid ""
+"To write a file, first create a reference to the file with the "
+":class:`~lightning_app.storage.Path` class, then write to it:"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:45
+msgid "Use a file"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:46
+msgid "To use a file, pass the reference to the file:"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:72
+msgid "Example: Share a model checkpoint"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:73
+msgid ""
+"A common workflow in ML is to use a checkpoint created by another "
+"component. First, define a component that saves a checkpoint:"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:79
+msgid "Next, define a component that needs the checkpoints:"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:84
+msgid "Link both components via a parent component:"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:90
+msgid "Run the app above with the following command:"
+msgstr ""
+
+#: ../../workflows/share_files_between_components.rst:104
+msgid ""
+"For example, here we save a file on one component and use it in another "
+"component:"
+msgstr ""
+

@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:3
+msgid "Communicate Between React and Lightning"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:4
+msgid ""
+"**Audience:** Anyone who wants to add a web user interface (UI) written "
+"in react to their app."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:6
+msgid ""
+"**pre-requisites:** Make sure you've already connected the React and "
+"Lightning app."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:8
+msgid "**Difficulty level:** intermediate."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:14
+msgid "Example code"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:15
+msgid ""
+"To illustrate how to communicate between a React app and a lightning App,"
+" we'll be using the `example_app.py` file which `lightning init react-ui "
+"<create_react_template.html>`_ created:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:20
+msgid ""
+"and the App.tsx file also created by `lightning init react-ui "
+"<create_react_template.html>`_:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:28
+msgid "Update React --> Lightning app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:29
+msgid ""
+"To change the Lightning app from the React app, use "
+"`updateLightningState`."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:31
+msgid ""
+"In this example, when you press **Start printing** in the React UI, it "
+"toggles the `react_ui.vars.should_print`:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:37
+msgid ""
+"By changing that variable in the Lightning app state, it sets "
+"**react_ui.should_print** to True, which enables the Lightning app to "
+"print:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:47
+msgid "Update React <-- Lightning app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:48
+msgid ""
+"To change the React app from the Lightning app, use the values from the "
+"`lightningState`."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:50
+msgid ""
+"In this example, when the `react_ui.counter`` increaes in the Lightning "
+"app:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/communicate_between_react_and_lightning.rst:55
+msgid "The React UI updates the text on the screen to reflect the count"
+msgstr ""
+

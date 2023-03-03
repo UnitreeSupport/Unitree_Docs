@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_server/flask_basic.rst:3
+msgid "Add a web UI with Flask (basic)"
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:4
+msgid "**Audience:** Users who want to enable a flask app within a component."
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:6
+msgid "**Prereqs:** Basic python knowledge."
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:12
+msgid "What is Flask?"
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:13
+msgid ""
+"Flask is a web framework, that lets you develop web applications in "
+"Python easily."
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:19
+msgid "Add Flask to a component"
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:20
+msgid "First, define your flask app as you normally would without Lightning:"
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:37
+msgid ""
+"To enable the server inside the component, start the Flask server in the "
+"run method and use the ``self.host`` and ``self.port`` properties:"
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:60
+msgid "Route the server in the root component"
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:61
+msgid ""
+"The final step, is to tell the Root component in which tab to render this"
+" component's output: In this case, we render the ``LitFlask`` output in "
+"the ``home`` tab of the application."
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:97
+msgid ""
+"We use the ``parallel=True`` argument of ``LightningWork`` to run the "
+"server in the background while the rest of the Lightning App runs "
+"everything else."
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:104
+msgid "Run the app"
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:105
+msgid "Start the app to see your new UI!"
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:111
+msgid "To run the app on the cloud, use the ``--cloud`` argument."
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:121
+msgid "Examples"
+msgstr ""
+
+#: ../../workflows/add_server/flask_basic.rst:122
+msgid "Here are a few example apps that expose a Flask server via a component:"
+msgstr ""
+

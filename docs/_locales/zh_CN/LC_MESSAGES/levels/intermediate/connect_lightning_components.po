@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../levels/intermediate/connect_lightning_components.rst:3
+msgid "Level 4: Connect components into a full stack AI app"
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:5
+msgid "**Audience:** Users who want to build apps with multiple components."
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:7
+msgid ""
+"**Prereqs:** You know how to `build a component "
+"<../basic/build_a_lightning_component.html>`_."
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:13
+msgid "What is a full stack AI app?"
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:14
+msgid ""
+"In the ML world, workflows coordinate multiple pieces of code working "
+"together. In Lightning, when we coordinate 2 or more `Lightning "
+"components <../basic/build_a_lightning_component.html>`_ working "
+"together, we instead call it a Lightning App. The difference will become "
+"more obvious when we introduce reactive workflows in the advanced "
+"section."
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:19
+msgid ""
+"For the time being, we'll go over how to coordinate 2 components together"
+" in a traditional workflow setting and explain how it works."
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:22
+msgid ""
+"If you've used workflow tools for Python, this page describes "
+"conventional DAGs. In `level 6 <./run_lightning_work_in_parallel.html>`_,"
+" we introduce reactive workflows that generalize beyond DAGs so you can "
+"build complex systems without much effort."
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:30
+msgid "The toy app"
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:32
+msgid ""
+"In this app, we define two components that run across 2 separate "
+"machines. One to train a model on a GPU machine and one to analyze the "
+"model on a separate CPU machine. We save money by stopping the GPU "
+"machine when the work is done."
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:46
+msgid "Now run the app:"
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:57
+msgid "Now you can develop distributed cloud apps on your laptop 🤯🤯🤯🤯!"
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:63
+msgid "Now you know:"
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:65
+msgid ""
+"Without going out of your way, you're now doing the following: (Hint: "
+"Click **visualize** to see an animation describing the code)."
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:80
+msgid "Maintain full control"
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:81
+msgid ""
+"Although we've abstracted the infrastructure, you still have full control"
+" when you need it:"
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:95
+msgid "Next: Review how to debug"
+msgstr ""
+
+#: ../../levels/intermediate/connect_lightning_components.rst:96
+msgid ""
+"The next levels does a 2 minute review to make sure you know how to debug"
+" a Lightning app."
+msgstr ""
+

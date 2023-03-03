@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/arrange_tabs/arrange_app_basic.rst:3
+msgid "Arrange app tabs (basic)"
+msgstr ""
+
+#: ../../workflows/arrange_tabs/arrange_app_basic.rst:4
+msgid ""
+"**Audience:** Users who want to control the layout of their app user "
+"interface."
+msgstr ""
+
+#: ../../workflows/arrange_tabs/arrange_app_basic.rst:10
+msgid "Enable a full-page single tab"
+msgstr ""
+
+#: ../../workflows/arrange_tabs/arrange_app_basic.rst:12
+msgid ""
+"To enable a single tab on the app UI, return a single dictionary from the"
+" ``configure_layout`` method:"
+msgstr ""
+
+#: ../../workflows/arrange_tabs/arrange_app_basic.rst:29
+msgid ""
+"The \"name\" key defines the visible name of the tab on the UI. It also "
+"shows up in the URL. The **\"content\"** key defines the target component"
+" to render in that tab. When returning a single tab element like shown "
+"above, the UI will display it in full-page mode."
+msgstr ""
+
+#: ../../workflows/arrange_tabs/arrange_app_basic.rst:38
+msgid "Enable multiple tabs"
+msgstr ""
+
+#: ../../workflows/arrange_tabs/arrange_app_basic.rst:55
+msgid "The order matters! Try any of the following configurations:"
+msgstr ""
+

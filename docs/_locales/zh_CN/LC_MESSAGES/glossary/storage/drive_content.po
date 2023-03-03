@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/storage/drive_content.rst:5
+msgid "What are Lightning Drives?"
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:7
+msgid ""
+"Lightning Drives are shared app storage that allow you to share files "
+"between `LightningWork (Work) "
+"<../../core_api/lightning_work/index.html>`_ components, so that you "
+"distributed components can share files when running on the cloud. Using "
+"drives, you can run your Lightning App both locally and in the cloud "
+"without changing the code."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:9
+msgid ""
+"The Drive object provides a central place for your components to share "
+"data."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:11
+msgid ""
+"The Drive acts as an isolated folder and any component can access it by "
+"knowing its name."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:13
+msgid ""
+"We currently support two types of Drives: Lightning-managed (``lit://``) "
+"and S3 (``s3://``)."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:16
+msgid "Lightning-managed (``lit://``)"
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:16
+msgid ""
+"Allows read-write operations and are accessible through the Drive API "
+"from a Work."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:18
+msgid ""
+"They allow your components to put, list, get, and delete files from and "
+"to the Drive (except LightningFlows)."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:20
+msgid "S3 (``s3://``)"
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:20
+msgid ""
+"S3 is AWS S3 storage mounted at a filesystem mount point. S3 is read-only"
+" (for now) and its primary purpose is to give you a permanent location to"
+" access your training data."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:23
+msgid "They allow your components to list and get files located on the Drive."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:30
+msgid "What Drives do for you"
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:32
+msgid ""
+"Think of every instance of the Drive object acting like a Google Drive or"
+" like Dropbox."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:34
+msgid ""
+"By sharing the Drive between components through the LightningFlow, "
+"several components can have a shared place to read (S3 Drives) or read "
+"and write (Lightning-managed Drives) files from."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:38
+msgid "S3 Drive Limitations"
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:40
+msgid "These limitations only apply to S3 Drives:"
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:42
+msgid ""
+"There is no top level “shareable” S3 drive object. Each S3 Drive is owned"
+" by a particular Work.  However, it’s possible to create a Drive with the"
+" same location across multiple Works."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:44
+msgid ""
+"S3 buckets cannot be mounted as Drives once a Work has been instantiated."
+" The `Drive` object must be initialized passed to a Work at creation "
+"time."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:46
+msgid ""
+"Whenever a Drive is mounted to a Work, an indexing process will be done "
+"again for the provided S3 bucket. This may lead to performance issues "
+"with particularly large S3 buckets. For context, 1M files with 2-3 levels"
+" of nesting takes less than 1 second to index."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:52
+msgid "Create a Drive"
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:54
+msgid ""
+"In order to create a Drive, you simply need to pass its name with the "
+"prefix ``lit://`` or ``s3://``."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:56
+msgid ""
+"We do not support mounting single objects for S3 buckets, so there must "
+"be a trailing `/` in the s3:// URL. For example: ``s3://foo/bar/``."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:70
+msgid "Any component can create a drive object for ``lit://`` Drives."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:99
+msgid "Supported actions with Drives"
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:101
+msgid "A Lightning-managed Drive supports put, list, get, and delete actions."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:103
+msgid "An S3 Drive supports list and get actions (for now)."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:131
+msgid "Component interactions with Drives"
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:133
+msgid "Here is an illustrated code example on how to create drives within Works."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:197
+msgid "Transfer files with Drive"
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:199
+msgid ""
+"In the example below, the Drive is created by the Flow and passed to its "
+"Works."
+msgstr ""
+
+#: ../../glossary/storage/drive_content.rst:201
+msgid ""
+"The ``Work_1`` put a file **a.txt** in the "
+"**Drive(\"lit://this_drive_id\")** and the ``Work_2`` can list and get "
+"the **a.txt** file from it."
+msgstr ""
+

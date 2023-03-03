@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_components/index.rst:5
+msgid "Add a component to your app"
+msgstr ""
+
+#: ../../workflows/add_components/index.rst:6
+msgid ""
+"**Audience:** Users looking to expand the functionality of their "
+"Lightning apps."
+msgstr ""
+
+#: ../../workflows/add_components/index.rst:12
+msgid "Install a component"
+msgstr ""
+
+#: ../../workflows/add_components/index.rst:14
+msgid "Any Lightning component can be installed with:"
+msgstr ""
+
+#: ../../workflows/add_components/index.rst:20
+msgid ""
+"`Browse all community-built components here "
+"<https://lightning.ai/components>`_."
+msgstr ""
+
+#: ../../workflows/add_components/index.rst:22
+msgid "Components are being populated daily"
+msgstr ""
+
+#: ../../workflows/add_components/index.rst:28
+msgid "Contribute a component"
+msgstr ""
+
+#: ../../workflows/add_components/index.rst:29
+msgid ""
+"One of the first principles of the Lightning community is to code "
+"something *once* for the benefit or everyone!"
+msgstr ""
+
+#: ../../workflows/add_components/index.rst:31
+msgid ""
+"To contribute a component, `follow this guide "
+"<../build_lightning_component/index.html>`_."
+msgstr ""
+

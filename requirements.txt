@@ -1,0 +1,2 @@
+# the default package dependencies
+-r ./requirements/docs.txt

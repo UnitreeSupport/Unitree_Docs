@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/file_server/file_server_content.rst:5
+msgid "Our Goal"
+msgstr ""
+
+#: ../../examples/file_server/file_server_content.rst:7
+msgid ""
+"Create a simple Lightning App (App) that allows users to upload files and"
+" list the uploaded files."
+msgstr ""
+
+#: ../../examples/file_server/file_server_content.rst:13
+msgid "Completed App"
+msgstr ""
+
+#: ../../examples/file_server/file_server_content.rst:15
+msgid ""
+"Here is a recording of the final App built in this example, tested with "
+"pytest."
+msgstr ""
+
+#: ../../examples/file_server/file_server_content.rst:30
+msgid "App Design"
+msgstr ""
+
+#: ../../examples/file_server/file_server_content.rst:32
+msgid "In order to create this App, we need to develop two components and an App:"
+msgstr ""
+
+#: ../../examples/file_server/file_server_content.rst:34
+msgid ""
+"A **File Server Component** that gives you the ability to download or "
+"list files shared with your App. This is particularly useful when you "
+"want to trigger an ML job but your users need to provide their own data "
+"or if the user wants to download the trained checkpoints."
+msgstr ""
+
+#: ../../examples/file_server/file_server_content.rst:36
+msgid "A **Test File Server** Component to interact with the file server."
+msgstr ""
+
+#: ../../examples/file_server/file_server_content.rst:38
+msgid "An App putting everything together and the App's associated pytest tests."
+msgstr ""
+
+#: ../../examples/file_server/file_server_content.rst:44
+msgid "Tutorial"
+msgstr ""
+

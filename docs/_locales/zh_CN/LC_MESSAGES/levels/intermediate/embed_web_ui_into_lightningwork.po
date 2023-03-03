@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../levels/intermediate/embed_web_ui_into_lightningwork.rst:3
+msgid "Level 9: Embed graphical UIs into work"
+msgstr ""
+
+#: ../../levels/intermediate/embed_web_ui_into_lightningwork.rst:4
+msgid ""
+"**Audience:** Users who need to embed a Graphical UI in their Lightning "
+"Apps."
+msgstr ""
+
+#: ../../levels/intermediate/embed_web_ui_into_lightningwork.rst:6
+msgid ""
+"**Prereqs:** You have finished `Level 8 "
+"<share_files_between_components.html>`_."
+msgstr ""
+
+#: ../../workflows/add_web_ui/index_content.rst:3
+msgid "Web UIs for non Javascript Developers"
+msgstr ""
+
+#: ../../workflows/add_web_ui/index_content.rst:69
+msgid "Web UIs for Javascript Developers"
+msgstr ""
+
+#: ../../levels/intermediate/embed_web_ui_into_lightningwork.rst:16
+msgid "Next steps: Practice adapting app templates"
+msgstr ""
+
+#: ../../levels/intermediate/embed_web_ui_into_lightningwork.rst:17
+msgid ""
+"One of the most exciting powers of Lightning is the ability to start an "
+"app from a template, replace or add components and build a powerful "
+"system."
+msgstr ""
+

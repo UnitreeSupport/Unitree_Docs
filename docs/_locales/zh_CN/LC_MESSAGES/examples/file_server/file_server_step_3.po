@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/file_server/file_server_step_3.rst:5
+msgid "Step 3: Implement a File Server Testing Component"
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_3.rst:7
+msgid "Let's dive in on how to implement a testing component for a server."
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_3.rst:9
+msgid "This component needs to test two things:"
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_3.rst:11
+msgid ""
+"The **/upload_file/** endpoint by creating a file and sending its content"
+" to it."
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_3.rst:13
+msgid ""
+"The **/** endpoint listing files, by validating the that previously "
+"uploaded file is present in the response."
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_3.rst:20
+msgid "Tutorial"
+msgstr ""
+

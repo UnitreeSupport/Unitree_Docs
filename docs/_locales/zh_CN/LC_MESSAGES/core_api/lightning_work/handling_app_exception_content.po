@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../core_api/lightning_work/handling_app_exception_content.rst:4
+msgid "What handling Lightning App exceptions does for you"
+msgstr ""
+
+#: ../../core_api/lightning_work/handling_app_exception_content.rst:6
+msgid ""
+"Imagine you are creating a Lightning App (App) where your team can launch"
+" model training by providing their own Github Repo any time they want."
+msgstr ""
+
+#: ../../core_api/lightning_work/handling_app_exception_content.rst:8
+msgid ""
+"As the App admin, you don't want the App to go down if their code has a "
+"bug and breaks."
+msgstr ""
+
+#: ../../core_api/lightning_work/handling_app_exception_content.rst:10
+msgid ""
+"Instead, you would like the LightningWork (Work) to capture the exception"
+" and present the issue to users."
+msgstr ""
+
+#: ../../core_api/lightning_work/handling_app_exception_content.rst:16
+msgid "Configure exception handling"
+msgstr ""
+
+#: ../../core_api/lightning_work/handling_app_exception_content.rst:18
+msgid ""
+"The LightningWork (Work) accepts an argument **raise_exception** which is"
+" **True** by default. This aligns with Python default behaviors."
+msgstr ""
+
+#: ../../core_api/lightning_work/handling_app_exception_content.rst:20
+msgid ""
+"However, for the user case stated in the previous section, we want to "
+"capture the Work exceptions. This is done by providing "
+"``raise_exception=False`` to the work ``__init__`` method."
+msgstr ""
+
+#: ../../core_api/lightning_work/handling_app_exception_content.rst:32
+msgid ""
+"And you can customize this behavior by overriding the ``on_exception`` "
+"hook to the Work."
+msgstr ""
+
+#: ../../core_api/lightning_work/handling_app_exception_content.rst:47
+msgid "Exception handling example"
+msgstr ""
+
+#: ../../core_api/lightning_work/handling_app_exception_content.rst:49
+msgid "This is the pseudo-code for the application described above."
+msgstr ""
+

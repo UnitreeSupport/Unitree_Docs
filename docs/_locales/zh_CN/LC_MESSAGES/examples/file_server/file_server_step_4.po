@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/file_server/file_server_step_4.rst:5
+msgid "Step 4: Implement tests for the File Server component with pytest"
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_4.rst:7
+msgid ""
+"Let's create a simple App with our **File Server** and **File Server "
+"Test** components."
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_4.rst:9
+msgid ""
+"Once the File Server is up and running, we'll execute the "
+"**test_file_server** LightningWork and when both calls are successful, we"
+" exit the App using ``self._exit``."
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_4.rst:15
+msgid ""
+"Simply create a ``test.py`` file with the following code and run ``pytest"
+" tests.py``:"
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_4.rst:20
+msgid ""
+"To test the App in the cloud, create a ``cloud_test.py`` file with the "
+"following code and run ``pytest cloud_test.py``. Under the hood, we are "
+"using the end-to-end testing `playwright "
+"<https://playwright.dev/python/>`_ library, so you can interact with the "
+"UI."
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_4.rst:30
+msgid "Test the application"
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_4.rst:32
+msgid "Clone the Lightning repo and run the following command:"
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_4.rst:42
+msgid "Tutorial"
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_4.rst:82
+msgid "Find more examples"
+msgstr ""
+

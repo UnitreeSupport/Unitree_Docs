@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../index.rst:119
+msgid "Install"
+msgstr ""
+
+#: ../../index.rst:119
+msgid "Home"
+msgstr ""
+
+#: ../../index.rst:126
+msgid "Basic"
+msgstr ""
+
+#: ../../index.rst:126
+msgid "Intermediate"
+msgstr ""
+
+#: ../../index.rst:126
+msgid "Advanced"
+msgstr ""
+
+#: ../../index.rst:126
+msgid "Get started in steps"
+msgstr ""
+
+#: ../../index.rst:134
+msgid "LightningApp"
+msgstr ""
+
+#: ../../index.rst:134
+msgid "LightningFlow"
+msgstr ""
+
+#: ../../index.rst:134
+msgid "LightningWork"
+msgstr ""
+
+#: ../../index.rst:134
+msgid "Core API Reference"
+msgstr ""
+
+#: ../../index.rst:142
+msgid "Addons API Reference"
+msgstr ""
+
+#: ../../index.rst:151
+msgid "Start from component templates"
+msgstr ""
+
+#: ../../index.rst:151
+msgid "Start from app templates"
+msgstr ""
+
+#: ../../index.rst:151
+msgid "Examples"
+msgstr ""
+
+#: ../../index.rst:151
+msgid "Glossary"
+msgstr ""
+
+#: ../../index.rst:151
+msgid "How-to"
+msgstr ""
+
+#: ../../index.rst:151
+msgid "More"
+msgstr ""
+
+#: ../../index.rst:8
+msgid "Welcome to ⚡ Lightning"
+msgstr ""
+
+#: ../../index.rst:9
+msgid "Build models, ML components and full stack AI apps ⚡ *Lightning fast*."
+msgstr ""
+
+#: ../../index.rst:14
+msgid "**Featured examples of what you can do with Lightning:**"
+msgstr ""
+
+#: ../../index.rst:60
+msgid "Build self-contained, components"
+msgstr ""
+
+#: ../../index.rst:61
+msgid ""
+"Use Lightning, the hyper-minimalistic framework, to build machine "
+"learning components that can plug into existing ML workflows. A Lightning"
+" component organizes arbitrary code to run on the cloud, manage its own "
+"infrastructure, cloud costs, networking, and more. Focus on component "
+"logic and not engineering."
+msgstr ""
+
+#: ../../index.rst:65
+msgid ""
+"Use components on their own, or compose them into full-stack AI apps with"
+" our next-generation Lightning orchestrator."
+msgstr ""
+
+#: ../../index.rst:77
+msgid "**Run an example component on the cloud**:"
+msgstr ""
+
+#: ../../index.rst:83
+msgid ""
+"Components run the same on the cloud and locally on your choice of "
+"hardware."
+msgstr ""
+
+#: ../../index.rst:91
+msgid ""
+"Explore pre-built community components in `our gallery "
+"<https://lightning.ai/components>`_."
+msgstr ""
+

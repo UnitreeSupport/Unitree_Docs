@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/react/index.rst:14
+msgid "Add a web UI with React.js"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/index.rst:15
+msgid ""
+"**Audience:** Anyone who wants to add a web user interface (UI) written "
+"in react to their app."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/index.rst:17
+msgid "**Prereqs:** Basic html knowledge."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/index.rst:69
+msgid "Examples"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/index.rst:70
+msgid "Here are a few example apps that use a React web UI."
+msgstr ""
+

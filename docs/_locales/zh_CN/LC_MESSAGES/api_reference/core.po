@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/core.rst:5
+msgid "lightning.app.core"
+msgstr ""
+
+#: ../../api_reference/core.rst:15
+msgid "Core APIs"
+msgstr ""
+
+#: ../../api_reference/core.rst:25:<autosummary>:1
+msgid ":py:obj:`LightningApp <lightning.app.core.LightningApp>`"
+msgstr ""
+
+#: ../../api_reference/core.rst:25:<autosummary>:1
+msgid ""
+"The Lightning App, or App in short runs a tree of one or more components "
+"that interact to create end-to-end applications."
+msgstr ""
+
+#: ../../api_reference/core.rst:25:<autosummary>:1
+msgid ":py:obj:`LightningFlow <lightning.app.core.LightningFlow>`"
+msgstr ""
+
+#: ../../api_reference/core.rst:25:<autosummary>:1
+msgid ""
+"The LightningFlow is used by the "
+":class:`~lightning.app.core.app.LightningApp` to coordinate and manage "
+"long- running jobs contained, the "
+":class:`~lightning.app.core.work.LightningWork`."
+msgstr ""
+
+#: ../../api_reference/core.rst:25:<autosummary>:1
+msgid ":py:obj:`LightningWork <lightning.app.core.LightningWork>`"
+msgstr ""
+
+#: ../../api_reference/core.rst:25:<autosummary>:1
+msgid ""
+"LightningWork, or Work in short, is a building block for long-running "
+"jobs."
+msgstr ""
+
+#: ../../api_reference/core.rst:26
+msgid "Learn more about :ref:`Lightning Core <core_api>`."
+msgstr ""
+

@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/storage.rst:3
+msgid "lightning.app.storage"
+msgstr ""
+
+#: ../../api_reference/storage.rst:6
+msgid "Lightning Core"
+msgstr ""
+
+#: ../../api_reference/storage.rst:24:<autosummary>:1
+msgid ":py:obj:`Path <lightning.app.storage.path.Path>`"
+msgstr ""
+
+#: ../../api_reference/storage.rst:24:<autosummary>:1
+msgid ""
+"A drop-in replacement for :class:`pathlib.Path` for all paths in "
+"Lightning."
+msgstr ""
+
+#: ../../api_reference/storage.rst:24:<autosummary>:1
+msgid ":py:obj:`Drive <lightning.app.storage.drive.Drive>`"
+msgstr ""
+
+#: ../../api_reference/storage.rst:24:<autosummary>:1
+msgid "The Drive object provides a shared space to write and read files from."
+msgstr ""
+
+#: ../../api_reference/storage.rst:24:<autosummary>:1
+msgid ":py:obj:`Payload <lightning.app.storage.payload.Payload>`"
+msgstr ""
+
+#: ../../api_reference/storage.rst:24:<autosummary>:1
+msgid ""
+"The Payload object enables to transfer python objects from one work to "
+"another in a similar fashion as "
+":class:`~lightning.app.storage.path.Path`."
+msgstr ""
+
+#: ../../api_reference/storage.rst:24:<autosummary>:1
+msgid ":py:obj:`Mount <lightning.app.storage.mount.Mount>`"
+msgstr ""
+
+#: ../../api_reference/storage.rst:24:<autosummary>:1
+msgid ""
+"Allows you to mount the contents of an AWS S3 bucket on disk when running"
+" an app on the cloud."
+msgstr ""
+
+#: ../../api_reference/storage.rst:29
+msgid "Learn more about Storage"
+msgstr ""
+

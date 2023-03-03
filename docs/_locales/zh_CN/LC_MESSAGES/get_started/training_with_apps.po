@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../get_started/training_with_apps.rst:5
+msgid "Evolve a model into an ML system"
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:9
+msgid ""
+"**Required background:** Basic Python familiarity and complete the "
+":ref:`build_model` guide."
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:11
+msgid ""
+"**Goal:** We'll walk you through the two key steps to build your first "
+"Lightning App from your existing PyTorch Lightning scripts."
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:20
+msgid "Training and beyond"
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:22
+msgid ""
+"With `PyTorch Lightning <https://github.com/Lightning-"
+"AI/lightning/tree/master/src/pytorch_lightning>`_, we abstracted "
+"distributed training and hardware, by organizing PyTorch code. With "
+"`Lightning Apps <https://github.com/Lightning-"
+"AI/lightning/tree/master/src/lightning_app>`_, we unified the local and "
+"cloud experience while abstracting infrastructure."
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:25
+msgid ""
+"By using `PyTorch Lightning <https://github.com/Lightning-"
+"AI/lightning/tree/master/src/pytorch_lightning>`_ and `Lightning Apps "
+"<https://github.com/Lightning-"
+"AI/lightning/tree/master/src/lightning_app>`_ together, a completely new "
+"world of possibilities emerges."
+msgstr ""
+
+msgid "From PyTorch Lightning to Lightning App"
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:36
+msgid "1. Write an App to run the train.py script"
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:38
+msgid "This article continues where the :ref:`build_model` guide finished."
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:40
+msgid ""
+"Create an additional file ``app.py`` in the ``pl_project`` folder as "
+"follows:"
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:49
+msgid "Inside the ``app.py`` file, add the following code."
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:53
+msgid ""
+"This App runs the PyTorch Lightning script contained in the ``train.py`` "
+"file using the powerful "
+":class:`~lightning_app.components.python.tracer.TracerPythonScript` "
+"component. This is really worth checking out!"
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:59
+msgid "2. Run the train.py file locally or in the cloud"
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:61
+msgid ""
+"First, go to the ``pl_folder`` folder from the local terminal and install"
+" the requirements."
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:68
+msgid "To run your app, copy the following command to your local terminal:"
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:74
+msgid ""
+"Simply add ``--cloud`` to run this application in the cloud with a GPU "
+"machine 🤯"
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:81
+msgid ""
+"Congratulations! Now, you know how to run a `PyTorch Lightning "
+"<https://github.com/Lightning-"
+"AI/lightning/tree/master/src/pytorch_lightning>`_ script with Lightning "
+"Apps."
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:83
+msgid ""
+"Lightning Apps can make your ML system way more powerful, keep reading to"
+" learn how."
+msgstr ""
+
+#: ../../get_started/training_with_apps.rst:89
+msgid "Next Steps"
+msgstr ""
+

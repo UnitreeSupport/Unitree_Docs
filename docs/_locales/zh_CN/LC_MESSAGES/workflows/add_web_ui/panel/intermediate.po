@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:5
+msgid "Add a web UI with Panel (intermediate)"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:7
+msgid ""
+"**Audience:** Users who want to communicate between the Lightning App and"
+" Panel."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:9
+msgid "**Prereqs:** Must have read the `Panel basic <basic.html>`_ guide."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:15
+msgid "Interact with the Component from Panel"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:17
+msgid ""
+"The ``PanelFrontend`` enables user interactions with the Lightning App "
+"using widgets. You can modify the state variables of a Lightning "
+"Component using the ``AppStateWatcher``."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:20
+msgid ""
+"For example, here we increase the ``count`` variable of the Lightning "
+"Component every time a user presses a button:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:90
+msgid "Panel Lightning App updating a counter from the frontend"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:96
+msgid "Interact with Panel from a Component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:98
+msgid ""
+"To update the `PanelFrontend` from any Lightning Component, update the "
+"property in the Component. Make sure to call the ``run`` method from the "
+"parent component."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:101
+msgid "In this example, we update the ``count`` value of the Component:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:165
+msgid "Panel Lightning App updating a counter from the component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:165
+msgid "Panel Lightning App updating a counter from the Component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:171
+msgid "Tips & Tricks"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:173
+msgid ""
+"Caching: Panel provides the easy to use ``pn.state.cache`` memory based, "
+"``dict`` caching. If you are looking for something persistent try "
+"`DiskCache <https://grantjenks.com/docs/diskcache/>`_ its really powerful"
+" and simple to use. You can use it to communicate large amounts of data "
+"between the components and frontend(s)."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:175
+msgid ""
+"Notifications: Panel provides easy to use `notifications "
+"<https://blog.holoviz.org/panel_0.13.0.html#Notifications>`_. You can for"
+" example use them to provide notifications about runs starting or ending."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:177
+msgid ""
+"Tabulator Table: Panel provides the `Tabulator table "
+"<https://blog.holoviz.org/panel_0.13.0.html#Expandable-rows>`_ which "
+"features expandable rows. The table is useful to provide for example an "
+"overview of you runs. But you can dig into the details by clicking and "
+"expanding the row."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:179
+msgid ""
+"Task Scheduling: Panel provides easy to use `task scheduling "
+"<https://blog.holoviz.org/panel_0.13.0.html#Task-scheduling>`_. You can "
+"use this to for example read and display files created by your components"
+" on a scheduled basis."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:181
+msgid ""
+"Terminal: Panel provides the `Xterm.js terminal "
+"<https://panel.holoviz.org/reference/widgets/Terminal.html>`_ which can "
+"be used to display live logs from your components and allow you to "
+"provide a terminal interface to your component."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:186
+msgid "Panel Lightning App running models on github"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:186
+msgid "Panel Lightning App running models on GitHub"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/intermediate.rst:192
+msgid "Next Steps"
+msgstr ""
+

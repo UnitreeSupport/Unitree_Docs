@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/run_app_on_cloud/cloud_files.rst:5
+msgid "Configure Your Lightning Cloud App"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/cloud_files.rst:7
+msgid "**Audience:** Users who want to control Lightning App files on the cloud."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/cloud_files.rst:13
+msgid "Ignore file uploads to Lightning cloud"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/cloud_files.rst:14
+msgid ""
+"Running Lightning Apps on the cloud will upload the source code of your "
+"app to the cloud. You can use ``.lightningignore`` file(s) to ignore "
+"files or directories while uploading. The `.lightningignore` file follows"
+" the same format as a `.gitignore` file."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/cloud_files.rst:17
+msgid ""
+"For example, the source code directory below with the "
+"``.lightningignore`` file will ignore the file named ``model.pt`` and "
+"directory named ``data_dir``."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/cloud_files.rst:39
+msgid ""
+"A sample ``.lightningignore`` file can be found `here <https://github.com"
+"/Lightning-AI/lightning.beta/blob/master/.lightningignore>`_."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/cloud_files.rst:41
+msgid ""
+"If you are a component author and your components creates local files "
+"that you want to ignore, you can do:"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/cloud_files.rst:51
+msgid ""
+"This has the benefit that the files will be ignored automatically for all"
+" the component users, making an easier transition between running locally"
+" vs in the cloud."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/cloud_files.rst:58
+msgid "Structure app files"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/cloud_files.rst:60
+msgid "We recommend your app contain the following files:"
+msgstr ""
+

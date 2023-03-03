@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_link.rst:3
+msgid "Add a web link"
+msgstr ""
+
+#: ../../workflows/add_web_link.rst:4
+msgid "**Audience:** Users who want to link to other pages from their app."
+msgstr ""
+
+#: ../../workflows/add_web_link.rst:10
+msgid "Add a url link"
+msgstr ""
+
+#: ../../workflows/add_web_link.rst:11
+msgid "In this example we'll replicate |urls_link|."
+msgstr ""
+
+#: ../../workflows/add_web_link.rst:13
+msgid ""
+"To add a url link to an app, simply specify it in the "
+"``configure_layout`` method and connect the UIs. Create a file named "
+"**app.py** with this code:"
+msgstr ""
+
+#: ../../workflows/add_web_link.rst:43
+msgid "Run the app"
+msgstr ""
+
+#: ../../workflows/add_web_link.rst:44
+msgid "Run the app locally to see it!"
+msgstr ""
+
+#: ../../workflows/add_web_link.rst:50
+msgid "Now run it on the cloud as well:"
+msgstr ""
+

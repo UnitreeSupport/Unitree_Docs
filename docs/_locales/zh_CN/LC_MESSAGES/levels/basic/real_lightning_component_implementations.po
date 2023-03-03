@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:3
+msgid "Level 2: Explore real component implementations"
+msgstr ""
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:4
+msgid ""
+"**Audience:** Users who want to deeply understand what is possible with "
+"Lightning components."
+msgstr ""
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:6
+msgid ""
+"**Prereqs:** You must have finished `level 1 "
+"<../basic/build_a_lightning_component.html>`_."
+msgstr ""
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:12
+msgid "Real component examples"
+msgstr ""
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:13
+msgid ""
+"Use this guide to understand what is happening in each type of component."
+" These are a few prototypical components. Since each component organizes "
+"Python, you can build virtually infinite components for any use-case you "
+"can think of."
+msgstr ""
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:22
+msgid "Ex: PyTorch + Lightning Trainer"
+msgstr ""
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:23
+msgid ""
+"This example shows how to train PyTorch with the Lightning trainer on "
+"your machine or cloud GPUs without code changes."
+msgstr ""
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:36
+#: ../../levels/basic/real_lightning_component_implementations.rst:57
+msgid "Run the component on the cloud:"
+msgstr ""
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:44
+msgid "Ex: Deploy a PyTorch API endpoint"
+msgstr ""
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:45
+msgid "This example shows how to deploy PyTorch and create an API"
+msgstr ""
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:65
+msgid "Next: Save on cloud costs"
+msgstr ""
+
+#: ../../levels/basic/real_lightning_component_implementations.rst:66
+msgid ""
+"Let's review key lightning features to help you run components more "
+"efficiently on the cloud so you can save on cloud costs."
+msgstr ""
+

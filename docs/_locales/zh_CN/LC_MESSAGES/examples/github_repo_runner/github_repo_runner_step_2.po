@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_2.rst:5
+msgid "Step 2: Implement the PyTorch Lightning GithubRepoRunner Component"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_2.rst:7
+msgid ""
+"The PyTorch Lightning GithubRepoRunner Component subclasses the "
+"GithubRepoRunner but tailors the execution experience to PyTorch "
+"Lightning."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_2.rst:9
+msgid ""
+"As a matter of fact, this component adds two primary tailored features "
+"for PyTorch Lightning users:"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_2.rst:11
+msgid ""
+"It injects dynamically a custom callback ``TensorboardServerLauncher`` in"
+" the PyTorch Lightning Trainer to start a tensorboard server so it can be"
+" exposed in Lightning App UI."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_2.rst:13
+msgid ""
+"Once the script has run, the ``on_after_run`` hook of the "
+":class:`~lightning_app.components.python.tracer.TracerPythonScript` is "
+"invoked with the script globals, meaning we can collect anything we need."
+" In particular, we are reloading the best model, torch scripting it, and "
+"storing its path in the state along side the best metric score."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_2.rst:15
+msgid "Let's dive in on how to develop the component with the following code:"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_2.rst:24
+msgid "Tutorial"
+msgstr ""
+

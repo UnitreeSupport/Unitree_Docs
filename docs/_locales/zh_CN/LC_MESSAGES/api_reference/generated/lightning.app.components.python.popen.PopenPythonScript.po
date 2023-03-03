@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/generated/lightning.app.components.python.popen.PopenPythonScript.rst:7
+msgid "PopenPythonScript"
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript:1 of
+msgid "Bases: :py:class:`lightning.app.core.work.LightningWork`"
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript:1 of
+msgid ""
+"The PopenPythonScript component enables to easily run a python script "
+"within a subprocess."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript of
+msgid "Parameters"
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript:4 of
+msgid "Path of the python script to run."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript:5 of
+msgid "The arguments to be passed to the script."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript:7 of
+msgid "Environment variables to be passed to the script."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript:8 of
+msgid "LightningWork keyword arguments."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript
+#: lightning.app.components.python.popen.PopenPythonScript.run of
+msgid "Raises"
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript:10 of
+msgid "If the provided `script_path` doesn't exists."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript:13 of
+msgid "Example"
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript:23 of
+msgid ""
+"In this example, the script will be launch with the "
+":class:`~subprocess.Popen`."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript.configure_tracer:1
+#: of
+msgid ""
+"Override this hook to customize your tracer when running PythonScript "
+"with ``mode=tracer``."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript.configure_tracer
+#: lightning.app.components.python.popen.PopenPythonScript.run of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript.configure_tracer:4
+#: of
+msgid ":py:class:`~lightning.app.utilities.tracer.Tracer`"
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript.on_after_run:1 of
+msgid "Called after the python script is executed."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript.on_before_run:1 of
+msgid "Called before the python script is executed."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript.on_exit:1 of
+msgid "Override this hook to add your logic when the work is exiting."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript.run:1 of
+msgid "Override to add your own logic."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript.run:3 of
+msgid "If resource exceeds platform quotas or other constraints."
+msgstr ""
+
+#: lightning.app.components.python.popen.PopenPythonScript.run:6 of
+msgid ":py:obj:`None`"
+msgstr ""
+

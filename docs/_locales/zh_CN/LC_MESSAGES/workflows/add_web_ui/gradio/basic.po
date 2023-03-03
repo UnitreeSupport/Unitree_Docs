@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:3
+msgid "Add a web UI with Gradio (basic)"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:4
+msgid "**Audience:** Users who want to add a web UI written with Python."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:6
+msgid "**Prereqs:** Basic python knowledge."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:12
+msgid "What is Gradio?"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:13
+msgid ""
+"Gradio is a Python library that automatically generates a web interface "
+"to demo a machine learning model."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:19
+msgid "Install gradio"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:20
+msgid "First, install gradio."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:30
+msgid "Create the gradio demo app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:31
+msgid ""
+"To explain how to use Gradio with Lightning, let's replicate the "
+"|gradio_link|."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:37
+msgid ""
+"In the next few sections we'll build an app step-by-step. First **create "
+"a file named app.py** with the app content:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:72
+msgid "add \"gradio\" to a requirements.txt file:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:78
+msgid "this is a best practice to make apps reproducible."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:84
+msgid "Run the app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:85
+msgid "Run the app locally to see it!"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:91
+msgid "Now run it on the cloud as well:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:101
+msgid "Step-by-step walkthrough"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:102
+msgid "In this section, we explain each part of this code in detail."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:107
+msgid "Create a Gradio component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:108
+msgid ""
+"To create a Gradio component, simply take any Gradio app and subclass it "
+"from ``ServeGradio``. If you haven't created a Gradio demo, you have to "
+"implement the following elements:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:111
+msgid "Input which is text."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:112
+msgid "Output which is text."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:113
+msgid "A build_model function."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:114
+msgid "A predict function."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:118
+msgid "Here's an example:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:138
+msgid "This fake model simply concatenates 2 strings."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:143
+msgid "Route the UI in the root component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:144
+msgid ""
+"Now, tell the Root component in which tab to render this component's UI. "
+"In this case, we render the ``LitGradio`` UI in the ``home`` tab of the "
+"application."
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:183
+msgid "Call run"
+msgstr ""
+
+#: ../../workflows/add_web_ui/gradio/basic.rst:184
+msgid ""
+"Finally, don't forget to call run inside the Root Flow to serve the "
+"Gradio app."
+msgstr ""
+

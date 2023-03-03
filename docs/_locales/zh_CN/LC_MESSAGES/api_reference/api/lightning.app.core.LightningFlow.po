@@ -1,0 +1,442 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/api/lightning.app.core.LightningFlow.rst:7
+msgid "LightningFlow"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:1 of
+msgid "Bases: :py:class:`object`"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:1 of
+msgid ""
+"The LightningFlow is used by the "
+":class:`~lightning.app.core.app.LightningApp` to coordinate and manage "
+"long- running jobs contained, the "
+":class:`~lightning.app.core.work.LightningWork`."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:4 of
+msgid "A LightningFlow is characterized by:"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:6 of
+msgid "A set of state variables."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:7 of
+msgid "Long-running jobs (:class:`~lightning.app.core.work.LightningWork`)."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:8 of
+msgid ""
+"Its children ``LightningFlow`` or ``LightningWork`` with their state "
+"variables."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:10 of
+msgid "**State variables**"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:12 of
+msgid ""
+"The LightningFlow are special classes whose attributes require to be "
+"json-serializable (e.g., int, float, bool, list, dict, ...)."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:15 of
+msgid "They also may not reach into global variables unless they are constant."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:17 of
+msgid ""
+"The attributes need to be all defined in `__init__` method, and "
+"eventually assigned to different values throughout the lifetime of the "
+"object. However, defining new attributes outside of `__init__` is not "
+"allowed."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:21 of
+msgid ""
+"Attributes taken together represent the state of the component. "
+"Components are capable of retrieving their state and that of their "
+"children recursively at any time. They are also capable of setting an "
+"externally provided state recursively to its children."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:26 of
+msgid "**Execution model and work**"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:28 of
+msgid ""
+"The entry point for execution is the ``run`` method at the root "
+"component. The ``run`` method of the root component may call the ``run`` "
+"method of its children, and the children may call the ``run`` methods of "
+"their children and so on."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:32 of
+msgid ""
+"The ``run`` method of the root component is called repeatedly in a while "
+"loop forever until the app gets terminated. In this programming model "
+"(reminiscent of React, Vue or Streamlit from the JavaScript world), the "
+"values of the state variables, or their changes, are translated into "
+"actions throughout the component hierarchy. This means the flow of "
+"execution will only be affected by state changes in a component or one of"
+" its children, and otherwise remain idempotent."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:38 of
+msgid ""
+"The actions themselves are self-contained within "
+":class:`~lightning.app.core.work.LightningWork`. The "
+":class:`~lightning.app.core.work.LightningWork` are typically used for "
+"long-running jobs, like downloading a dataset, performing a query, "
+"starting a computationally heavy script. While one may access any state "
+"variable in a LightningWork from a LightningFlow, one may not directly "
+"call methods of other components from within a LightningWork as "
+"LightningWork can't have any children. This limitation allows "
+"applications to be distributed at scale."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:45 of
+msgid "**Component hierarchy and App**"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:47 of
+msgid ""
+"Given the above characteristics, a root LightningFlow, potentially "
+"containing children components, can be passed to an App object and its "
+"execution can be distributed (each LightningWork will be run within its "
+"own process or different arrangements)."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow:53 of
+msgid "Example"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow._attach_backend:1 of
+msgid "Attach the backend to all flows and its children."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow._exit:1 of
+msgid "Private method used to exit the application."
+msgstr ""
+
+#: lightning.app.core.LightningFlow.flows
+#: lightning.app.core.LightningFlow.lightningignore
+#: lightning.app.core.LightningFlow.ready
+#: lightning.app.core.flow.LightningFlow._exit
+#: lightning.app.core.flow.LightningFlow._is_state_attribute
+#: lightning.app.core.flow.LightningFlow.configure_layout
+#: lightning.app.core.flow.LightningFlow.experimental_iterate
+#: lightning.app.core.flow.LightningFlow.load_state_dict
+#: lightning.app.core.flow.LightningFlow.named_works
+#: lightning.app.core.flow.LightningFlow.run
+#: lightning.app.core.flow.LightningFlow.schedule
+#: lightning.app.core.flow.LightningFlow.set_state
+#: lightning.app.core.flow.LightningFlow.works of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow._exit:4
+#: lightning.app.core.flow.LightningFlow.load_state_dict:49
+#: lightning.app.core.flow.LightningFlow.run:4
+#: lightning.app.core.flow.LightningFlow.set_state:10 of
+msgid ":py:obj:`None`"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow._is_state_attribute:1 of
+msgid ""
+"Every public attribute is part of the state by default and all protected "
+"(prefixed by '_') or private (prefixed by '__') attributes are not."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow._is_state_attribute:4 of
+msgid "Exceptions are listed in the `_INTERNAL_STATE_VARS` class variable."
+msgstr ""
+
+#: lightning.app.core.LightningFlow.ready:5
+#: lightning.app.core.flow.LightningFlow._is_state_attribute:7
+#: lightning.app.core.flow.LightningFlow.schedule:71 of
+msgid ":py:class:`bool`"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_api:1 of
+msgid "Configure the API routes of the LightningFlow."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_api:3 of
+msgid "Returns a list of HttpMethod such as Post or Get."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_api:28 of
+msgid ""
+"Once the app is running, you can access the Swagger UI of the app under "
+"the ``/docs`` route."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_commands:1 of
+msgid "Configure the commands of this LightningFlow."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_commands:3 of
+msgid "Returns a list of dictionaries mapping a command name to a flow method."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_commands:18 of
+msgid "Once the app is running with the following command:"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:1 of
+msgid "Configure the UI layout of this LightningFlow."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:3 of
+msgid "You can either"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:5 of
+msgid ""
+"Return a single :class:`~lightning.app.frontend.frontend.Frontend` object"
+" to serve a user interface for this Flow."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:7 of
+msgid "Return a single dictionary to expose the UI of a child flow."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:8 of
+msgid ""
+"Return a list of dictionaries to arrange the children of this flow in one"
+" or multiple tabs."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:10 of
+msgid ""
+"**Example:** Serve a static directory (with at least a file index.html "
+"inside)."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:23 of
+msgid ""
+"**Example:** Serve a streamlit UI (needs the streamlit package to be "
+"installed)."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:42 of
+msgid ""
+"**Example:** Arrange the UI of my children in tabs (default UI by "
+"Lightning)."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:54 of
+msgid ""
+"If you don't implement ``configure_layout``, Lightning will collect all "
+"children and display their UI in a tab (if they have their own "
+"``configure_layout`` implemented)."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:59 of
+msgid ""
+"This hook gets called at the time of app creation and then again as part "
+"of the loop. If desired, the returned layout configuration can depend on "
+"the state. The only exception are the flows that return a "
+":class:`~lightning.app.frontend.frontend.Frontend`. These need to be "
+"provided at the time of app creation in order for the runtime to start "
+"the server."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:64 of
+msgid "**Learn more about adding UI**"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.configure_layout:86 of
+msgid ""
+":py:data:`~typing.Union`\\[:py:class:`~typing.Dict`\\[:py:class:`str`, "
+":py:data:`~typing.Any`], "
+":py:class:`~typing.List`\\[:py:class:`~typing.Dict`\\[:py:class:`str`, "
+":py:data:`~typing.Any`]], "
+":py:class:`~lightning.app.frontend.frontend.Frontend`]"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.experimental_iterate:1 of
+msgid ""
+"This method should always be used with any kind of iterable to ensure its"
+" fault tolerant."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.experimental_iterate:3 of
+msgid ""
+"If you want your iterable to always be consumed from scratch, you "
+"shouldn't use this method."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.experimental_iterate
+#: lightning.app.core.flow.LightningFlow.load_state_dict
+#: lightning.app.core.flow.LightningFlow.schedule
+#: lightning.app.core.flow.LightningFlow.set_state of
+msgid "Parameters"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.experimental_iterate:6 of
+msgid ""
+"Iterable to iterate over. The iterable shouldn't have side effects or be "
+"random."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.experimental_iterate:8 of
+msgid ""
+"Whether to run the entire iteration only once. Otherwise, it would "
+"restart from the beginning."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.experimental_iterate:11 of
+msgid "Key to be used to track the caching mechanism."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.experimental_iterate:14 of
+msgid ":py:class:`~typing.Generator`"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.load_state_dict:1 of
+msgid "Reloads the state of this flow and its children."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.load_state_dict:41 of
+msgid "The state of the current flow."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.load_state_dict:43 of
+msgid "The state of the dynamic children of this flow."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.load_state_dict:45 of
+msgid ""
+"Whether to raise an exception if a dynamic children hasn't been re-"
+"created."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.named_works:1 of
+msgid ""
+"Return its :class:`~lightning.app.core.work.LightningWork` with their "
+"names."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.named_works:4 of
+msgid ""
+":py:class:`~typing.List`\\[:py:data:`~typing.Tuple`\\[:py:class:`str`, "
+":py:class:`~lightning.app.core.work.LightningWork`]]"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.run:1 of
+msgid "Override with your own logic."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.schedule:1 of
+msgid ""
+"The schedule method is used to run a part of the flow logic on timely "
+"manner."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.schedule:14 of
+msgid "The cron pattern to provide. Learn more at https://crontab.guru/."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.schedule:16 of
+msgid "The start time of the cron job."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.schedule:18 of
+msgid "Optional key used to improve the caching mechanism."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.schedule:20 of
+msgid ""
+"A best practice is to avoid running a dynamic flow or work under the "
+"self.schedule method. Instead, instantiate them within the condition, but"
+" run them outside."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.schedule:41 of
+msgid "**Learn more about Scheduling**"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.set_state:1 of
+msgid ""
+"Method to set the state to this LightningFlow, its children and "
+":class:`~lightning.app.core.work.LightningWork`."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.set_state:5 of
+msgid "The state to be reloaded"
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.set_state:7 of
+msgid "Whether to apply the state down children."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.state_dict:1 of
+msgid "Returns the current flow state but not its children."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.works:1 of
+msgid "Return its :class:`~lightning.app.core.work.LightningWork`."
+msgstr ""
+
+#: lightning.app.core.flow.LightningFlow.works:4 of
+msgid ":py:class:`~typing.List`\\[:py:class:`~lightning.app.core.work.LightningWork`]"
+msgstr ""
+
+#: lightning.app.core.LightningFlow.flows:1 of
+msgid "Return its children LightningFlow."
+msgstr ""
+
+#: lightning.app.core.LightningFlow.flows:3 of
+msgid ""
+":py:class:`~typing.Dict`\\[:py:class:`str`, "
+":py:class:`~lightning.app.core.flow.LightningFlow`]"
+msgstr ""
+
+#: lightning.app.core.LightningFlow.lightningignore:1 of
+msgid "Programmatic equivalent of the ``.lightningignore`` file."
+msgstr ""
+
+#: lightning.app.core.LightningFlow.lightningignore:3 of
+msgid ":py:data:`~typing.Tuple`\\[:py:class:`str`, :py:data:`...<Ellipsis>`]"
+msgstr ""
+
+#: lightning.app.core.LightningFlow.name:1 of
+msgid "Return the current LightningFlow name."
+msgstr ""
+
+#: lightning.app.core.LightningFlow.ready:1 of
+msgid "Not currently enabled."
+msgstr ""
+
+#: lightning.app.core.LightningFlow.ready:3 of
+msgid "Override to customize when your App should be ready."
+msgstr ""
+
+#: lightning.app.core.LightningFlow.state:1 of
+msgid "Returns the current flow state along its children."
+msgstr ""
+

@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/ssh/index.rst:4
+msgid "Debug cloud apps via SSH"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:6
+msgid ""
+"**Audience:** Users that want to debug their cloud apps on their own "
+"machine."
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:8
+msgid ""
+"SSH allows you to access Lightning components running on Lightning cloud "
+"in real-time using your own local machine. This can be used for debugging"
+" apps running on the cloud: inspecting file system or monitoring the "
+"runtime environment. This is often the case with applications that rely "
+"on GPUs."
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:12
+msgid ""
+"You can inspect the entire file system and monitor the runtime "
+"environment."
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:18
+msgid "Add SSH key to Lightning"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:20
+msgid ""
+"Before you can SSH to cloud machines, you will need to generate a new "
+"private SSH key, add it to the SSH agent, and add the public SSH key to "
+"your account on Lightning. The following steps are one-time setup to "
+"allow you to SSH into your cloud machines."
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:25
+msgid "Step 1: Create an SSH key"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:27
+msgid ""
+"Open a terminal and run the following command (replace email with the "
+"address you used in your lightning.ai account):"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:34
+msgid "This creates a new SSH key, using the provided email as a label."
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:36
+msgid "At the prompt, type a secure passphrase."
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:45
+msgid "Step 2: Add your key to Lightning"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:47
+msgid ""
+"You can add SSH keys using Lightning.ai website (Lightning.ai > Profile >"
+" Keys) or via this CLI command:"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:53
+msgid "You are now ready to access your Lightning Flow and Work containers."
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:59
+msgid "SSH to your cloud app"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:61
+msgid "Ensure you have a running Lightning application in the cloud:"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:68
+msgid "Next, start your ssh-agent in the background:"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:77
+msgid "Add your generated ssh key:"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:83
+msgid "Verify your ssh-key is properly loaded:"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:91
+msgid "You can now SSH any app you are running on the cloud."
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:93
+msgid "To view all apps you can simple use this following:"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:99
+msgid "Or, to select an app via a prompt:"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:105
+msgid "To connect to a specific app flow use:"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:112
+msgid "To connect to a LightningWork component use:"
+msgstr ""
+
+#: ../../workflows/ssh/index.rst:118
+msgid ""
+"The component name is the variable name of your LightningWork instances "
+"in Python. If you want to access your flow, use \"flow\" as component "
+"name."
+msgstr ""
+

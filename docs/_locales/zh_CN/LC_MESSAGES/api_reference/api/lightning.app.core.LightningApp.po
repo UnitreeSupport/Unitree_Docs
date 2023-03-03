@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/api/lightning.app.core.LightningApp.rst:7
+msgid "LightningApp"
+msgstr ""
+
+#: lightning.app.core.app.LightningApp:1 of
+msgid "Bases: :py:class:`object`"
+msgstr ""
+
+#: lightning.app.core.app.LightningApp:1 of
+msgid ""
+"The Lightning App, or App in short runs a tree of one or more components "
+"that interact to create end-to-end applications. There are two kinds of "
+"components: :class:`~lightning.app.core.flow.LightningFlow` and "
+":class:`~lightning.app.core.work.LightningWork`. This modular design "
+"enables you to reuse components created by other users."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp:6 of
+msgid ""
+"The Lightning App alternatively run an event loop triggered by delta "
+"changes sent from either :class:`~lightning.app.core.work.LightningWork` "
+"or from the Lightning UI. Once deltas are received, the Lightning App "
+"runs the :class:`~lightning.app.core.flow.LightningFlow` provided."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp of
+msgid "Parameters"
+msgstr ""
+
+#: lightning.app.core.app.LightningApp:12 of
+msgid ""
+"The root ``LightningFlow`` or ``LightningWork`` component, that defines "
+"all the app's nested components, running infinitely. It must define a "
+"`run()` method that the app can call."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp:15 of
+msgid "The default Cloud Compute used for flow, Rest API and frontend's."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp:17 of
+msgid ""
+"The log level for the app, one of [`info`, `debug`]. This can be helpful "
+"when reporting bugs on Lightning repo."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp:20 of
+msgid ""
+"Provide additional info about the app which will be used to update html "
+"title, description and image meta tags and specify any additional tags as"
+" list of html strings."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp:23 of
+msgid ""
+"Set this to `/path` if you want to run your app behind a proxy at `/path`"
+" leave empty for \"/\". For instance, if you want to run your app at "
+"`https://customdomain.com/myapp`, set `root_path` to `/myapp`. You can "
+"learn more about proxy `here "
+"<https://www.fortinet.com/resources/cyberglossary/proxy-server>`_."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp:29 of
+msgid "Example"
+msgstr ""
+
+#: lightning.app.core.app.LightningApp._run:1 of
+msgid "Entry point of the LightningApp."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp._run:3 of
+msgid "This would be dispatched by the Runtime objects."
+msgstr ""
+
+#: lightning.app.core.LightningApp.flows
+#: lightning.app.core.LightningApp.named_works
+#: lightning.app.core.LightningApp.works
+#: lightning.app.core.app.LightningApp._run
+#: lightning.app.core.app.LightningApp.connect
+#: lightning.app.core.app.LightningApp.maybe_apply_changes of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.core.app.LightningApp._run:6 of
+msgid ":py:class:`bool`"
+msgstr ""
+
+#: lightning.app.core.app.LightningApp.connect:1 of
+msgid "Override to customize your application to the runtime."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp.connect:4
+#: lightning.app.core.app.LightningApp.maybe_apply_changes:5 of
+msgid ":py:obj:`None`"
+msgstr ""
+
+#: lightning.app.core.app.LightningApp.get_component_by_name:1 of
+msgid "Returns the instance corresponding to the given component name."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp.maybe_apply_changes:1 of
+msgid ""
+"Get the deltas from both the flow queue and the work queue, merge the two"
+" deltas and update the state."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp.run_once:1 of
+msgid "Method used to collect changes and run the root Flow once."
+msgstr ""
+
+#: lightning.app.core.app.LightningApp.set_state:1 of
+msgid "Method to set a new app state set to the application."
+msgstr ""
+
+#: lightning.app.core.LightningApp.flows:1 of
+msgid "Returns all the flows defined within this application."
+msgstr ""
+
+#: lightning.app.core.LightningApp.flows:3 of
+msgid ":py:class:`~typing.List`\\[:py:class:`~lightning.app.core.flow.LightningFlow`]"
+msgstr ""
+
+#: lightning.app.core.LightningApp.last_state:1 of
+msgid "Returns the latest state."
+msgstr ""
+
+#: lightning.app.core.LightningApp.named_works:1 of
+msgid "Returns all the works defined within this application with their names."
+msgstr ""
+
+#: lightning.app.core.LightningApp.named_works:3 of
+msgid ""
+":py:class:`~typing.List`\\[:py:data:`~typing.Tuple`\\[:py:class:`str`, "
+":py:class:`~lightning.app.core.work.LightningWork`]]"
+msgstr ""
+
+#: lightning.app.core.LightningApp.root:1 of
+msgid "Returns the root component of the application."
+msgstr ""
+
+#: lightning.app.core.LightningApp.state:1 of
+msgid "Return the current state of the application."
+msgstr ""
+
+#: lightning.app.core.LightningApp.state_vars:1 of
+msgid ""
+"Return the current state restricted to the user defined variables of the "
+"application."
+msgstr ""
+
+#: lightning.app.core.LightningApp.state_with_changes:1 of
+msgid "Return the current state with the new changes of the application."
+msgstr ""
+
+#: lightning.app.core.LightningApp.works:1 of
+msgid "Returns all the works defined within this application."
+msgstr ""
+
+#: lightning.app.core.LightningApp.works:3 of
+msgid ":py:class:`~typing.List`\\[:py:class:`~lightning.app.core.work.LightningWork`]"
+msgstr ""
+

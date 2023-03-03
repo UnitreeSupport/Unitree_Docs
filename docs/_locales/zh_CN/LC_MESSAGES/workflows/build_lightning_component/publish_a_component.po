@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/build_lightning_component/publish_a_component.rst:3
+msgid "Publish a Lightning Component"
+msgstr ""
+
+#: ../../workflows/build_lightning_component/publish_a_component.rst:5
+msgid ""
+"**Audience:** Users who want to build a Ligthtning Component (Component) "
+"to publish to the Lightning Gallery"
+msgstr ""
+
+#: ../../workflows/build_lightning_component/publish_a_component.rst:11
+msgid "Develop a Component from a template"
+msgstr ""
+
+#: ../../workflows/build_lightning_component/publish_a_component.rst:13
+msgid ""
+"The fastest way to build a Component that is ready to be published to the"
+" component Gallery is to use the default template."
+msgstr ""
+
+#: ../../workflows/build_lightning_component/publish_a_component.rst:16
+msgid "Generate your Component template with this command:"
+msgstr ""
+
+#: ../../workflows/build_lightning_component/publish_a_component.rst:26
+msgid "Run the Component"
+msgstr ""
+
+#: ../../workflows/build_lightning_component/publish_a_component.rst:28
+msgid "To test that your Component works, first install all dependencies:"
+msgstr ""
+
+#: ../../workflows/build_lightning_component/publish_a_component.rst:36
+msgid "Now import your Component and use it in a Lightning App:"
+msgstr ""
+
+#: ../../workflows/build_lightning_component/publish_a_component.rst:55
+msgid "and run the app:"
+msgstr ""
+

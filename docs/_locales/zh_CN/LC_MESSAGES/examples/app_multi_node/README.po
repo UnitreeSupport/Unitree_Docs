@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/app_multi_node/README.md:1
+msgid "Lightning & Multi Node Training"
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:3
+msgid ""
+"Lightning supports makes multi-node training simple by providing a simple"
+" interface to orchestrate compute and data."
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:5
+msgid "Multi Node with raw PyTorch"
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:7
+msgid "You can run the multi-node raw PyTorch by running the following commands."
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:9
+msgid "Here is an example where you spawn your processes yourself."
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:15
+msgid "or you can use the built-in component for it."
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:21
+msgid "Multi Node with raw PyTorch + Lite"
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:23
+msgid ""
+"You can run the multi-node raw PyTorch and Lite by running the following "
+"commands."
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:29
+msgid ""
+"Using Lite, you retain control over your loops while accessing in a "
+"minimal way all Lightning distributed strategies."
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:31
+msgid "Multi Node with Lightning Trainer"
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:33
+msgid ""
+"Lightning supports running Lightning Trainer from a script or within a "
+"Lightning Work."
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:35
+msgid "You can either run a script directly"
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:41
+msgid "or run your code within as a work."
+msgstr ""
+
+#: ../../examples/app_multi_node/README.md:47
+msgid "Multi Node with any frameworks"
+msgstr ""
+

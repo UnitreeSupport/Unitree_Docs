@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/build_config/build_config_advanced.rst:5
+msgid "Build Configuration (Advanced)"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_advanced.rst:7
+msgid ""
+"**Audience:** Users who want full control over the docker image that is "
+"being installed in the cloud."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_advanced.rst:9
+msgid "**Level:** Advanced"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_advanced.rst:11
+msgid ""
+"Advanced users who need full control over the environment a LightningWork"
+" runs in can specify a custom docker image that will be deployed in the "
+"cloud."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_advanced.rst:18
+msgid "Use a docker image"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_advanced.rst:20
+msgid ""
+"Create a "
+":class:`~lightning_app.utilities.packaging.build_config.BuildConfig` and "
+"provide a **publicly accessible** link to where the image is hosted:"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_advanced.rst:42
+msgid ""
+"Many public hosters like DockerHub apply rate limits for public images. "
+"We recommend to pull images from your own registry. For example, you can "
+"set up a `docker registry on GitHub <https://docs.github.com/en/packages"
+"/working-with-a-github-packages-registry/working-with-the-container-"
+"registry>`_."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_advanced.rst:48
+msgid ""
+"The build config only applies when running in the cloud and gets ignored "
+"otherwise. A local build config is currently not supported."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_advanced.rst:49
+msgid "Images from private registries are currently not supported."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_advanced.rst:52
+msgid ""
+"Custom docker images must have python installed. We'll use `virtualenv` "
+"from this system python to create a virtual environment. We'll also "
+"configure the `virtualenv` to use the packages installed under system's "
+"python so your packages are not lost"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_advanced.rst:60
+msgid "Provide a docker file"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_advanced.rst:63
+msgid "Not yet supported. Coming soon."
+msgstr ""
+

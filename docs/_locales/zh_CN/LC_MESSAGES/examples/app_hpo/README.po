@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/app_hpo/README.md:1
+msgid "Build a Lightning Hyperparameter Optimization (HPO) App"
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:3
+msgid "A bit of background"
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:5
+msgid ""
+"Traditionally, developing machine learning (ML) products requires "
+"choosing among a large space of hyperparameters while creating and "
+"training the ML models. Hyperparameter optimization (HPO) aims to find a "
+"well-performing hyperparameter configuration for a given ML model on a "
+"dataset at hand, including the ML model, its hyperparameters, and other "
+"data processing steps."
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:11
+msgid ""
+"HPOs free the human expert from a tedious and error-prone, manual "
+"hyperparameter tuning process."
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:13
+msgid ""
+"As an example, in the famous [scikit-learn](https://scikit-"
+"learn.org/stable/) library, hyperparameters are passed as arguments to "
+"the constructor of the estimator classes such as `C` kernel for [Support "
+"Vector Classifier](https://scikit-"
+"learn.org/stable/modules/classes.html?highlight=svm#module-sklearn.svm), "
+"etc."
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:18
+msgid ""
+"It is possible and recommended to search the hyperparameter space for the"
+" best validation score."
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:20
+msgid "An HPO search consists of:"
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:22
+msgid "an objective method"
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:23
+msgid "a defined parameter space"
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:24
+msgid "a method for searching or sampling candidates"
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:26
+msgid ""
+"A naive method for sampling candidates is grid search, which exhaustively"
+" considers all hyperparameter combinations from a user-specified grid."
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:29
+msgid ""
+"Fortunately, HPO is an active area of research, and many methods have "
+"been developed to optimize the time required to get strong candidates."
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:32
+msgid ""
+"In the following tutorial, you will learn how to use Lightning together "
+"with [Optuna](https://optuna.org/)."
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:34
+msgid ""
+"[Optuna](https://optuna.org/) is an open source HPO framework to automate"
+" hyperparameter search. Out-of-the-box, it provides efficient algorithms "
+"to search large spaces and prune unpromising trials for faster results."
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:37
+#, python-format
+msgid ""
+"First, you will learn about the best practices on how to implement HPO "
+"without the Lightning Framework. Secondly, we will dive into a working "
+"HPO application with Lightning, and finally create a neat [HiPlot "
+"UI](https://facebookresearch.github.io/hiplot/_static/demo/demo_basic_usage.html?hip.filters=%5B%5D&hip.color_by=%22dropout%22&hip.PARALLEL_PLOT.order=%5B%22uid%22%2C%22dropout%22%2C%22lr%22%2C%22loss%22%2C%22optimizer%22%5D)"
+" for our application."
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:42
+msgid "Getting started"
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:44
+msgid "Step 1: Download the data"
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:50
+msgid "Step 2: Run the HPO Lightning App without an UI"
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:56
+msgid "Step 3: Run the HPO Lightning App with HiPlot UI in Streamlit."
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:62
+msgid "Learn More"
+msgstr ""
+
+#: ../../examples/app_hpo/README.md:64
+msgid "In the documentation, search for `Build a Sweep App`."
+msgstr ""
+

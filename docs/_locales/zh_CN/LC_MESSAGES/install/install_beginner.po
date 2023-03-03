@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../install/install_beginner.rst:7
+msgid "What is a virtual environment"
+msgstr ""
+
+#: ../../install/install_beginner.rst:8
+msgid ""
+"A virtual environment keeps the packages you install isolated from the "
+"rest of your system. This allows you to work on multiple projects that "
+"have different and potentially conflicting requirements, and it keeps "
+"your system Python installation clean."
+msgstr ""
+
+#: ../../install/install_beginner.rst:18
+msgid "We will describe two choices here, pick one:"
+msgstr ""
+
+#: ../../install/install_beginner.rst:21
+msgid ":ref:`Python virtualenv <python-virtualenv>`."
+msgstr ""
+
+#: ../../install/install_beginner.rst:22
+msgid ":ref:`Conda virtual environment <conda>`."
+msgstr ""
+
+#: ../../install/install_beginner.rst:30
+msgid "1. Python Virtualenv"
+msgstr ""
+
+#: ../../install/install_beginner.rst:32
+msgid "First, make sure that you have Python 3.8+ installed on your system."
+msgstr ""
+
+#: ../../install/install_beginner.rst:38
+msgid ""
+"If you can't run the command above or it returns a version older than "
+"3.8, `install the latest version of Python "
+"<https://www.python.org/downloads/>`_. After installing it, make sure you"
+" can run the above command without errors."
+msgstr ""
+
+#: ../../install/install_beginner.rst:45
+msgid "Creating a Virtual Environment"
+msgstr ""
+
+#: ../../install/install_beginner.rst:47
+msgid ""
+"When starting with a new Python project, you typically want to create a "
+"new Python virtual environment. Navigate to the location of your project "
+"and run the following command:"
+msgstr ""
+
+#: ../../install/install_beginner.rst:54
+msgid ""
+"The name of the environment here is *lightning* but you can choose any "
+"other name you like. By running the above command, Python will create a "
+"new folder *lightning* in the current working directory."
+msgstr ""
+
+#: ../../install/install_beginner.rst:60
+msgid "Activating the Virtual Environment"
+msgstr ""
+
+#: ../../install/install_beginner.rst:62 ../../install/install_beginner.rst:109
+msgid ""
+"Before you can install packages into the environment, you need to "
+"activate it:"
+msgstr ""
+
+#: ../../install/install_beginner.rst:68 ../../install/install_beginner.rst:115
+msgid ""
+"You need to do this step every time you want to work on your project / "
+"open the terminal. With your virtual environment activated, you are now "
+"ready to :doc:`install Lightning <installation>` and get started with "
+"Apps!"
+msgstr ""
+
+#: ../../install/install_beginner.rst:78
+msgid "2. Conda"
+msgstr ""
+
+#: ../../install/install_beginner.rst:80
+msgid ""
+"To get started, you first need to download and install the `Miniconda "
+"package manager <https://docs.conda.io/en/latest/miniconda.html>`_. To "
+"check that the installation was successful, open an new terminal and run:"
+msgstr ""
+
+#: ../../install/install_beginner.rst:87
+msgid "It should return a list of commands."
+msgstr ""
+
+#: ../../install/install_beginner.rst:92
+msgid "Creating a Conda Environment"
+msgstr ""
+
+#: ../../install/install_beginner.rst:94
+msgid ""
+"When starting with a new Python project, you typically want to create a "
+"new Conda virtual environment. Navigate to the location of your project "
+"and run the following command:"
+msgstr ""
+
+#: ../../install/install_beginner.rst:101
+msgid ""
+"The name of the environment here is *lightning* but you can choose any "
+"other name you like. Note how we can also specify the Python version "
+"here."
+msgstr ""
+
+#: ../../install/install_beginner.rst:107
+msgid "Activating the Conda Environment"
+msgstr ""
+

@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:3
+msgid "Run an App on the Cloud"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:5
+msgid ""
+"**Audience:** Users who want to share their apps or run on specialized "
+"hardware (like GPUs)."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:11
+msgid "Run on the public Lightning cloud"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:12
+msgid "To run any app on the public lightning cloud use the ``--cloud`` argument:"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:20
+msgid ""
+"By default, running your apps on the public Lightning cloud is free of "
+"charge using default CPUs, and any app uploaded to the Lightning cloud "
+"will be shared with the community (source code and app view will be "
+"public). If you would like to make your apps private please `contact us "
+"<mailto:support@lightning.ai?subject=I%20want%20private%20apps!>`_."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:22
+msgid ""
+"If your app contains ``LightningWork`` components that require more "
+"compute resources, such as larger CPUs or **GPUs**, you'll need to add "
+"credits to your Lightning AI account."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:29
+msgid "Add dependencies to my app"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:32
+msgid ""
+"Add all dependencies required to run your app to a `requirements.txt` "
+"file in your app's directory. Read :ref:`build_config` for more details."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:41
+msgid "Name app"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:43
+msgid "Simply use the ``--name`` flag when running your app, for example:"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:49
+msgid ""
+"Alternatively, you can change the name of the app in the ``.lightning`` "
+"file:"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:56
+msgid ""
+"The ``.lightning`` file is a general configuration file. To learn more "
+"about optional configuration file parameters, see "
+":class:`~lightning.utilities.packaging.app_config.AppConfig`."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:63
+msgid "Choose Cloud Compute"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:65
+msgid ""
+"You can configure the hardware your app is running on by setting a "
+":class:`~lightning.utilities.packaging.cloud_compute.CloudCompute` object"
+" onto the ``cloud_compute`` property of your work's."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/lightning_cloud.rst:67
+msgid "Learn more with the :ref:`cloud_compute` guide"
+msgstr ""
+

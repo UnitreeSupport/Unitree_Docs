@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/build_config/build_config_intermediate.rst:5
+msgid "Build Configuration (Intermediate)"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_intermediate.rst:7
+msgid ""
+"**Audience:** Users who need to execute commands to configure the machine"
+" before a LightningWork runs on it."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_intermediate.rst:9
+msgid "**Level:** Intermediate"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_intermediate.rst:11
+msgid ""
+"When a LightningWork machine starts up in the cloud, it uses a "
+"lightweight operating system with essential packages pre-installed. If "
+"you need to install additional system packages or run other configuration"
+" steps before your code executes on that machine, it is possible to do so"
+" by createing a custom "
+":class:`~lightning_app.utilities.packaging.build_config.BuildConfig`:"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_intermediate.rst:15
+msgid ""
+"Subclass "
+":class:`~lightning_app.utilities.packaging.build_config.BuildConfig`:"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_intermediate.rst:28
+msgid "Set the build config on the LightningWork:"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_intermediate.rst:46
+msgid ""
+"When you need to execute commands or install tools that require more "
+"privileges than the current user has, you can use ``sudo`` without "
+"needing to provide a password, e.g., when installing system packages."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_intermediate.rst:47
+msgid ""
+"The build config only applies when running in the cloud and gets ignored "
+"otherwise. A local build config is currently not supported."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_intermediate.rst:50
+msgid ""
+"Custom base images are not supported with the default CPU cloud compute. "
+"For example:"
+msgstr ""
+

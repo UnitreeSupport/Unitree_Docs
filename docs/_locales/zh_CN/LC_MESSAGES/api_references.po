@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_references.rst:5
+msgid "Lightning App - API References"
+msgstr ""
+
+#: ../../api_references.rst:8
+msgid "Core"
+msgstr ""
+
+#: ../../api_references.rst:21
+msgid "Learn more about :ref:`Lightning Core <core_api>`."
+msgstr ""
+
+#: ../../api_references.rst:26
+msgid "Built-in Components"
+msgstr ""
+
+#: ../../api_references.rst:53
+msgid "Frontend's"
+msgstr ""
+
+#: ../../api_references.rst:66
+msgid "Learn more about :ref:`Frontend's <ui_and_frontends>`."
+msgstr ""
+
+#: ../../api_references.rst:71
+msgid "Storage"
+msgstr ""
+
+#: ../../api_references.rst:85
+msgid "Learn more about :ref:`Storage <storage>`."
+msgstr ""
+
+#: ../../api_references.rst:90
+msgid "Runners"
+msgstr ""
+
+#: ../../api_references.rst:105
+msgid "lightning_app.utilities.packaging"
+msgstr ""
+

@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/mount_cloud_object_store.rst:5
+msgid "Add Cloud Data"
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:7
+msgid ""
+"**Audience:** Users who want to read files stored in a Cloud Object "
+"Bucket in an app."
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:11
+msgid "Mounting Public AWS S3 Buckets"
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:15
+msgid "Add Mount to a Work"
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:17
+msgid ""
+"To mount data from a cloud bucket to your app compute, initialize a "
+":class:`~lightning_app.storage.mount.Mount` object with the source path "
+"of the s3 bucket and the absolute directory path where it should be "
+"mounted and pass the :class:`~lightning_app.storage.mount.Mount` to the "
+":class:`~lightning_app.utilities.packaging.cloud_compute.CloudCompute` of"
+" the :class:`~lightning_app.core.work.LightningWork` it should be mounted"
+" on."
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:22
+msgid ""
+"In this example, we will mount an S3 bucket: ``s3://ryft-public-sample-"
+"data/esRedditJson/`` to ``/content/esRedditJson/``."
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:38
+msgid ""
+"You can also pass multiple mounts to a single work by passing a "
+"``List[Mount(...), ...]`` to the ``CloudCompute(mounts=...)`` argument."
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:43
+msgid ""
+"Mounts supported up to 1 Million files, 5GB per file. Need larger mounts?"
+" Contact support@lightning.ai"
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:44
+msgid "When adding multiple mounts, each one should have a unique ``mount_path``."
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:45
+msgid ""
+"A maximum of 10 :class:`~lightning_app.storage.mount.Mount`\\s can be "
+"added to a :class:`~lightning_app.core.work.LightningWork`."
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:49
+msgid "Read Files From a Mount"
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:51
+msgid ""
+"Once a :class:`~lightning_app.storage.mount.Mount` object is passed to "
+":class:`~lightning_app.utilities.packaging.cloud_compute.CloudCompute`, "
+"you can access, list, or read any file from the mount under the specified"
+" ``mount_path``, just like you would if it was on your local machine."
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:55
+msgid ""
+"Assuming your ``mount_path`` is ``\"/content/esRedditJson/\"`` you can do"
+" the following:"
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:59
+msgid "Read Files"
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:70
+msgid "List Files"
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:78
+msgid "See the Full Example"
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:118
+msgid ""
+"When running a Lighting App on your local machine, any "
+":class:`~lightning_app.utilities.packaging.cloud_compute.CloudCompute` "
+"configuration (including a :class:`~lightning_app.storage.mount.Mount`) "
+"is ignored at runtime. If you need access to these files on your local "
+"disk, you should download a copy of them to your machine."
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:124
+msgid ""
+"Mounted files from an S3 bucket are ``read-only``. Any modifications, "
+"additions, or deletions to files in the mounted directory will not be "
+"reflected in the cloud object store."
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:131
+msgid "Mounting Private AWS S3 Buckets - Coming Soon!"
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:133
+#: ../../workflows/mount_cloud_object_store.rst:141
+msgid "We'll Let you know when this feature is ready!"
+msgstr ""
+
+#: ../../workflows/mount_cloud_object_store.rst:139
+msgid "Mounting Google Cloud GCS Buckets - Coming Soon!"
+msgstr ""
+

@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_5.rst:5
+msgid "Step 5: Put it all together"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_5.rst:7
+msgid "Let's dive in on how to develop the component with the following code:"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_5.rst:13
+msgid "Run the application"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_5.rst:15
+msgid "Clone the Lightning repo and run the following command:"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_5.rst:21
+msgid "Add ``--cloud`` to run this application in the cloud."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_step_5.rst:31
+msgid "More hands-on examples"
+msgstr ""
+

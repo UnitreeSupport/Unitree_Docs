@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../levels/intermediate/start_from_lightning_app_templates.rst:3
+msgid "Level 10: Start from lightning app templates"
+msgstr ""
+
+#: ../../levels/intermediate/start_from_lightning_app_templates.rst:4
+msgid "**Audience:** All users who want to move quickly with Lightning"
+msgstr ""
+
+#: ../../levels/intermediate/start_from_lightning_app_templates.rst:6
+msgid ""
+"**Prereqs:** You have finished `Level 9 "
+"<embed_web_ui_into_lightningwork.html>`_."
+msgstr ""
+
+#: ../../levels/intermediate/start_from_lightning_app_templates.rst:12
+msgid "Next step: Learn to build powerful nested components"
+msgstr ""
+
+#: ../../levels/intermediate/start_from_lightning_app_templates.rst:13
+msgid ""
+"Now that you can build powerful apps, learn to build nested components "
+"that can do things like start dynamic works and connect to each other via"
+" networking or CLI commands."
+msgstr ""
+

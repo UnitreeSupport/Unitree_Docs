@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/build_lightning_app/from_scratch_content.rst:4
+msgid "WAIT!"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_scratch_content.rst:5
+msgid ""
+"Before you build a Lightning App from scratch, see if you can find an app"
+" that is similar to what you need in the `Lightning App Gallery "
+"<https://lightning.ai/apps>`_."
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_scratch_content.rst:8
+msgid ""
+"Once you find the Lightning App you want, press \"Clone & Run\" to see it"
+" running on the cloud, then download the code and change what you want!"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_scratch_content.rst:15
+msgid "Build from scratch"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_scratch_content.rst:16
+msgid ""
+"If you didn't find a Lightning App similar to the one you need, simply "
+"create a file named **app.py** with these contents:"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_scratch_content.rst:49
+msgid "Run the Lightning App"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_scratch_content.rst:50
+msgid "Run the Lightning App locally:"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_scratch_content.rst:56
+msgid "Run the Lightning App on the cloud:"
+msgstr ""
+

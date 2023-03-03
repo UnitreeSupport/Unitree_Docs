@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/dag/dag_from_scratch.rst:5
+msgid "Scheduled DAG with pandas and sklearn from scratch."
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:7
+msgid ""
+"**Audience:** Users coming from MLOps to Lightning Apps, looking for more"
+" flexibility."
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:9
+msgid "**Level:** Intermediate."
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:11
+msgid "In this example, you will learn how to create a simple DAG which:"
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:13
+msgid "Download and process some data"
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:14
+msgid "Train several models and report their associated metrics"
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:16
+msgid "and learn how to schedule this entire process."
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:18
+msgid ""
+"Find the complete example `here <https://github.com/Lightning-"
+"AI/lightning/blob/master/examples/app_dag/app.py>`_."
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:24
+msgid "Step 1: Implement your DAG"
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:26
+msgid "Here is an illustration of the DAG to implement:"
+msgstr ""
+
+msgid "Simple DAG"
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:32
+msgid "First, let's define the component we need:"
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:34
+msgid "DataCollector is responsible to download the data"
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:35
+msgid "Processing is responsible to execute a ``processing.py`` script."
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:36
+msgid "A collection of model work to train all models in parallel."
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:41
+msgid "And its run method executes the steps described above."
+msgstr ""
+
+#: ../../examples/dag/dag_from_scratch.rst:50
+msgid "Step 2: Define the scheduling"
+msgstr ""
+

@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/generated/lightning.app.storage.payload.Payload.rst:7
+msgid "Payload"
+msgstr ""
+
+#: lightning.app.storage.payload.Payload:1 of
+msgid "Bases: :py:class:`lightning.app.storage.payload._BasePayload`"
+msgstr ""
+
+#: lightning.app.storage.payload.Payload:1 of
+msgid ""
+"The Payload object enables to transfer python objects from one work to "
+"another in a similar fashion as "
+":class:`~lightning.app.storage.path.Path`."
+msgstr ""
+
+#: lightning.app.storage.payload.Payload.load:1 of
+msgid "Override this method with your own loading logic."
+msgstr ""
+
+#: lightning.app.storage.payload.Payload.load
+#: lightning.app.storage.payload.Payload.save of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.storage.payload.Payload.load:4 of
+msgid ":py:data:`~typing.Any`"
+msgstr ""
+
+#: lightning.app.storage.payload.Payload.save:1 of
+msgid "Override this method with your own saving logic."
+msgstr ""
+
+#: lightning.app.storage.payload.Payload.save:4 of
+msgid ":py:obj:`None`"
+msgstr ""
+

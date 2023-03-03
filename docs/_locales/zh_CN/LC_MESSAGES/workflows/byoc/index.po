@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/byoc/index.rst:4
+msgid "Run Apps on your own cloud (BYOC)"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:6
+msgid ""
+"**Audience:** Users looking to run Lightning Apps on their own private "
+"cloud."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:12
+msgid "A bit of background"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:14
+msgid ""
+"BYOC - Bring Your Own Cloud, is an alternate deployment model to "
+"Lightning Cloud (fully managed SaaS). BYOC separates the control and data"
+" plane. The data plane, that includes Lightning clusters, services and "
+"Lightning Apps, reside inside the user’s VPC. The control plane resides "
+"on Lightning Cloud."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:19
+msgid ""
+"Setup begins with configuring a cloud provider (today AWS, but more are "
+"coming soon) with your personal credentials for delegated access and an "
+"identity provider for secure access to the data plane."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:22
+msgid ""
+"Next, as part of the environment creation process, you can configure "
+"networking, security, and select among cluster configuration options "
+"based on their own use cases."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:25
+msgid ""
+"After submitting a cluster creation request, the Lightning Control Plane "
+"creates the required cloud infrastructure on the user account. This sets "
+"up a new Lightning Cluster along with a Lightning Kubernetes Operator."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:31
+msgid "Create a Lightning BYOC cluster"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:33
+msgid ""
+"You must have your cloud configured before you try and create a BYOC "
+"cluster."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:35
+msgid ""
+"And to make your life a little easier, we've made a `Terraform module to "
+"help with that <https://github.com/Lightning-AI/terraform-aws-lightning-"
+"byoc>`_."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:37
+msgid "Create a Lightning BYOC cluster using the following command:"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:43
+msgid "Here's an example:"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:49
+msgid ""
+"Cluster creation is going to take an hour or more after you run this "
+"command."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:54
+msgid "Arguments"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:56
+msgid "cluster_id: The name of the cluster to be created"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:58
+msgid ""
+"Cluster names can only contain lowercase letters, numbers, and periodic "
+"hyphens ( - )."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:63
+msgid "Parameters"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:66
+msgid "Parameter"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:66
+msgid "Description"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:68
+msgid "provider"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:68
+msgid "The cloud provider where your cluster is located."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:70
+msgid ""
+"AWS is supported today, but support for other cloud providers is coming "
+"soon."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:72
+msgid "role-arn"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:72
+msgid "AWS IAM Role ARN used to provision resources"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:74
+msgid "external-id"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:74
+msgid "AWS IAM Role external ID"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:76
+msgid ""
+"To read more on what the AWS external ID is and why it's useful go `here "
+"<https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-"
+"user_externalid.html>`_"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:79
+msgid "region"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:79
+msgid "AWS region containing compute resources"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:81
+msgid "async"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:81
+msgid "Cluster creation will happen in the background."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:88
+msgid "View a list of your Lightning BYOC clusters"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:98
+msgid "Delete a Lightning BYOC cluster"
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:100
+msgid ""
+"Deletes a Lightning BYOC cluster. Lightning AI removes cluster artifacts "
+"and any resources running on the cluster."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:102
+msgid ""
+"Using the ``--force`` parameter when deleting a cluster does not clean up"
+" any resources managed by Lightning AI. Check your cloud provider to "
+"verify that existing cloud resources are deleted."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:104
+msgid ""
+"Deletion permanently removes not only the record of all runs on a "
+"cluster, but all associated artifacts, metrics, logs, etc."
+msgstr ""
+
+#: ../../workflows/byoc/index.rst:106
+msgid ""
+"This process may take a few minutes to complete, but once started it "
+"CANNOT be rolled back. Deletion permanently removes not only the BYOC "
+"cluster from being managed by Lightning AI, but tears down every BYOC "
+"resource Lightning AI managed (for that cluster id) in the host cloud. "
+"All object stores, container registries, logs, compute nodes, volumes, "
+"etc. are deleted and cannot be recovered."
+msgstr ""
+

@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../levels/advanced/level_16.rst:3
+msgid "Level 16: Check Work status"
+msgstr ""
+
+#: ../../levels/advanced/level_16.rst:4
+msgid ""
+"**Audience:** Users who want to stop/start Lightning Work based on a "
+"status."
+msgstr ""
+
+#: ../../levels/advanced/level_16.rst:6
+msgid "**Prereqs:** Level 16+"
+msgstr ""
+
+#: ../../core_api/lightning_work/status_content.rst:4
+msgid "Everything about LightningWork Status"
+msgstr ""
+
+#: ../../core_api/lightning_work/status_content.rst:6
+msgid ""
+"Statuses indicate transition points in the life of a LightningWork (Work)"
+" and contain metadata."
+msgstr ""
+
+#: ../../core_api/lightning_work/status_content.rst:8
+msgid "The different stages are:"
+msgstr ""
+
+#: ../../core_api/lightning_work/status_content.rst:20
+msgid "And a single status is as follows:"
+msgstr ""
+
+#: ../../core_api/lightning_work/status_content.rst:33
+msgid ""
+"On creation, the Work's status flags all evaluate to ``False`` (in "
+"particular ``has_started``) and when calling ``work.run`` in your "
+"Lightning Flow (Flow), the Work transitions from ``is_pending`` to "
+"``is_running`` and then to ``has_succeeded`` if everything went well or "
+"``has_failed`` otherwise."
+msgstr ""
+
+#: ../../core_api/lightning_work/status_content.rst:83
+#: ../../core_api/lightning_work/status_content.rst:163
+msgid "Run this app as follows:"
+msgstr ""
+
+#: ../../core_api/lightning_work/status_content.rst:89
+msgid ""
+"And here is the expected output inside ``app_log.txt`` and as expected, "
+"we are observing the following transition ``has_started``, "
+"``is_pending``, ``is_running``, ``has_succeeded``, ``is_running`` and "
+"``has_failed``"
+msgstr ""
+
+#: ../../core_api/lightning_work/status_content.rst:132
+msgid "In order to access all statuses:"
+msgstr ""
+
+#: ../../core_api/lightning_work/status_content.rst:169
+msgid "And here is the expected output inside ``app_log.txt``:"
+msgstr ""
+

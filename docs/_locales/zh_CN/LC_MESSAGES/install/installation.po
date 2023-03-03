@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../install/installation.rst:7
+msgid "Installation"
+msgstr ""
+
+#: ../../install/installation.rst:9
+msgid ""
+"**Prerequisites**: Use Python 3.8.x or later (3.8.x, 3.9.x, 3.10.x). We "
+"also recommend you install in a virtual environment (learn how)."
+msgstr ""
+
+#: ../../install/installation.rst:21
+msgid "Troubleshoot"
+msgstr ""
+
+#: ../../install/installation.rst:22
+msgid ""
+"If you encounter issues during installation join our community slack and "
+"share the output of the following command:"
+msgstr ""
+

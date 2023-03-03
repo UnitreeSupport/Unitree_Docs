@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/model_server_app/putting_everything_together.rst:5
+msgid "4. Putting everything together"
+msgstr ""
+
+#: ../../examples/model_server_app/putting_everything_together.rst:7
+msgid ""
+"In the code below, we put together the **TrainWork**, the **MLServer** "
+"and the **Locust** components in an ``app.py`` file."
+msgstr ""
+
+#: ../../examples/model_server_app/putting_everything_together.rst:14
+msgid "Run the App"
+msgstr ""
+
+#: ../../examples/model_server_app/putting_everything_together.rst:16
+msgid "To run the app, simply open a terminal and execute this command:"
+msgstr ""
+
+#: ../../examples/model_server_app/putting_everything_together.rst:22
+msgid "Here is a gif of the UI."
+msgstr ""
+
+#: ../../examples/model_server_app/putting_everything_together.rst:30
+msgid "Congrats, you have finished the **Build a Model Server** example !"
+msgstr ""
+
+#: ../../examples/model_server_app/putting_everything_together.rst:36
+msgid "Find more examples"
+msgstr ""
+

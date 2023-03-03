@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../levels/basic/build_a_lightning_component.rst:3
+msgid "Level 1: Package code in a lightning component"
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:5
+msgid "**Prereqs:** You know *basic* Python."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:7
+msgid ""
+"**Goal:** In this guide you'll learn to develop `a Lightning component "
+"<https://lightning.ai/components>`_."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:16
+msgid "Why you need Lightning components"
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:17
+msgid ""
+"A Lightning component is a self-contained, modular machine-learning "
+"component that you can plug into your existing ML workflows. A Lightning "
+"component organizes arbitrary code so it can run on the cloud, manages "
+"its own infrastructure, cloud costs, networking and more. Connect "
+"components using your current workflow management tools or our `next-"
+"generation reactive orchestrator <../intermediate/index.html>`_."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:22
+msgid "Components run on the cloud or your laptop without code changes 🤯🤯."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:32
+msgid "Organizing your code into Lightning components offers these benefits:"
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:38
+msgid ""
+"The Lightning structure forces best practices so you don't have to be an "
+"expert production engineer. Although it feels like you're writing a "
+"script, you are actually building a production-ready system."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:45
+msgid ""
+"The component run-time has been optimized for cost management to support "
+"the largest machine-learning workloads. Lower your cloud bill with "
+"machines that shut down or spin up faster."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:52
+msgid ""
+"Lightning embeds the best practices of building production-ready full "
+"stack AI apps into your coding experience. You can write code like you "
+"normally do, and the Lightning structure ensures your code is implicitely"
+" production ready... even if you're just doing research."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:60
+msgid ""
+"if you know what you are doing, Lightning gives you full control to "
+"manage your own scaling logic, fault-tolerance and even pre-provisioning,"
+" all from Python. We even give you full flexibility to use tools like "
+"`terraform <../../cloud/customize_a_lightning_cluster.html>`_ to optimize"
+" cloud clusters for your Lightning apps."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:68
+msgid ""
+"Lightning components are self-contained pieces of funcionality. Add them "
+"to your current workflow tools to quickly fill in gaps in your ML "
+"workflow such as monitoring drift, training LLMs and more. You can "
+"(optionally) use the Lightning App to integrate components into a "
+"cohesive workflow."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:76
+msgid ""
+"Lightning apps bundles components into an app that runs in any "
+"environment. The same code will run on your laptop, or any cloud or "
+"private clusters. You don't have to think about the cluster or know "
+"anything about the cloud."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:83
+msgid ""
+"Iterate through ideas in hours not months because you don't have to learn"
+" a million other concepts that the components handle for you such as "
+"kubernetes, cost management, auto-scaling and more."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:90
+msgid ""
+"Components are modular and inter-operable by design. Leverage our vibrant"
+" community of components so you don't have to build each piece of the "
+"system yourself."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:97
+msgid "Install Lightning"
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:98
+msgid "First, install Lightning."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:110
+msgid "Build your first component"
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:111
+msgid ""
+"A Lightning component organizes arbitrary code so it can run on the "
+"cloud, manages its own infrastructure, cloud costs, networking and more"
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:113
+msgid "**Run one of these components!**"
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:119
+msgid ""
+"Components run the same on the cloud and locally on your choice of "
+"hardware."
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:127
+msgid "Key features"
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:128
+msgid ""
+"You now know enough to build a self-contained component that runs any "
+"Python code on the cloud that can be connected to form a powerful "
+"Lightning app. Here are a few key features available to super-charge your"
+" work:"
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:143
+msgid "Next: Explore real component implementations"
+msgstr ""
+
+#: ../../levels/basic/build_a_lightning_component.rst:144
+msgid ""
+"In this section we introduced components. Let's explore real component "
+"implementations in-depth."
+msgstr ""
+

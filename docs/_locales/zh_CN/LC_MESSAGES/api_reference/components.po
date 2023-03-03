@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/components.rst:3
+msgid "lightning.app.components"
+msgstr ""
+
+#: ../../api_reference/components.rst:14
+msgid "Built-in Components"
+msgstr ""
+
+#: ../../api_reference/components.rst:25:<autosummary>:1
+msgid ""
+":py:obj:`PopenPythonScript "
+"<lightning.app.components.python.popen.PopenPythonScript>`"
+msgstr ""
+
+#: ../../api_reference/components.rst:25:<autosummary>:1
+msgid ""
+"The PopenPythonScript component enables to easily run a python script "
+"within a subprocess."
+msgstr ""
+
+#: ../../api_reference/components.rst:25:<autosummary>:1
+msgid ""
+":py:obj:`TracerPythonScript "
+"<lightning.app.components.python.tracer.TracerPythonScript>`"
+msgstr ""
+
+#: ../../api_reference/components.rst:25:<autosummary>:1
+msgid "The TracerPythonScript class enables to easily run a python script."
+msgstr ""
+
+#: ../../api_reference/components.rst:25:<autosummary>:1
+msgid ""
+":py:obj:`LightningTrainerScript "
+"<lightning.app.components.training.LightningTrainerScript>`"
+msgstr ""
+
+#: ../../api_reference/components.rst:25:<autosummary>:1
+msgid ""
+"This component enables performing distributed multi-node multi-device "
+"training."
+msgstr ""
+
+#: ../../api_reference/components.rst:25:<autosummary>:1
+msgid ":py:obj:`ServeGradio <lightning.app.components.serve.gradio.ServeGradio>`"
+msgstr ""
+
+#: ../../api_reference/components.rst:25:<autosummary>:1
+msgid ""
+"The ServeGradio Class enables to quickly create a ``gradio`` based UI for"
+" your LightningApp."
+msgstr ""
+
+#: ../../api_reference/components.rst:25:<autosummary>:1
+msgid ""
+":py:obj:`ModelInferenceAPI "
+"<lightning.app.components.serve.serve.ModelInferenceAPI>`"
+msgstr ""
+
+#: ../../api_reference/components.rst:25:<autosummary>:1
+msgid "The ModelInferenceAPI Class enables to easily get your model served."
+msgstr ""
+

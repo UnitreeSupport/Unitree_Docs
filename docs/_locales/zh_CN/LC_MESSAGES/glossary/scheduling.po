@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/scheduling.rst:5
+msgid "Scheduling"
+msgstr ""
+
+#: ../../glossary/scheduling.rst:7
+msgid ""
+"The Lightning Scheduling system makes it easy to schedule your components"
+" execution with any arbitrary conditions."
+msgstr ""
+
+#: ../../glossary/scheduling.rst:14
+msgid "Schedule your components"
+msgstr ""
+
+#: ../../glossary/scheduling.rst:16
+msgid ""
+"The LightningFlow has a ``schedule`` method which can be used to schedule"
+" your components."
+msgstr ""
+
+#: ../../glossary/scheduling.rst:39
+msgid ""
+"Learn more about the cron syntax `here "
+"<https://github.com/kiorky/croniter>`_"
+msgstr ""
+
+#: ../../glossary/scheduling.rst:45
+msgid "Best Practices"
+msgstr ""
+
+#: ../../glossary/scheduling.rst:47
+msgid ""
+"In the example above, the line ``self.schedule(\"hourly\")`` will return "
+"``True`` for a **single** flow execution every hour. Mathematically, this"
+" is known as a dirac."
+msgstr ""
+
+#: ../../glossary/scheduling.rst:49
+msgid ""
+"Instantiate your component under the schedule method and run outside as "
+"follows:"
+msgstr ""
+
+#: ../../glossary/scheduling.rst:74
+msgid ""
+"Run a single work under the schedule with different arguments to have it "
+"re-run."
+msgstr ""
+
+#: ../../glossary/scheduling.rst:92
+msgid "Capture the event in the state and execute your sequential works outside."
+msgstr ""
+
+#: ../../glossary/scheduling.rst:125
+msgid "Limitations"
+msgstr ""
+
+#: ../../glossary/scheduling.rst:127
+msgid ""
+"As stated above, the schedule acts as a dirac and is **True** for a "
+"single flow execution. Therefore, sequential works execution under the "
+"schedule won't work as they don't complete within a single flow "
+"execution."
+msgstr ""
+
+#: ../../glossary/scheduling.rst:130
+msgid "Here is an example of something which **WON'T** work:"
+msgstr ""
+
+#: ../../glossary/scheduling.rst:157
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../glossary/scheduling.rst:159
+msgid ""
+"**Q: Can I use multiple nested scheduler?** No, as they might cancel "
+"themselves out, but you can capture the event of one to trigger the next "
+"one."
+msgstr ""
+
+#: ../../glossary/scheduling.rst:161
+msgid ""
+"**Q: Can I use any arbitrary logic to schedule?** Yes, this design "
+"enables absolute flexibility, but you need to be careful to avoid bad "
+"practices."
+msgstr ""
+
+#: ../../glossary/scheduling.rst:167
+msgid "Examples"
+msgstr ""
+

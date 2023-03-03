@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/build_rest_api/index.rst:5
+msgid "RESTful API"
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:7
+msgid ""
+"**Audience:** Users looking to create an API in their App to allow users "
+"to activate functionalities from external sources."
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:13
+msgid "What is a RESTful API?"
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:15
+msgid ""
+"A RESTful API is a set of external URL routes exposed by a server that "
+"enables clients to trigger some functionalities, such as getting or "
+"putting some data, uploading files, etc.."
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:17
+msgid ""
+"This provides great flexibility for users as they can easily discover "
+"functionalities made available by the App Builders."
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:19
+msgid ""
+"The Lightning App framework supports the four primary HTTP methods: "
+"`GET`, `POST`, `PUT`, `DELETE`."
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:21
+msgid ""
+"These methods are guidelines to organize your RESTful Services and help "
+"users understand your functionalities."
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:23
+msgid "**`GET`:** Reads data from the server."
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:24
+msgid "**`POST`:** Creates new resources."
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:25
+msgid "**`PUT`:** Updates/replaces existing resources."
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:26
+msgid "**`DELETE`:** Deletes resources."
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:28
+#, python-format
+msgid ""
+"Learn more about `HTTP Methods for RESTful Services here "
+"<https://www.restapitutorial.com/lessons/httpmethods.html#:~:text=The%20primary%20or%20most%2Dcommonly,but%20are%20utilized%20less%20frequently.>`_."
+msgstr ""
+
+#: ../../workflows/build_rest_api/index.rst:30
+msgid ""
+"The Lightning App framework uses the popular `FastAPI "
+"<https://fastapi.tiangolo.com/>`_ and `Pydantic <https://pydantic-"
+"docs.helpmanual.io/>`_ frameworks under the hood. This means you can use "
+"all their features while building your App."
+msgstr ""
+
+#: ../../workflows/build_rest_api/index_content.rst:3
+msgid "Develop an API"
+msgstr ""
+
+#: ../../workflows/build_rest_api/index_content.rst:33
+msgid "Learn more"
+msgstr ""
+

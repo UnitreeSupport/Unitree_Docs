@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/generated/lightning.app.components.serve.gradio.ServeGradio.rst:7
+msgid "ServeGradio"
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:1 of
+msgid ""
+"Bases: :py:class:`lightning.app.core.work.LightningWork`, "
+":py:class:`abc.ABC`"
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:1 of
+msgid ""
+"The ServeGradio Class enables to quickly create a ``gradio`` based UI for"
+" your LightningApp."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:3 of
+msgid ""
+"In the example below, the ``ServeGradio`` is subclassed to deploy "
+"``AnimeGANv2``."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:8 of
+msgid "The result would be the following:"
+msgstr ""
+
+#: of
+msgid "Animation showing how to AnimeGANv2 UI would looks like."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:13 of
+msgid ""
+"LightningWork, or Work in short, is a building block for long-running "
+"jobs."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:15 of
+msgid ""
+"The LightningApp runs its :class:`~lightning.app.core.flow.LightningFlow`"
+" component within an infinite loop and track the ``LightningWork`` status"
+" update."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:18 of
+msgid ""
+"Use LightningWork for third-party services or for launching heavy jobs "
+"such as downloading data, training or serving a model."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:21 of
+msgid ""
+"Each LightningWork is running in its own independent process. Works are "
+"self-isolated from the rest, e.g any state changes happening within the "
+"work will be reflected within the flow but not the other way around."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio of
+msgid "Parameters"
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:24 of
+msgid ""
+"Whether to run in parallel mode or not. When False, the flow waits for "
+"the work to finish."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:25 of
+msgid ""
+"Whether the ``run`` method should cache its input arguments and not run "
+"again when provided with the same arguments in subsequent calls."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:27 of
+msgid ""
+"Whether to re-raise an exception in the flow when raised from within the "
+"work run method."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:28 of
+msgid "Bind socket to this host"
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:29 of
+msgid ""
+"Bind socket to this port. Be default, this is None and should be called "
+"within your run method."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:30 of
+msgid "The local BuildConfig isn't used until Lightning supports DockerRuntime."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:31 of
+msgid ""
+"The cloud BuildConfig enables user to easily configure machine before "
+"running this work."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:32 of
+msgid "Deprecated in favor of cache_calls. This will be removed soon."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:33 of
+msgid ""
+"Whether the work should be started at the same time as the root flow. "
+"Only applies to works defined in ``__init__``."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio:36 of
+msgid "**Learn More About Lightning Work Inner Workings**"
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.build_model:1 of
+msgid "Override to instantiate and return your model."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.build_model:3 of
+msgid "The model would be accessible under self.model"
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.build_model
+#: lightning.app.components.serve.gradio.ServeGradio.configure_layout of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.build_model:6 of
+msgid ":py:data:`~typing.Any`"
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.configure_layout:1 of
+msgid "Configure the UI of this LightningWork."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.configure_layout:3 of
+msgid "You can either"
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.configure_layout:5 of
+msgid ""
+"Return a single :class:`~lightning.app.frontend.frontend.Frontend` object"
+" to serve a user interface for this Work."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.configure_layout:7 of
+msgid ""
+"Return a string containing a URL to act as the user interface for this "
+"Work."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.configure_layout:8 of
+msgid ""
+"Return ``None`` to indicate that this Work doesn't currently have a user "
+"interface."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.configure_layout:10 of
+msgid ""
+"**Example:** Serve a static directory (with at least a file index.html "
+"inside)."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.configure_layout:21 of
+msgid ""
+"**Example:** Arrange the UI of my children in tabs (default UI by "
+"Lightning)."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.configure_layout:33 of
+msgid ""
+"If you don't implement ``configure_layout``, Lightning will use "
+"``self.url``."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.configure_layout:37 of
+msgid ""
+"This hook gets called at the time of app creation and then again as part "
+"of the loop. If desired, a returned URL can depend on the state. This is "
+"not the case if the work returns a "
+":class:`~lightning.app.frontend.frontend.Frontend`. These need to be "
+"provided at the time of app creation in order for the runtime to start "
+"the server."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.configure_layout:43 of
+msgid ":py:class:`str`"
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.predict:1 of
+msgid "Override with your logic to make a prediction."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.run:1 of
+msgid "Override to add your own logic."
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.run of
+msgid "Raises"
+msgstr ""
+
+#: lightning.app.components.serve.gradio.ServeGradio.run:3 of
+msgid "If resource exceeds platform quotas or other constraints."
+msgstr ""
+

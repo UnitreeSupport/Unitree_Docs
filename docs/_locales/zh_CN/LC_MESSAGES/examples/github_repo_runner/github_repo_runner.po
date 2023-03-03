@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/github_repo_runner/github_repo_runner.rst:7
+msgid "Develop a Github Repo Script Runner"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner.rst:9
+msgid ""
+"**Audience:** Users that want to develop interactive applications which "
+"runs Github Repo in the cloud at any scale for multiple users."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner.rst:11
+msgid ""
+"**Prerequisite**: Reach :ref:`level 16+ <intermediate_level>` and read "
+"the docstring of of "
+":class:`~lightning_app.components.python.tracer.TracerPythonScript` "
+"component."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:4
+msgid "Our Goal"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:6
+msgid ""
+"Create a simple Lightning App (App) where users can enter information in "
+"a UI to run a given PyTorch Lightning Script from a given Github Repo "
+"with some optional extra Python requirements and arguments."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:8
+msgid ""
+"Users should be able to monitor their training progress in real-time, "
+"view the logs, and get the best monitored metric and associated "
+"checkpoint for their models."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:13
+msgid "Completed App"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:15
+msgid ""
+"Here is a recording of the final application built in this example. The "
+"example is around 200 lines in total and should give you a great "
+"foundation to build your own Lightning App."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:30
+msgid "App Design"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:32
+msgid "In order to develop the App, we need to build several components:"
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:34
+msgid ""
+"A GithubRepoRunner Component that clones a repo, runs a specific script "
+"with provided arguments and collect logs."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:36
+msgid ""
+"A PyTorch Lightning GithubRepoRunner Component that augments the "
+"GithubRepoRunner component to track PyTorch Lightning Trainer."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:38
+msgid "A UI for the users to provide to trigger dynamically a new execution."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:40
+msgid ""
+"A Flow to dynamically create GithubRepoRunner once a user submits "
+"information from the UI."
+msgstr ""
+
+#: ../../examples/github_repo_runner/github_repo_runner_content.rst:46
+msgid "Tutorial"
+msgstr ""
+

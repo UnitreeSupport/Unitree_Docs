@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/dag/dag.rst:5
+msgid "Develop a Directed Acyclic Graph (DAG)"
+msgstr ""
+
+#: ../../examples/dag/dag.rst:9
+msgid ""
+"**Audience:** Users coming from MLOps to Lightning Apps, looking for more"
+" flexibility."
+msgstr ""
+
+#: ../../examples/dag/dag.rst:11
+msgid "A typical ML training workflow can be implemented with a simple DAG."
+msgstr ""
+
+#: ../../examples/dag/dag.rst:13
+msgid ""
+"Below is a pseudo-code using the lightning framework that uses a "
+"LightningFlow to orchestrate the serial workflow: process data, train a "
+"model, and serve the model."
+msgstr ""
+
+#: ../../examples/dag/dag.rst:32
+msgid ""
+"Below is a pseudo-code to run several works in parallel using a built-in "
+":class:`~lightning_app.structures.Dict`."
+msgstr ""
+
+#: ../../examples/dag/dag.rst:68
+msgid "Next Steps"
+msgstr ""
+

@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:3
+msgid "Develop a Lightning App from a PyTorch Lightning script"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:5
+msgid ""
+"**Audience:** Users who want to develop a Lightning App (App) from their "
+"PyTorch Lightning (PL) scripts."
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:11
+msgid "What developing a Lightning App from a PL script does for you"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:13
+msgid ""
+"Developing an App from a PL script allows you to immediately run on the "
+"cloud and share the progress with friends. Once you're happy with your "
+"model, you can immediately expand beyond just model development to things"
+" like making your own inference APIs, research demos, or even speeding up"
+" your data pipeline."
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:17
+msgid ""
+"The PyTorch Lightning App is your entry point to the full end-to-end ML "
+"licefycle."
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:23
+msgid "Develop a template"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:25
+msgid "To develop a template from a PyTorch Lightning script, use this command:"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:32
+msgid ""
+"If your script is not at the root of the project folder, and you'd like "
+"to include all source files within that folder, you can specify the root "
+"path as the first argument:"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:39
+msgid ""
+"The default trainer App lets you train a model with a beautiful UI "
+"locally and on the cloud with zero effort!"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:45
+msgid "Run the App"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:47
+msgid "This section is under construction."
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:49
+msgid "Run the App locally:"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:55
+msgid ""
+"Or run the App on the cloud so you can share with collaborators and even "
+"use all the cloud GPUs you want."
+msgstr ""
+
+msgid "Screenshot of the PyTorch Lightning app running in the cloud"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:70
+msgid "Modify the template"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:72
+msgid "The command above generates an App file like this:"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:74
+msgid "TODO: list the file and show how to extend it"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:96
+msgid "Now you can add your own components as you wish!"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:102
+msgid "Known issues"
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:104
+msgid ""
+"The UI takes a couple seconds to load when opening the App, so please be "
+"patient."
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:105
+msgid "The timer resets when refreshing the page."
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:106
+msgid ""
+"The UI for adding new environment variables does not provide an option to"
+" delete an entry."
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:107
+msgid ""
+"A bug exists that leaves the script hanging at the start of training when"
+" using the DDP strategy."
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:108
+msgid "DDP-spawn is not supported due to pickling issues."
+msgstr ""
+
+#: ../../workflows/build_lightning_app/from_pytorch_lightning_script.rst:109
+msgid ""
+"It is currently not possible to submit a new run once the script has "
+"finished or failed."
+msgstr ""
+

@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../levels/intermediate/level_9.rst:5
+msgid "Level 9: Event loop"
+msgstr ""
+
+#: ../../levels/intermediate/level_9.rst:6
+msgid ""
+"**Audience:** Users who want to build reactive Lightning Apps and move "
+"beyond DAGs."
+msgstr ""
+
+#: ../../levels/intermediate/level_9.rst:8
+msgid "**Prereqs:** Level 8+"
+msgstr ""
+
+#: ../../glossary/event_loop.rst:3
+msgid "Event loop"
+msgstr ""
+
+#: ../../glossary/event_loop.rst:5
+msgid ""
+"Drawing inspiration from modern web frameworks like `React.js "
+"<https://reactjs.org/>`_, the Lightning App runs all flows in an **event "
+"loop** (forever), which is triggered several times a second after "
+"collecting any works' state change."
+msgstr ""
+
+#: ../../glossary/event_loop.rst:9
+msgid ""
+"When running a Lightning App in the cloud, the ``LightningWork`` run on "
+"different machines. LightningWork communicates any state changes to the "
+"**event loop** which re-executes the flow with the newly-collected works'"
+" state."
+msgstr ""
+

@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../core_api/lightning_app/dynamic_work.rst:7
+msgid "Dynamic LightningWork"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work.rst:9
+msgid ""
+"**Audience:** Users who want to create applications that adapt to user "
+"demands."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work.rst:11
+msgid "**Level:** Advanced"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:3
+msgid "What Dynamic LightningWork does for you"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:5
+msgid ""
+"Dynamic LightningWork (Work) changes the resources your application uses "
+"while the application is running (aka at runtime)."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:7
+msgid ""
+"For example, imagine you want to create a research notebook app for your "
+"team. You want every member to be able to create multiple `JupyterLab "
+"<https://jupyter.org/>`_ sessions on their hardware of choice."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:9
+msgid ""
+"To allow every notebook to choose hardware, it needs to be set up in it's"
+" own :class:`~lightning_app.core.work.LightningWork`, but you can't know "
+"the number of notebooks user will need in advance. In this case you'll "
+"need to add ``LightningWorks`` dynamically at run time."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:15
+msgid "Use Dynamic Works"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:17
+msgid ""
+"Dynamic Works should be used anytime you want change the resources your "
+"application is using while it is running (aka at runtime)."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:19
+msgid "You're usually going to use the ``start`` and ``stop`` methods together."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:24
+msgid "Add a Dynamic Work"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:26
+msgid "There are a couple of ways you can add a dynamic Work:"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:28
+msgid ""
+"Option 1: Attach your components in the **run** method using the Python "
+"functions."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:29
+msgid ""
+"Option 2: Use the Lightning built-in classes "
+":class:`~lightning.structures.Dict` or "
+":class:`~lightning.structures.List`."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:31
+msgid "Using the Lightning built-in classes is usually easier to read."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:35
+msgid ""
+"**OPTION 1:** Attach your components in the run method of a flow using "
+"the Python functions **hasattr**, **setattr**, and **getattr**:"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:49
+msgid ""
+"**OPTION 2:** Use the built-in Lightning classes "
+":class:`~lightning_app.structures.Dict` or "
+":class:`~lightning_app.structures.List`"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:70
+msgid "Stop a Work"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:71
+msgid "Stop a work when you are concerned about cost."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:73
+msgid "To stop a work, use the work ``stop`` method:"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:90
+msgid "Dynamic Work Examples"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:98
+msgid "Dynamic Work with Jupyter Notebooks"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:100
+msgid ""
+"In this example, we are dynamically creating ``JupyterLabWork`` every "
+"time a user clicks the **Create Jupyter Notebook** button."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:102
+msgid ""
+"In order to do that, we are iterating over the list of "
+"``jupyter_config_requests`` infinitely."
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:155
+msgid "Dynamic Works with StreamLit UI"
+msgstr ""
+
+#: ../../core_api/lightning_app/dynamic_work_content.rst:157
+msgid ""
+"Continuing from the Jupyter Notebook example, in the UI, we receive the "
+"**state** of the Jupyter Manager and the state can be modified directly "
+"from the UI."
+msgstr ""
+

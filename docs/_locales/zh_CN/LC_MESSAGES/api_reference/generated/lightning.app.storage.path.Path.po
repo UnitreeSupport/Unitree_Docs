@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/generated/lightning.app.storage.path.Path.rst:7
+msgid "Path"
+msgstr ""
+
+#: lightning.app.storage.path.Path:1 of
+msgid "Bases: :py:class:`pathlib.WindowsPath`"
+msgstr ""
+
+#: lightning.app.storage.path.Path:1 of
+msgid ""
+"A drop-in replacement for :class:`pathlib.Path` for all paths in "
+"Lightning."
+msgstr ""
+
+#: lightning.app.storage.path.Path:3 of
+msgid ""
+"The Lightning Path works exactly the same as :class:`pathlib.Path` but it"
+" also remembers in which LightningWork it was created. If the Path gets "
+"passed to a different LightningWork, the file or folder can then be "
+"easily accessed no matter where it is located in the other Work's "
+"filesystem."
+msgstr ""
+
+#: lightning.app.storage.path.Path lightning.app.storage.path.Path._attach_work
+#: of
+msgid "Parameters"
+msgstr ""
+
+#: lightning.app.storage.path.Path:7 of
+msgid "Accepts the same arguments as in :class:`pathlib.Path`"
+msgstr ""
+
+#: lightning.app.storage.path.Path:8 of
+msgid "Accepts the same keyword arguments as in :class:`pathlib.Path`"
+msgstr ""
+
+#: lightning.app.storage.path.Path:10 of
+msgid ""
+"Construct a PurePath from one or several strings and or existing PurePath"
+" objects.  The strings and path objects are combined so as to yield a "
+"canonicalized path, which is incorporated into the new PurePath object."
+msgstr ""
+
+#: lightning.app.storage.path.Path._attach_queues:1 of
+msgid "Attaches the queues for communication with the Storage Orchestrator."
+msgstr ""
+
+#: lightning.app.storage.path.Path._attach_queues
+#: lightning.app.storage.path.Path._attach_work
+#: lightning.app.storage.path.Path._from_parts
+#: lightning.app.storage.path.Path._sanitize
+#: lightning.app.storage.path.Path.consumer_name
+#: lightning.app.storage.path.Path.exists
+#: lightning.app.storage.path.Path.exists_local
+#: lightning.app.storage.path.Path.exists_remote
+#: lightning.app.storage.path.Path.from_dict
+#: lightning.app.storage.path.Path.hash
+#: lightning.app.storage.path.Path.origin_name
+#: lightning.app.storage.path.Path.parent
+#: lightning.app.storage.path.Path.parents
+#: lightning.app.storage.path.Path.relative_to
+#: lightning.app.storage.path.Path.to_dict
+#: lightning.app.storage.path.Path.with_name
+#: lightning.app.storage.path.Path.with_suffix of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.storage.path.Path._attach_queues:4
+#: lightning.app.storage.path.Path._attach_work:11
+#: lightning.app.storage.path.Path._sanitize:4 of
+msgid ":py:obj:`None`"
+msgstr ""
+
+#: lightning.app.storage.path.Path._attach_work:1 of
+msgid "Attach a LightningWork to this Path."
+msgstr ""
+
+#: lightning.app.storage.path.Path._attach_work:3 of
+msgid ""
+"The first work to be attached becomes the `origin`, i.e., the Work that "
+"is meant to expose the file to other Work. Attaching a Work to a Path "
+"that already has an `origin` Work will make it a `consumer`. A consumer "
+"Work is a work that can access the file only by first transferring it via"
+" :meth:`transfer`."
+msgstr ""
+
+#: lightning.app.storage.path.Path._attach_work:8 of
+msgid "LightningWork to be attached to this Path."
+msgstr ""
+
+#: lightning.app.storage.path.Path._from_parts:1 of
+msgid "This gets called from the super class in ``pathlib.Path.__new__``."
+msgstr ""
+
+#: lightning.app.storage.path.Path._from_parts:3 of
+msgid ""
+"The Lightning Path overrides this to validate the instantiation in the "
+"case parts are passed in individually. In such a case we need to validate"
+" that all parts have the same `origin` and if not, an error is raised."
+msgstr ""
+
+#: lightning.app.storage.path.Path._from_parts:7
+#: lightning.app.storage.path.Path.from_dict:4
+#: lightning.app.storage.path.Path.parent:3
+#: lightning.app.storage.path.Path.relative_to:6
+#: lightning.app.storage.path.Path.with_name:4
+#: lightning.app.storage.path.Path.with_suffix:6 of
+msgid ":py:class:`~lightning.app.storage.path.Path`"
+msgstr ""
+
+#: lightning.app.storage.path.Path._sanitize:1 of
+msgid "Sanitize this Path so that it can be deep-copied."
+msgstr ""
+
+#: lightning.app.storage.path.Path.exists:1 of
+msgid "Check if the path exists locally or remotely."
+msgstr ""
+
+#: lightning.app.storage.path.Path.exists:3 of
+msgid ""
+"If the path exists locally, this method immediately returns ``True``, "
+"otherwise it will make a RPC call to the attached origin Work and check "
+"if the path exists remotely. If you strictly want to check local "
+"existence only, use :meth:`exists_local` instead. If you strictly want to"
+" check existence on the remote (regardless of whether the file exists "
+"locally or not), use :meth:`exists_remote`."
+msgstr ""
+
+#: lightning.app.storage.path.Path.exists:10
+#: lightning.app.storage.path.Path.exists_local:4
+#: lightning.app.storage.path.Path.exists_remote:6 of
+msgid ":py:class:`bool`"
+msgstr ""
+
+#: lightning.app.storage.path.Path.exists_local:1 of
+msgid "Check if the path exists locally."
+msgstr ""
+
+#: lightning.app.storage.path.Path.exists_remote:1 of
+msgid "Check if the path exists remotely on the attached orgin Work."
+msgstr ""
+
+#: lightning.app.storage.path.Path.exists_remote of
+msgid "Raises"
+msgstr ""
+
+#: lightning.app.storage.path.Path.exists_remote:3 of
+msgid "If the path is not attached to any Work (origin undefined)."
+msgstr ""
+
+#: lightning.app.storage.path.Path.from_dict:1 of
+msgid "Instantiate a Path from a dictionary."
+msgstr ""
+
+#: lightning.app.storage.path.Path.relative_to:1 of
+msgid ""
+"Return the relative path to another path identified by the passed "
+"arguments.  If the operation is not possible (because this is not a "
+"subpath of the other path), raise ValueError."
+msgstr ""
+
+#: lightning.app.storage.path.Path.to_dict:1 of
+msgid "Serialize this Path to a dictionary."
+msgstr ""
+
+#: lightning.app.storage.path.Path.to_dict:4 of
+msgid ":py:class:`dict`"
+msgstr ""
+
+#: lightning.app.storage.path.Path.with_name:1 of
+msgid "Return a new path with the file name changed."
+msgstr ""
+
+#: lightning.app.storage.path.Path.with_suffix:1 of
+msgid ""
+"Return a new path with the file suffix changed.  If the path has no "
+"suffix, add given suffix.  If the given suffix is an empty string, remove"
+" the suffix from the path."
+msgstr ""
+
+#: lightning.app.storage.path.Path.consumer_name:1 of
+msgid "The name of the LightningWork where this path is being accessed."
+msgstr ""
+
+#: lightning.app.storage.path.Path.consumer_name:3 of
+msgid "By default, this is the same as the :attr:`origin_name`."
+msgstr ""
+
+#: lightning.app.storage.path.Path.consumer_name:5
+#: lightning.app.storage.path.Path.origin_name:5 of
+msgid ":py:class:`str`"
+msgstr ""
+
+#: lightning.app.storage.path.Path.hash:1 of
+msgid ""
+"The hash of this Path uniquely identifies the file path and the "
+"associated origin Work."
+msgstr ""
+
+#: lightning.app.storage.path.Path.hash:3 of
+msgid ""
+"Returns ``None`` if the origin is not defined, i.e., this Path did not "
+"yet get attached to a LightningWork."
+msgstr ""
+
+#: lightning.app.storage.path.Path.hash:5 of
+msgid ":py:data:`~typing.Optional`\\[:py:class:`str`]"
+msgstr ""
+
+#: lightning.app.storage.path.Path.origin_name:1 of
+msgid "The name of the LightningWork where this path was first created."
+msgstr ""
+
+#: lightning.app.storage.path.Path.origin_name:3 of
+msgid ""
+"Attaching a Path to a LightningWork will automatically make it the "
+"`origin`."
+msgstr ""
+
+#: lightning.app.storage.path.Path.parent:1 of
+msgid "The logical parent of the path."
+msgstr ""
+
+#: lightning.app.storage.path.Path.parents:1 of
+msgid "A sequence of this path's logical parents."
+msgstr ""
+
+#: lightning.app.storage.path.Path.parents:3 of
+msgid ":py:class:`~typing.Sequence`\\[:py:class:`~lightning.app.storage.path.Path`]"
+msgstr ""
+

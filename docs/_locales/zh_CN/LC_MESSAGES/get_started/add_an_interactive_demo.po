@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../get_started/add_an_interactive_demo.rst:5
+msgid "Add an Interactive Demo"
+msgstr ""
+
+#: ../../get_started/add_an_interactive_demo.rst:9
+msgid ""
+"**Required background:** Basic Python familiarity and complete the "
+"install guide."
+msgstr ""
+
+#: ../../get_started/add_an_interactive_demo.rst:11
+msgid ""
+"**Goal:** We'll walk you through the 4 key steps to run a Lightning App "
+"that trains and demos a model."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:3
+msgid "The *Train & Demo PyTorch Lightning* Application"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:5
+#, python-format
+msgid ""
+"Find the *Train & Demo PyTorch Lightning* application in the "
+"`Lightning.ai App Gallery <https://lightning.ai/app/AU3WoWwdAP-"
+"Train%20%26%20Demo%20PyTorch%20Lightning>`_."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:7
+msgid ""
+"Here is a recording of this App running locally and in the cloud with the"
+" same behavior."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:18
+msgid ""
+"In the steps below, we are going to show you how to build this "
+"application."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:20
+msgid ""
+"Here are `the entire App's code <https://github.com/Lightning-AI"
+"/lightning-quick-start>`_ and `its commented components. "
+"<https://github.com/Lightning-AI/lightning-quick-"
+"start/blob/main/quick_start/components.py>`_"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:26
+msgid "Step 1: Install Lightning"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:28
+msgid ""
+"If you are using a virtual env, don't forget to activate it before "
+"running commands. You must do so in every new shell."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:31
+msgid "We highly recommend using virtual environments."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:41
+msgid "Step 2: Install the *Train and Demo* App"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:42
+msgid ""
+"The first Lightning App we'll explore is an App to train and demo a "
+"machine learning model."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:56
+msgid "Install this App by typing:"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:62
+msgid "Verify the App was succesfully installed:"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:72
+msgid "Step 3: Run the App locally"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:74
+msgid "Run the app locally with the ``run`` command 🤯"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:84
+msgid "Step 4: Run the App in the cloud"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:86
+msgid ""
+"Add the ``--cloud`` argument to run on the `Lightning.AI cloud "
+"<http://lightning.ai/>`_. 🤯🤯🤯"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:99
+msgid "Understand the code"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:100
+msgid ""
+"The App that we just launched trained a PyTorch Lightning model (although"
+" any framework works), then added an interactive demo."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:102
+msgid "This is the App's code:"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:136
+msgid ""
+"Let's break down the code section by section to understand what it is "
+"doing."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:141
+msgid "1: Define root component"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:143
+msgid ""
+"A Lightning App provides a cohesive product experience for a set of "
+"unrelated components."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:145
+msgid "The top-level component (Root) must subclass ``L.LightningFlow``"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:184
+msgid "2: Define components"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:185
+msgid ""
+"In the __init__ method, we define the components that make up the App. In"
+" this case, we have 2 components, a component to execute any PyTorch "
+"Lightning script (model training) and a second component to start a "
+"Gradio server for demo purposes."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:225
+msgid "3: Define how components Flow"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:226
+msgid ""
+"Every component has a ``run`` method. The run method defines the 🌊 Flow 🌊"
+" of how components interact together."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:228
+msgid ""
+"In this case, we train a model (until completion). When it's done AND "
+"there exists a checkpoint, we launch a demo server:"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:264
+msgid ""
+"If you've used other ML systems you'll be pleasantly surprised to not "
+"find decorators or YAML files."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:269
+msgid "4: Connect web user interfaces"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:270
+msgid "All our favorite tools normally have their own web user interfaces (UI)."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:272
+msgid "Implement the ``configure_layout`` method to connect them together:"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:310
+msgid "5: Init the ``app`` object"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:311
+msgid ""
+"Initialize an ``app`` object with the ``TrainDeploy`` component (this "
+"won't run the App yet):"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:350
+msgid "What components are supported?"
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:351
+msgid "Any component can work with Lightning AI!"
+msgstr ""
+
+msgid "What is Lightning gif."
+msgstr ""
+
+#: ../../get_started/go_beyond_training_content.rst:361
+msgid "Next Steps"
+msgstr ""
+

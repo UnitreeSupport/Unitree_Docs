@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../levels/basic/save_money_on_cloud_costs.rst:3
+msgid "Level 3: Save money on cloud costs"
+msgstr ""
+
+#: ../../levels/basic/save_money_on_cloud_costs.rst:4
+msgid "**Audience:** Users who want to use the AWS cloud efficiently."
+msgstr ""
+
+#: ../../levels/basic/save_money_on_cloud_costs.rst:6
+msgid ""
+"**Prereqs:** You must have finished `level 1 "
+"<../basic/build_a_lightning_component.html>`_."
+msgstr ""
+
+#: ../../levels/basic/save_money_on_cloud_costs.rst:12
+msgid "Save money with these optimizations"
+msgstr ""
+
+#: ../../levels/basic/save_money_on_cloud_costs.rst:13
+msgid ""
+"A Lightning component gives you fine-grain control over the cloud "
+"lifecycle of that component."
+msgstr ""
+
+#: ../../levels/basic/save_money_on_cloud_costs.rst:15
+msgid ""
+"Here are a few features that will enable you save a lot on your cloud "
+"costs:"
+msgstr ""
+
+#: ../../cloud/customize_a_lightning_cluster.rst:3
+msgid "Take full control of your cluster"
+msgstr ""
+
+#: ../../cloud/customize_a_lightning_cluster.rst:4
+msgid ""
+"If you are an experienced user, we can enable you to fully own your "
+"cluster configuration using terraform directly. Please email "
+"support@lightning.ai for more information."
+msgstr ""
+
+#: ../../cloud/customize_a_lightning_cluster.rst:11
+msgid "Get help building an optimized cluster"
+msgstr ""
+
+#: ../../cloud/customize_a_lightning_cluster.rst:12
+msgid ""
+"For enterprise and academic use-cases, we offer tailored cluster set up "
+"in case you don't have experts in-house. Email support@lightning.ai."
+msgstr ""
+
+#: ../../levels/basic/save_money_on_cloud_costs.rst:34
+msgid "Next: Coordinate 2+ components"
+msgstr ""
+
+#: ../../levels/basic/save_money_on_cloud_costs.rst:35
+msgid ""
+"Now that you know how to organize arbitrary code inside a Lightning "
+"component, learn to coordinate 2 or more components into workflows which "
+"we call Lightning apps."
+msgstr ""
+

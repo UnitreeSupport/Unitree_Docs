@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_server/any_server.rst:3
+msgid "Enable any server (basic)"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:4
+msgid "**Audience:** Users who want to enable an arbitrary server/UI."
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:6
+msgid "**Prereqs:** Basic python knowledge."
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:12
+msgid "What is a server?"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:13
+msgid ""
+"A server is a program that enables other programs or users to connect to "
+"it. As long as your server can listen on a port, you can enable it with a"
+" Lightning App."
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:20
+msgid "Add a server to a component"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:21
+msgid ""
+"Any server that listens on a port, can be enabled via a work. For "
+"example, here's a plain python server:"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:42
+msgid ""
+"To enable the server inside the component, start the server in the run "
+"method and use the ``self.host`` and ``self.port`` properties:"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:70
+msgid "Route the server in the root component"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:71
+msgid ""
+"The final step, is to tell the Root component in which tab to render this"
+" component's output: In this case, we render the ``LitServer`` output in "
+"the ``home`` tab of the application."
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:112
+msgid ""
+"We use the ``parallel=True`` argument of ``LightningWork`` to run the "
+"server in parallel while the rest of the Lightning App runs everything "
+"else."
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:119
+msgid "Run the app"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:120
+msgid "Start the app to see your new UI!"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:126
+msgid "To run the app on the cloud, use the ``--cloud`` argument."
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:136
+msgid "Interact with a component from the server"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:137
+#: ../../workflows/add_server/any_server.rst:145
+msgid "TODO: how do we do this?"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:144
+msgid "Interact with the server from a component"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:151
+msgid "Examples"
+msgstr ""
+
+#: ../../workflows/add_server/any_server.rst:152
+msgid "Here are a few example apps that expose a server via a component:"
+msgstr ""
+

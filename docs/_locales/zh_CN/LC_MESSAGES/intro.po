@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../intro.rst:7
+msgid "What is Lightning?"
+msgstr ""
+
+#: ../../intro.rst:9
+msgid ""
+"Lightning is a free, modular, distributed, and open-source framework for "
+"building AI applications where the components you want to use interact "
+"together."
+msgstr ""
+
+#: ../../intro.rst:12
+msgid ""
+"Lightning apps can be built for **any AI use case**, ranging from AI "
+"research to production-ready pipelines (and everything in between!)."
+msgstr ""
+
+#: ../../intro.rst:15
+msgid ""
+"By abstracting the engineering boilerplate, Lightning allows researchers,"
+" data scientists, and software engineers to build highly-scalable, "
+"production-ready AI apps using the tools and technologies of their "
+"choice, regardless of their level of engineering expertise."
+msgstr ""
+
+msgid "What is Lightning gif."
+msgstr ""
+
+#: ../../intro.rst:29
+msgid "Why Lightning?"
+msgstr ""
+
+#: ../../intro.rst:33
+msgid "Easy to learn"
+msgstr ""
+
+#: ../../intro.rst:35
+msgid ""
+"Lightning was built for creating AI apps, not for dev-ops. It offers an "
+"intuitive, pythonic and highly composable interface that allows you to "
+"focus on solving the problems that are important to you."
+msgstr ""
+
+#: ../../intro.rst:41
+msgid "Quick to deliver"
+msgstr ""
+
+#: ../../intro.rst:43
+msgid ""
+"Lightning speeds the development process by offering testable templates "
+"you can build from, accelerating the process of moving from idea to "
+"prototype and finally to market."
+msgstr ""
+
+#: ../../intro.rst:49
+msgid "Easy to scale"
+msgstr ""
+
+#: ../../intro.rst:51
+msgid ""
+"Lightning provides a mirrored experience locally and in the cloud. The "
+"`lightning.ai <https://lightning.ai>`_. cloud platform abstracts the "
+"infrastructure, so you can run your apps at any scale."
+msgstr ""
+
+#: ../../intro.rst:57
+msgid "Easy to collaborate"
+msgstr ""
+
+#: ../../intro.rst:59
+msgid ""
+"Lightning was built for collaboration. By following the best MLOps "
+"practices provided through our documentation and example use cases, you "
+"can deploy state-of-the-art ML applications that are ready to be used by "
+"teams of all sizes."
+msgstr ""
+
+#: ../../intro.rst:67
+msgid "What's Novel With Lightning?"
+msgstr ""
+
+#: ../../intro.rst:71
+msgid "Cloud Infra Made Simple and Pythonic"
+msgstr ""
+
+#: ../../intro.rst:73
+msgid ""
+"Lightning is for building reactive, scalable, cost effective, easy-to-"
+"maintain and reliable ML products in the cloud without worrying about "
+"infrastructure. Lightning provides several engineering novelties to "
+"enable this:"
+msgstr ""
+
+#: ../../intro.rst:75
+msgid ""
+"**Reactivity**: Lightning allows you to run stateful components "
+"distributed across different machines, so you can design async, dynamic "
+"and reactive workflows in python, without having to define DAGs."
+msgstr ""
+
+#: ../../intro.rst:77
+msgid ""
+"**Scalable & Cost-Effective**: Lightning provides a granular and simple "
+"way to run components preemptively or on-demand and on any desired "
+"resource such as CPU or GPU. It also enables you to easily transfer "
+"artifacts from one machine to another."
+msgstr ""
+
+#: ../../intro.rst:79
+msgid "**Reliability**:"
+msgstr ""
+
+#: ../../intro.rst:81
+msgid ""
+"**Checkpointing**: Lightning apps can be paused and resumed from "
+"generated state and artifact-based checkpoints."
+msgstr ""
+
+#: ../../intro.rst:82
+msgid ""
+"**Resilience**: Lightning has a strong fault-tolerance foundation. Your "
+"application can be written and tested to be resilient for cloud hazards "
+"at the component level."
+msgstr ""
+
+#: ../../intro.rst:83
+msgid ""
+"**Testing Tools**: Lightning provides you with tools and best practices "
+"you can use to develop and test your application. All of our built-in "
+"templates have unit integration and end-to-end tests."
+msgstr ""
+
+#: ../../intro.rst:85
+msgid "**Easy to maintain**:"
+msgstr ""
+
+#: ../../intro.rst:87
+msgid ""
+"**Easy Debugging**: Lightning apps can be debugged locally and in the "
+"cloud with **breakpoints** in any components."
+msgstr ""
+
+#: ../../intro.rst:88
+msgid ""
+"**Non-Invasive**: Lightning is the glue that connects all parts of your "
+"workflow, but this is done in a non-invasive way by formalizing API "
+"contracts between components. In other words, your application can run "
+"someone else's code with little assumption."
+msgstr ""
+

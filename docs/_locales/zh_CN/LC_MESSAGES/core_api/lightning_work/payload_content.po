@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../core_api/lightning_work/payload_content.rst:4
+msgid "What transferring objects does for you"
+msgstr ""
+
+#: ../../core_api/lightning_work/payload_content.rst:6
+msgid ""
+"Imagine your application is processing some data using `pandas DaFrame "
+"<https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html>`_ "
+"and you want to pass that data to another LightningWork (Work). This is "
+"what the **Payload API** is meant for."
+msgstr ""
+
+#: ../../core_api/lightning_work/payload_content.rst:12
+msgid "Use the Lightning Payload"
+msgstr ""
+
+#: ../../core_api/lightning_work/payload_content.rst:14
+msgid ""
+"The Payload enables non JSON-serializable attribute objects to be part of"
+" your Work's state and to be communicated to other Works."
+msgstr ""
+
+#: ../../core_api/lightning_work/payload_content.rst:16
+msgid "Here is an example:"
+msgstr ""
+
+#: ../../core_api/lightning_work/payload_content.rst:43
+msgid ""
+"Once the Payload object is attached to your Work's state, it can be "
+"passed to another work using the LightningFlow (Flow) as follows:"
+msgstr ""
+

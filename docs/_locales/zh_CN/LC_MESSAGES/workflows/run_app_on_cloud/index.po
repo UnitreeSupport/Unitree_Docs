@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/run_app_on_cloud/index.rst:3
+msgid "Run apps on the cloud"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/index_content.rst:12
+msgid "**Audience:** Users who want to share or scale Lightning Apps."
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/index_content.rst:18
+msgid "Run on Lightning Public Cloud"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/index_content.rst:20
+msgid ""
+"You can run Lightning Apps for free on the Public Lightning cloud with a "
+"single flag!"
+msgstr ""
+
+#: ../../workflows/run_app_on_cloud/index_content.rst:86
+msgid "Other Clouds"
+msgstr ""
+

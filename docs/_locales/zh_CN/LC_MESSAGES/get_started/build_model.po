@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../get_started/build_model.rst:7
+msgid "Build and Train a Model"
+msgstr ""
+
+#: ../../get_started/build_model.rst:9
+msgid "**Required background:** Basic Python familiarity and complete the  guide."
+msgstr ""
+
+#: ../../get_started/build_model.rst:11
+msgid ""
+"**Goal:** We'll walk you through the creation of a model using PyTorch "
+"Lightning."
+msgstr ""
+
+#: ../../get_started/build_model.rst:20
+msgid "A simple PyTorch Lightning script"
+msgstr ""
+
+#: ../../get_started/build_model.rst:22
+msgid "Let's assume you already have a folder with those two files."
+msgstr ""
+
+#: ../../get_started/build_model.rst:30
+msgid ""
+"If you don't, simply create a ``pl_project`` folder with those two files "
+"and add the following `PyTorch Lightning <https://pytorch-"
+"lightning.readthedocs.io/en/latest/>`_ code  in the ``train.py`` file. "
+"This code trains a simple ``AutoEncoder`` on `MNIST Dataset "
+"<https://en.wikipedia.org/wiki/MNIST_database>`_."
+msgstr ""
+
+#: ../../get_started/build_model.rst:34
+msgid "Add the following to the ``requirements.txt`` file."
+msgstr ""
+
+#: ../../get_started/build_model.rst:38
+msgid ""
+"Simply run the following commands in your terminal to install the "
+"requirements and train the model."
+msgstr ""
+
+#: ../../get_started/build_model.rst:45
+msgid ""
+"Get through `PyTorch Lightning Introduction <https://pytorch-"
+"lightning.readthedocs.io/en/stable/starter/introduction.html#step-1"
+"-define-lightningmodule>`_ to learn more."
+msgstr ""
+
+#: ../../get_started/build_model.rst:51
+msgid "Next Steps"
+msgstr ""
+

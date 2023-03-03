@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/build_rest_api/request_validation.rst:5
+msgid "Add Requests Validation"
+msgstr ""
+
+#: ../../workflows/build_rest_api/request_validation.rst:7
+msgid ""
+"The Lightning App framework uses the popular `FastAPI "
+"<https://fastapi.tiangolo.com/>`_ and `Pydantic <https://pydantic-"
+"docs.helpmanual.io/>`_ frameworks under the hood. This means you can use "
+"all their features while building your App."
+msgstr ""
+
+#: ../../workflows/build_rest_api/request_validation.rst:9
+msgid ""
+"pydantic enables fast data validation and settings management using "
+"Python type annotations and FastAPI is a modern, fast (high-performance),"
+" web framework for building APIs."
+msgstr ""
+
+#: ../../workflows/build_rest_api/request_validation.rst:11
+msgid "You can easily use pydantic by defining your own payload format."
+msgstr ""
+
+#: ../../workflows/build_rest_api/request_validation.rst:15
+msgid "Then, type your handler input with your custom model."
+msgstr ""
+
+#: ../../workflows/build_rest_api/request_validation.rst:19
+msgid ""
+"After running the updated App, the App documentation ``/name`` has "
+"changed and takes JSON with ``{\"name\": ...}`` as input."
+msgstr ""
+
+msgid "Rest API with pydantic"
+msgstr ""
+
+#: ../../workflows/build_rest_api/request_validation.rst:25
+msgid "You can invoke the RESTful API route ``/name`` with the following command:"
+msgstr ""
+
+#: ../../workflows/build_rest_api/request_validation.rst:39
+msgid "Using curl, you can pass a JSON payload using the ``-d`` argument."
+msgstr ""
+
+#: ../../workflows/build_rest_api/request_validation.rst:45
+msgid "Learn more"
+msgstr ""
+

@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../testing.rst:7
+msgid "Productionize your Apps"
+msgstr ""
+
+#: ../../testing.rst:9
+msgid "TODO: Cleanup"
+msgstr ""
+
+#: ../../testing.rst:11
+msgid ""
+"At the core of our system is an integration testing framework that will "
+"allow for a first-class experience creating integration tests for "
+"Lightning Apps. This document will explain how we can create a lightning "
+"app test, how we can execute it, and where to find more information."
+msgstr ""
+
+#: ../../testing.rst:17
+msgid "Philosophy"
+msgstr ""
+
+#: ../../testing.rst:19
+msgid ""
+"Testing a Lightning app is unique. It is a superset of an application "
+"that converges machine learning, API development, and UI development. "
+"With that in mind, there are several philosophies (or \"best practices\")"
+" that you should adhere to:"
+msgstr ""
+
+#: ../../testing.rst:22
+msgid ""
+"**Control your app state** - With integration and end to end tests, you "
+"have the capabilities of controlling your app's state through dependency "
+"injection. Use it!"
+msgstr ""
+
+#: ../../testing.rst:23
+msgid ""
+"**Integration focuses on the work, End to End focuses on the app** - When"
+" writing tests, think of the depth and breath of what you are writing. "
+"Write many integration tests since they are relatively cheap, while "
+"keeping the end to end tests for holistic app testing."
+msgstr ""
+
+#: ../../testing.rst:24
+msgid ""
+"**Don't overthink it** - What needs to be tested? What is the order of "
+"risk? These are the questions you should build with before writing your "
+"first line of code. Writing tests for the sake of writing tests is an "
+"exercise in futility. Write meaningful, impactful tests."
+msgstr ""
+
+#: ../../testing.rst:25
+msgid ""
+"**Test Isolation** - Write your tests in an isolated manner. No two tests"
+" should ever depend on each other."
+msgstr ""
+
+#: ../../testing.rst:26
+msgid "**Use your framework** - Testing apps should be framework agnostic."
+msgstr ""
+
+#: ../../testing.rst:27
+msgid ""
+"**Have fun!** - At the heart of testing is experimentation. Like any "
+"experiment, tests begin with a hypothesis of workability, but you can "
+"extend that to be more inclusive. Ask the question, write the test to "
+"answer your question, and make sure you have fun while doing it."
+msgstr ""
+
+#: ../../testing.rst:33
+msgid "Anatomy of a Lightning integration test"
+msgstr ""
+
+#: ../../testing.rst:35
+msgid ""
+"The following is a PyTest example of an integration test using the "
+"``lightning_app.testing`` module."
+msgstr ""
+
+#: ../../testing.rst:71
+msgid "Setting up the app"
+msgstr ""
+
+#: ../../testing.rst:73
+msgid ""
+"Lightning apps are unique in that they represent a full stack model for "
+"your machine learning application. To be clear, the integration tests are"
+" *NOT* going to touch the UI flow. Instead we inject your application "
+"with helper methods that, when executed, can assist in validating your "
+"application."
+msgstr ""
+
+#: ../../testing.rst:75
+msgid "To get started, you simply need to import the following:"
+msgstr ""
+
+#: ../../testing.rst:81
+msgid ""
+"We will discuss ``application_testing`` in a bit, but first let's review "
+"the structure of ``LightningTestApp``."
+msgstr ""
+
+#: ../../testing.rst:86
+msgid "LightningTestApp"
+msgstr ""
+
+#: ../../testing.rst:88
+msgid ""
+"The :class:`lightning_app.testing.testing.LightningTestApp` class is "
+"available to use for provisioning and setting up your testing needs. Note"
+" that you do not need this class to move forward with testing. Any "
+"application that inherits ``LightningApp`` should suffice as long as you "
+"override the correct methods. Reviewing the TestLightnigApp we see some "
+"overrides that are already there. Please revuew the class for more "
+"information."
+msgstr ""
+
+#: ../../testing.rst:100
+msgid ""
+"We create a test class overriding the ``run_once`` function. This "
+"function helps control the flow of your application and is ran first. In "
+"this example we are calling ``self.root.counter`` and checking if the job"
+" has executed once. If so, we want to print out ``V0 App End`` and set "
+"the ``self.stage`` to ``AppStage.STOPPING``. This is how we control the "
+"flow through state. Your situation might be different, so experiment and "
+"see what you can do!"
+msgstr ""
+
+#: ../../testing.rst:102
+msgid "Besides ``run_once`` there are a few other overrides available:"
+msgstr ""
+
+#: ../../testing.rst:105
+msgid ""
+"``on_before_run_once`` - This runs before your ``run_once`` function "
+"kicks off. You can set up your application pre-conditions here."
+msgstr ""
+
+#: ../../testing.rst:106
+msgid ""
+"``on_after_run_once`` - Similar to ``on_before_run_once`` but after the "
+"``run_once`` method is called."
+msgstr ""
+
+#: ../../testing.rst:108
+msgid "These methods will skew your tests, so use them when needed."
+msgstr ""
+
+#: ../../testing.rst:113
+msgid "The Test"
+msgstr ""
+
+#: ../../testing.rst:115
+msgid ""
+"We provide ``application_testing`` as a helper funtion to get your "
+"application up and running for testing. It uses ``click``\\ 's invocation"
+" tooling underneath."
+msgstr ""
+
+#: ../../testing.rst:127
+msgid ""
+"First in the list for ``command_line`` is the location of your script. It"
+" is an external file. In this example we have ``_PROJECT_ROOT`` but this "
+"is *not* a helper constant for you to utilize. You will need to provide "
+"the location yourself."
+msgstr ""
+
+#: ../../testing.rst:129
+msgid "Next there are a couple of options you can leverage:"
+msgstr ""
+
+#: ../../testing.rst:131
+msgid ""
+"``blocking`` - Blocking is an app status that says \"Do not run until I "
+"click run in the UI\". For our integration test, since we are not using "
+"the UI, we are setting this to \"False\"."
+msgstr ""
+
+#: ../../testing.rst:132
+msgid ""
+"``open-ui`` - We set this to false since this is the routine that opens a"
+" browser for your local execution."
+msgstr ""
+
+#: ../../testing.rst:134
+msgid ""
+"Once you have your commandline ready, you will then be able to kick off "
+"the test and gather results:"
+msgstr ""
+
+#: ../../testing.rst:140
+msgid ""
+"As mentioned earlier, ``application_testing`` is a helper method that "
+"allows you to inject your TestLightningApp class (with overrides) and the"
+" commandline flags. Once the process is done it returns the results back "
+"for parsing."
+msgstr ""
+
+#: ../../testing.rst:147
+msgid ""
+"Since we injected \"V0 App End\" to the end of our test flow. The state "
+"was changed to ``AppStatus.STOPPING`` which means the process is done. "
+"Finally, we check the result's exit code to make sure that we did not "
+"throw an error during execution."
+msgstr ""
+
+#: ../../testing.rst:153
+msgid "End to End"
+msgstr ""
+
+#: ../../testing.rst:155
+msgid "TODO"
+msgstr ""
+

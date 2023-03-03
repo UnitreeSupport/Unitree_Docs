@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../ui_and_frontends.rst:7
+msgid "UI and Frontends"
+msgstr ""
+
+#: ../../ui_and_frontends.rst:10
+msgid ""
+"The Lightning framework allows you to create customized, interactive UIs "
+"with the framework of your choice."
+msgstr ""
+
+#: ../../ui_and_frontends.rst:12
+msgid ""
+"You can easily embed other tools and services (like a GitHub repo, a "
+"`FastAPI Service <https://fastapi.tiangolo.com/>`_, an `arXiv "
+"<https://arxiv.org/>`_ paper or a `Dask Cluster "
+"<https://docs.dask.org/en/stable/>`_ Admin page), or create a complete UI"
+" from scratch."
+msgstr ""
+
+#: ../../ui_and_frontends.rst:15
+msgid ""
+"To get started, you can use built-in templates for the following "
+"frameworks:"
+msgstr ""
+
+#: ../../ui_and_frontends.rst:17
+msgid "`React.js <https://github.com/Lightning-AI/lightning-template-react>`_"
+msgstr ""
+
+#: ../../ui_and_frontends.rst:18
+msgid ""
+"`StreamLit <https://github.com/Lightning-AI/lightning-template-"
+"streamlit>`_"
+msgstr ""
+
+#: ../../ui_and_frontends.rst:22
+msgid ""
+"To keep learning about Lightning, check out :ref:`moving_to_the_cloud`. "
+"This section covers best practices to seamlessly make your Lightning code"
+" work both locally and in the cloud."
+msgstr ""
+

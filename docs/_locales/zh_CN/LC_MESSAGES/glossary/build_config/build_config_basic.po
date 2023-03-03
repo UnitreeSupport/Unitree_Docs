@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/build_config/build_config_basic.rst:5
+msgid "Build Configuration (Basic)"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_basic.rst:7
+msgid ""
+"**Audience:** Users who need to install Python packages for an individual"
+" LightningWork."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_basic.rst:9
+msgid "**Level:** Basic"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_basic.rst:15
+msgid "List dependencies in separate files"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_basic.rst:17
+msgid ""
+"If you are building an app with multiple LightningWorks that have "
+"different or even conflicting requirements, split your dependencies into "
+"individual files for more granular control."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_basic.rst:32
+msgid ""
+"The requirements.txt file must be located in the same directry as the "
+"source file of the LightningWork. When the LightningWork starts up, it "
+"will pick up the requirements file if present and install all listed "
+"packages."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_basic.rst:36
+msgid ""
+"This only applies when running in the cloud. The requirements.txt files "
+"get ignored when running locally."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_basic.rst:42
+msgid "Define the requirements in the code"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_basic.rst:44
+msgid ""
+"Instead of listing the requirements in a file, you can also pass them to "
+"the LightningWork at runtime using the "
+":class:`~lightning_app.utilities.packaging.build_config.BuildConfig`:"
+msgstr ""
+
+#: ../../glossary/build_config/build_config_basic.rst:59
+msgid ""
+"The build config only applies when running in the cloud and gets ignored "
+"otherwise. A local build config is currently not supported."
+msgstr ""
+
+#: ../../glossary/build_config/build_config_basic.rst:62
+msgid ""
+"Custom base images are not supported with the default CPU cloud compute. "
+"For example:"
+msgstr ""
+

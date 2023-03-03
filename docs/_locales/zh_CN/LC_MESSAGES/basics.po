@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../basics.rst:7
+msgid "Basics"
+msgstr ""
+
+#: ../../basics.rst:9
+msgid ""
+"In this guide, we'll cover the basic terminology associated with the "
+"Lightning framework."
+msgstr ""
+
+#: ../../basics.rst:15
+msgid "Lightning App"
+msgstr ""
+
+#: ../../basics.rst:17
+msgid ""
+"The :class:`~lightning_app.core.app.LightningApp` runs a tree of one or "
+"more components that interact to create end-to-end applications. There "
+"are two kinds of components: "
+":class:`~lightning_app.core.flow.LightningFlow` and "
+":class:`~lightning_app.core.work.LightningWork`. This modular design "
+"enables you to reuse components created by other users."
+msgstr ""
+
+#: ../../basics.rst:22
+msgid "Lightning Work"
+msgstr ""
+
+#: ../../basics.rst:24
+msgid ""
+"The :class:`~lightning_app.core.work.LightningWork` component is a "
+"building block optimized for long-running jobs or integrating third-party"
+" services. LightningWork can be used for training large models, "
+"downloading a dataset, or any long-lasting operation."
+msgstr ""
+
+#: ../../basics.rst:29
+msgid "Lightning Flow"
+msgstr ""
+
+#: ../../basics.rst:31
+msgid ""
+"The :class:`~lightning_app.core.flow.LightningFlow` component coordinates"
+" long-running tasks :class:`~lightning_app.core.work.LightningWork` and "
+"runs its children :class:`~lightning_app.core.flow.LightningFlow` "
+"components."
+msgstr ""
+
+#: ../../basics.rst:36
+msgid "Lightning App Tree"
+msgstr ""
+
+#: ../../basics.rst:38
+msgid ""
+"Components can be nested to form component trees where the LightningFlows"
+" are its branches and LightningWorks are its leaves."
+msgstr ""
+
+#: ../../basics.rst:40
+msgid "Here's a basic application with four flows and two works:"
+msgstr ""
+
+#: ../../basics.rst:44
+msgid "And here's its associated tree structure:"
+msgstr ""
+
+msgid "Basic App Components"
+msgstr ""
+
+#: ../../basics.rst:50
+msgid ""
+"A Lightning App runs all flows into a single process. Its flows "
+"coordinate the execution of the works each running in their own "
+"independent processes."
+msgstr ""
+
+#: ../../basics.rst:55
+msgid "Lightning Distributed Event Loop"
+msgstr ""
+
+#: ../../basics.rst:57
+msgid ""
+"Drawing inspiration from modern web frameworks like `React.js "
+"<https://reactjs.org/>`_, the Lightning app runs all flows in an **event "
+"loop** (forever), which is triggered every 0.1 seconds after collecting "
+"any works' state change."
+msgstr ""
+
+#: ../../basics.rst:61
+msgid ""
+"When running an app in the cloud, the "
+":class:`~lightning_app.core.work.LightningWork` run on different "
+"machines. Lightning communicates any "
+":class:`~lightning_app.core.work.LightningWork` state changes to the "
+"**event loop** which re-executes the flow with the newly-collected works'"
+" state."
+msgstr ""
+
+#: ../../basics.rst:66
+msgid "Lightning App State"
+msgstr ""
+
+#: ../../basics.rst:68
+msgid ""
+"By design, each component is stateful and its state is composed of all "
+"its attributes. The **Lightning App State** is the collection of all its "
+"components state."
+msgstr ""
+
+#: ../../basics.rst:70
+msgid ""
+"With this mechanism, any component can **react** to any other component "
+"**state changes**, simply by relying on its attributes within the flow."
+msgstr ""
+
+#: ../../basics.rst:72
+msgid ""
+"For example, here we define two flow components, **RootFlow** and "
+"**ChildFlow**, where the child flow prints and increments a counter "
+"indefinitely and gets reflected in **RootFlow** state."
+msgstr ""
+
+#: ../../basics.rst:74
+msgid "You can easily check the state of your entire app:"
+msgstr ""
+
+#: ../../basics.rst:78
+msgid "Here's the entire tree structure associated with your app:"
+msgstr ""
+
+msgid "Parent Child Components"
+msgstr ""
+
+#: ../../basics.rst:84
+msgid ""
+"And here's the output you get when running the above application using "
+"**Lightning CLI**:"
+msgstr ""
+
+#: ../../basics.rst:103
+msgid ""
+"This app will count forever because the **lightning event loop** "
+"indefinitely calls the root flow run method."
+msgstr ""
+
+#: ../../basics.rst:109
+msgid "Controlling the Execution Flow"
+msgstr ""
+
+#: ../../basics.rst:113
+msgid "LightningWork: To Cache or Not to Cache Calls"
+msgstr ""
+
+#: ../../basics.rst:115
+msgid "With Lightning, you can control how to run your components."
+msgstr ""
+
+#: ../../basics.rst:117
+msgid ""
+"By default, the :class:`~lightning_app.core.flow.LightningFlow` is "
+"executed infinitely by the **Lightning Infinite Loop** and the "
+":class:`~lightning_app.core.work.LightningWork` does not run in "
+"**parallel**, meaning the **Lightning Infinite Loop** (a.k.a the flow) "
+"waits until that long-running work is completed to continue."
+msgstr ""
+
+#: ../../basics.rst:120
+msgid ""
+"Similar to `React.js Components and Props <https://reactjs.org/docs"
+"/components-and-props.html>`_, the "
+":class:`~lightning_app.core.work.LightningWork` component accepts "
+"arbitrary inputs (the \"props\") to its **run** method and by default "
+"runs **once** for each unique input provided."
+msgstr ""
+
+#: ../../basics.rst:123
+msgid "Here's an example of this behavior:"
+msgstr ""
+
+#: ../../basics.rst:129
+msgid "And you should see the following by running the code above:"
+msgstr ""
+
+#: ../../basics.rst:139
+msgid "As you can see, the intermediate run didn't execute as already cached."
+msgstr ""
+
+#: ../../basics.rst:141
+msgid ""
+"To disable this behavior, set ``cache_calls=False`` to make any "
+"LightningWork run infinitely."
+msgstr ""
+
+#: ../../basics.rst:159
+msgid ""
+"Passing a sequence of different props to the work run method queues their"
+" execution. We recommend avoiding this behavior as it can be hard to "
+"debug. Instead, wait for the previous run to execute."
+msgstr ""
+
+#: ../../basics.rst:164
+msgid "LightningWork: Parallel vs Non Parallel"
+msgstr ""
+
+#: ../../basics.rst:166
+msgid "The LightningWork component is made for long-running jobs."
+msgstr ""
+
+#: ../../basics.rst:168
+msgid ""
+"As an example, let's create a long-running **LightningWork** component "
+"that will take 1 hour to do its \"work\"."
+msgstr ""
+
+#: ../../basics.rst:174
+msgid ""
+"Here's the output you get when running the above application using "
+"**Lightning CLI**:"
+msgstr ""
+
+#: ../../basics.rst:194
+msgid ""
+"The child work runs only once, hence why the progress counter stops "
+"increasing once the work is completed."
+msgstr ""
+
+#: ../../basics.rst:196
+msgid ""
+"This is useful for monitoring the progress of a long-running operation, "
+"like training a big model."
+msgstr ""
+
+#: ../../basics.rst:199
+msgid ""
+"The Lightning Infinite Loop runs multiple cycles per second. It is good "
+"practice to keep the loop running fast, so that your application stays "
+"responsive, especially when it contains user-interface components."
+msgstr ""
+
+#: ../../basics.rst:207
+msgid "Multiple works"
+msgstr ""
+
+#: ../../basics.rst:209
+msgid ""
+"In practical use cases, you might want to execute multiple long-running "
+"works in parallel."
+msgstr ""
+
+#: ../../basics.rst:211
+msgid ""
+"To enable this behavior, set ``parallel=True`` in the ``__init__`` method"
+" of your :class:`~lightning_app.core.work.LightningWork`."
+msgstr ""
+
+#: ../../basics.rst:214
+msgid ""
+"Here's an example of the interaction between parallel and non-parallel "
+"behaviors:"
+msgstr ""
+
+msgid "mnist GPU bar"
+msgstr ""
+
+#: ../../basics.rst:220
+msgid ""
+"Below, we reuse the **HourLongWork** work defined in the previous "
+"example, but modify the **RootFlow** to run two **HourLongWork** works in"
+" a parallel way."
+msgstr ""
+
+#: ../../basics.rst:226
+msgid ""
+"Above, both ``child_work_1`` and ``child_work_2`` are long-running works "
+"that are executed asynchronously in parallel."
+msgstr ""
+
+#: ../../basics.rst:229
+msgid "When running the above app, we see the following logs:"
+msgstr ""
+
+#: ../../basics.rst:257
+msgid "Next Steps"
+msgstr ""
+
+#: ../../basics.rst:259
+msgid "To keep learning about Lightning, build a :ref:`ui_and_frontends`."
+msgstr ""
+

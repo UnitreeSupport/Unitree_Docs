@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../core_api/lightning_work/compute.rst:7
+msgid "Customize your Cloud Compute"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute.rst:9
+msgid "**Audience:** Users who want to select the hardware to run in the cloud."
+msgstr ""
+
+#: ../../core_api/lightning_work/compute.rst:11
+msgid "**Level:** Intermediate"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:4
+msgid "Customize my Work resources"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:6
+msgid ""
+"In the cloud, you can simply configure which machine to run on by passing"
+" a :class:`~lightning_app.utilities.packaging.cloud_compute.CloudCompute`"
+" to your work ``__init__`` method:"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:26
+msgid ""
+"Custom base images are not supported with the default CPU cloud compute. "
+"For example:"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:35
+msgid "Here is the full list of supported machine names:"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:37
+msgid "Hardware by Accelerator Type"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:41
+msgid "Name"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:42
+msgid "# of CPUs"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:43
+msgid "GPUs"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:44
+msgid "Memory"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:45
+msgid "default"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:46
+msgid "1"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:47
+#: ../../core_api/lightning_work/compute_content.rst:51
+#: ../../core_api/lightning_work/compute_content.rst:55
+msgid "0"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:48
+msgid "4 GB"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:49
+msgid "cpu-small"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:50
+msgid "2"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:52
+msgid "8 GB"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:53
+msgid "cpu-medium"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:54
+#: ../../core_api/lightning_work/compute_content.rst:62
+msgid "8"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:56
+msgid "32 GB"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:57
+msgid "gpu"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:58
+msgid "4"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:59
+msgid "1 (T4, 16 GB)"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:60
+msgid "16 GB"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:61
+msgid "gpu-fast"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:63
+msgid "1 (V100, 16 GB)"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:64
+msgid "61 GB"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:65
+msgid "gpu-fast-multi"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:66
+msgid "32"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:67
+msgid "4 (V100 16 GB)"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:68
+msgid "244 GB"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:70
+msgid ""
+"The up-to-date prices for these instances can be found `here "
+"<https://lightning.ai/pages/pricing>`_."
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:76
+msgid "Stop my work when idle"
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:78
+msgid ""
+"By providing **idle_timeout=X Seconds**, the work is automatically "
+"stopped **X seconds** after doing nothing."
+msgstr ""
+
+#: ../../core_api/lightning_work/compute_content.rst:91
+msgid "CloudCompute"
+msgstr ""
+

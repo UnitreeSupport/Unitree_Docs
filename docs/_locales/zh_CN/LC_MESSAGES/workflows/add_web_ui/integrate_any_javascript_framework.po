@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:5
+msgid "Integrate any javascript framework"
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:6
+msgid ""
+"**Audience:** Advanced web developers with complex apps that may not have"
+" been covered by the other tutorials"
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:8
+msgid "**Pre-requisites:** Intermediate knowledge of html and javascript"
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:14
+msgid "Import LightningState.js"
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:15
+msgid ""
+"To connect any javascript framework, import the `LightningState.js "
+"<https://storage.googleapis.com/grid-packages/lightning-"
+"ui/v0.0.0/LightningState.js>`_ library. LightningState.js enables two-way"
+" communication between a javascript framework and a Lightning app."
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:18
+msgid "To import this library, add this to your html:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:24
+msgid ""
+"Once it's imported, use it inside your app, this example uses it inside a"
+" React App:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:57
+msgid "Update the Lightning app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:58
+msgid ""
+"Use `updateLightningState` to update the lightning app. Here we update a "
+"vairable called counter."
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:91
+msgid "Receive updates from the Lightning app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:92
+msgid ""
+"Whenever a variable in the Lightning app changes, the javascript app will"
+" receive those values via `lightningState`."
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:94
+msgid "Extract any variable from the state and update the javascript app:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:127
+msgid "Examples"
+msgstr ""
+
+#: ../../workflows/add_web_ui/integrate_any_javascript_framework.rst:129
+msgid "See this in action in these examples:"
+msgstr ""
+

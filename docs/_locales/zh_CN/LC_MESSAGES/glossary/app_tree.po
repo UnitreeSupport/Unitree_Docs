@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/app_tree.rst:7
+msgid "App Component Tree"
+msgstr ""
+
+#: ../../glossary/app_tree.rst:9
+msgid ""
+"**Audience:** Users who want to know how components can be composed with "
+"each other."
+msgstr ""
+
+#: ../../glossary/app_tree.rst:11
+msgid "**Level:** Basic"
+msgstr ""
+
+#: ../../glossary/app_tree.rst:17
+msgid "What is an Application Component Tree?"
+msgstr ""
+
+#: ../../glossary/app_tree.rst:19
+msgid ""
+"Components can be nested to form component trees where the LightningFlows"
+" are its branches and LightningWorks are its leaves."
+msgstr ""
+
+#: ../../glossary/app_tree.rst:21
+msgid ""
+"This design enables users to organize and maintain their code with more "
+"ease, but more importantly, this helps creating an ecosystem with re-"
+"usable components."
+msgstr ""
+
+#: ../../glossary/app_tree.rst:23
+msgid ""
+"Here's a basic application with four flows and two works (associated tree"
+" structure):"
+msgstr ""
+
+msgid "Basic App Components"
+msgstr ""
+
+#: ../../glossary/app_tree.rst:32
+msgid ""
+"A Lightning app runs all flows into a single process. Its flows "
+"coordinate the execution of the works each running in their own "
+"independent processes."
+msgstr ""
+
+#: ../../glossary/app_tree.rst:38
+msgid "How do I define my application component tree?"
+msgstr ""
+
+#: ../../glossary/app_tree.rst:40
+msgid ""
+"In order to define your application component tree, you need create a "
+"tree of components and attach them to your root flow."
+msgstr ""
+
+#: ../../glossary/app_tree.rst:42
+msgid "You can attach your components in the **__init__** method of a flow."
+msgstr ""
+
+#: ../../glossary/app_tree.rst:58
+msgid "Once done, simply add the root flow to a Lightning app as follows:"
+msgstr ""
+
+#: ../../glossary/app_tree.rst:68
+msgid "Is my application component tree static?"
+msgstr ""
+
+#: ../../glossary/app_tree.rst:70
+msgid "No, Lightning supports dynamic flows and works."
+msgstr ""
+
+#: ../../glossary/app_tree.rst:72
+msgid ""
+"You can simply attach your components in the **run** method of a flow "
+"using the Python functions **hasattr**, **setattr**, and **getattr**."
+msgstr ""
+
+#: ../../glossary/app_tree.rst:92
+msgid ""
+"But it is usually more readable to use Lightning built-in "
+":class:`~lightning_app.structures.Dict` or "
+":class:`~lightning_app.structures.List` as follows:"
+msgstr ""
+

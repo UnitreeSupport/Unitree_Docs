@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../glossary/dag.rst:3
+msgid "Directed Acyclic Graph"
+msgstr ""
+
+#: ../../glossary/dag.rst:4
+msgid ""
+"**Audience:** Users coming from MLOps to Lightning Apps, looking for more"
+" flexibility."
+msgstr ""
+
+#: ../../glossary/dag.rst:10
+msgid "Is Lightning a DAG framework?"
+msgstr ""
+
+#: ../../glossary/dag.rst:11
+msgid "No."
+msgstr ""
+
+#: ../../glossary/dag.rst:13
+msgid ""
+"A Lightning App enables developers to express complex, interactive "
+"applications that are impossible to create with DAGs."
+msgstr ""
+
+#: ../../glossary/dag.rst:19
+msgid "Can I Build a DAG with Lightning?"
+msgstr ""
+
+#: ../../glossary/dag.rst:20
+msgid "Yes!"
+msgstr ""
+
+#: ../../glossary/dag.rst:22
+msgid ""
+"DAGs are one of the easiest Lightning Apps to build. For example, here's "
+"a `full app that defines a DAG <../examples/dag/dag.html>`_."
+msgstr ""
+
+#: ../../glossary/dag.rst:28
+msgid "Examples"
+msgstr ""
+

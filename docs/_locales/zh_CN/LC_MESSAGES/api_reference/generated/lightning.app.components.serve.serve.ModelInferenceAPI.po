@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/generated/lightning.app.components.serve.serve.ModelInferenceAPI.rst:7
+msgid "ModelInferenceAPI"
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI:1 of
+msgid ""
+"Bases: :py:class:`lightning.app.core.work.LightningWork`, "
+":py:class:`abc.ABC`"
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI:1 of
+msgid "The ModelInferenceAPI Class enables to easily get your model served."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI of
+msgid "Parameters"
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI:4 of
+msgid ""
+"Optional `input` to be provided. This would make provide a built-in "
+"deserializer."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI:6 of
+msgid ""
+"Optional `output` to be provided. This would make provide a built-in "
+"serializer."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI:8 of
+msgid "Address to be used to serve the model."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI:10 of
+msgid "Port to be used to serve the model."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI:12 of
+msgid ""
+"Number of workers for the uvicorn. Warning, this won't work if your "
+"subclass takes more arguments."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.build_model:1 of
+msgid "Override to define your model."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.build_model
+#: lightning.app.components.serve.serve.ModelInferenceAPI.configure_layout
+#: lightning.app.components.serve.serve.ModelInferenceAPI.predict of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.build_model:4
+#: lightning.app.components.serve.serve.ModelInferenceAPI.predict:4 of
+msgid ":py:data:`~typing.Any`"
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.configure_layout:1 of
+msgid "Configure the UI of this LightningWork."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.configure_layout:3 of
+msgid "You can either"
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.configure_layout:5 of
+msgid ""
+"Return a single :class:`~lightning.app.frontend.frontend.Frontend` object"
+" to serve a user interface for this Work."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.configure_layout:7 of
+msgid ""
+"Return a string containing a URL to act as the user interface for this "
+"Work."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.configure_layout:8 of
+msgid ""
+"Return ``None`` to indicate that this Work doesn't currently have a user "
+"interface."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.configure_layout:10
+#: of
+msgid ""
+"**Example:** Serve a static directory (with at least a file index.html "
+"inside)."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.configure_layout:21
+#: of
+msgid ""
+"**Example:** Arrange the UI of my children in tabs (default UI by "
+"Lightning)."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.configure_layout:33
+#: of
+msgid ""
+"If you don't implement ``configure_layout``, Lightning will use "
+"``self.url``."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.configure_layout:37
+#: of
+msgid ""
+"This hook gets called at the time of app creation and then again as part "
+"of the loop. If desired, a returned URL can depend on the state. This is "
+"not the case if the work returns a "
+":class:`~lightning.app.frontend.frontend.Frontend`. These need to be "
+"provided at the time of app creation in order for the runtime to start "
+"the server."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.configure_layout:43
+#: of
+msgid ":py:class:`str`"
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.predict:1 of
+msgid "Override to add your predict logic."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.run:1 of
+msgid "Override to add your own logic."
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.run of
+msgid "Raises"
+msgstr ""
+
+#: lightning.app.components.serve.serve.ModelInferenceAPI.run:3 of
+msgid "If resource exceeds platform quotas or other constraints."
+msgstr ""
+

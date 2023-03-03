@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/panel/basic.rst:5
+msgid "Add a web UI with Panel (basic)"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:7
+msgid ""
+"**Audience:** Users who want to add a web UI written with Python and "
+"Panel."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:9
+msgid "**Prereqs:** Basic Python knowledge."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:15
+msgid "What is Panel?"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:17
+msgid ""
+"`Panel`_ and the `HoloViz`_ ecosystem provide unique and powerful "
+"features such as big data visualization using `DataShader`_, easy cross "
+"filtering using `HoloViews`_, streaming and much more."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:21
+msgid ""
+"Panel is highly flexible and ties into the PyData and Jupyter ecosystems "
+"as you can develop in notebooks and use ipywidgets. You can also develop "
+"in .py files."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:23
+msgid ""
+"Panel is one of the most popular data app frameworks in Python with `more"
+" than 400.000 downloads a month "
+"<https://pyviz.org/tools.html#dashboarding>`_. It's especially popular in"
+" the scientific community."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:25
+msgid ""
+"Panel is used, for example, by Rapids to power `CuxFilter`_, a CuDF based"
+" big data visualization framework."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:27
+msgid ""
+"Panel can be deployed on your favorite server or cloud including "
+"`Lightning`_."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:32
+msgid "Example Panel App"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:34
+msgid ""
+"Panel is **particularly well suited for Lightning Apps** that need to "
+"display live progress. This is because the Panel server can react to "
+"state changes and asynchronously push messages from the server to the "
+"client using web socket communication."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:40
+msgid "Example Panel Streaming App"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:42
+msgid "Install Panel with:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:52
+msgid "Run a basic Panel App"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:54
+msgid "In the next few sections, we'll build an App step-by-step."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:56
+msgid "First, create a file named ``app_panel.py`` with the App content:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:66
+msgid "Then, create a file named ``app.py`` with the following App content:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:96
+msgid "Finally, add ``panel`` to your ``requirements.txt`` file:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:102
+msgid "This is a best practice to make Apps reproducible."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:108
+msgid "Run the App"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:110
+msgid "Run the App locally:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:116
+msgid "The App should look like this:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:121
+msgid "Basic Panel Lightning App"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:123
+msgid "Now, run it on the cloud:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:133
+msgid "Step-by-step walk-through"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:135
+msgid "In this section, we explain each part of the code in detail."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:140
+msgid "0. Define a Panel app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:142
+msgid ""
+"First, find the Panel app you want to integrate. In this example, that "
+"app looks like:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:150
+msgid ""
+"Refer to the `Panel documentation <https://docs.Panel.io/>`_ and "
+"`awesome-panel.org <https://awesome-panel.org>`_ for more complex "
+"examples."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:155
+msgid "1. Add Panel to a Component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:157
+msgid ""
+"Link this app to the Lightning App by using the ``PanelFrontend`` class "
+"which needs to be returned from the ``configure_layout`` method of the "
+"Lightning Component you want to connect to Panel."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:187
+msgid ""
+"The argument of the ``PanelFrontend`` class, points to the script, "
+"notebook, or function that runs your Panel app."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:193
+msgid "2. Route the UI in the root component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:195
+msgid ""
+"The second step, is to tell the Root component in which tab to render "
+"this component's UI. In this case, we render the ``LitPanel`` UI in the "
+"``home`` tab of the app."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:228
+msgid "Tips & Tricks"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:231
+msgid "0. Use autoreload while developing"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:233
+msgid ""
+"To speed up your development workflow, you can run your Lightning App "
+"with Panel **autoreload** by setting the environment variable "
+"``PANEL_AUTORELOAD`` to ``yes``."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:236
+msgid "Try running the following:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:245
+msgid "Basic Panel Lightning App with autoreload"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:248
+msgid "1. Theme your App"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:250
+msgid ""
+"To theme your App you, can use the Lightning accent color ``#792EE5`` "
+"with the `FastListTemplate`_."
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:252
+msgid "Try replacing the contents of ``app_panel.py`` with the following:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:310
+msgid ""
+"Install some additional libraries and remember to add the dependencies to"
+" the ``requirements.txt`` file:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:318
+msgid "Finally run the App"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:327
+msgid "Basic Panel Plotly Lightning App with theming"
+msgstr ""
+
+#: ../../workflows/add_web_ui/panel/basic.rst:343
+msgid "Next Steps"
+msgstr ""
+

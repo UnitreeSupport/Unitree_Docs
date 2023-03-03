@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/html/basic.rst:3
+msgid "Add a web UI with HTML (basic)"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:4
+msgid "**Audience:** Users who want to add a web UI written in HTMlapp."
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:6
+msgid "**Prereqs:** Basic html knowledge."
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:12
+msgid "What is HTML?"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:13
+msgid ""
+"HyperText Markup Language (HTML) is the Language used to create web "
+"pages. Use HTML for simple web user interfaces that tend to be more "
+"static."
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:16
+msgid ""
+"For reactive web applications, we recommend using: React.js, Angular.js "
+"or Vue.js"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:22
+msgid "Create an HTML page"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:23
+msgid "The first step is to create an HTML file named **index.html**:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:40
+msgid "Create the HTML demo app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:49
+msgid ""
+"In the next few sections we'll build an app step-by-step. First **create "
+"a file named app.py** with the app content (in the same folder as "
+"index.html):"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:83
+msgid "Run the app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:84
+msgid "Run the app locally to see it!"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:90
+msgid "Now run it on the cloud as well:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:100
+msgid "Step-by-step walkthrough"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:101
+msgid "In this section, we explain each part of this code in detail."
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:106
+msgid "Enable an HTML UI for the component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:107
+msgid ""
+"Give the component an HTML UI, by returning a ``StaticWebFrontend`` "
+"object from the ``configure_layout`` method:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:134
+msgid ""
+"The folder path given in ``StaticWebFrontend(serve_dir=)`` must point to "
+"a folder with an ``index.html`` page."
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:139
+msgid "Route the UI in the root component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/html/basic.rst:140
+msgid ""
+"The final step, is to tell the Root component in which tab to render this"
+" component's UI. In this case, we render the ``HelloComponent`` UI in the"
+" ``home`` tab of the application."
+msgstr ""
+

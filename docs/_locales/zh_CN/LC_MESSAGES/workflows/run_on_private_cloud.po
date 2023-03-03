@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/run_on_private_cloud.rst:5
+msgid "Run on a private cloud"
+msgstr ""
+
+#: ../../workflows/run_on_private_cloud.rst:6
+msgid ""
+"**Audience:** Users looking to run Lightning apps on their private cloud "
+"accounts."
+msgstr ""
+
+#: ../../workflows/run_on_private_cloud.rst:12
+msgid "Run on a private cloud account"
+msgstr ""
+
+#: ../../workflows/run_on_private_cloud.rst:13
+msgid ""
+"For enterprise, startups and University use-cases, Lightning AI can run "
+"on your own AWS account (with your own credentials), with all the "
+"infrastructure fully managed by us. To enable this, contact our support "
+"team to get started:"
+msgstr ""
+
+#: ../../workflows/run_on_private_cloud.rst:16
+#: ../../workflows/run_on_private_cloud.rst:26
+msgid "onprem@lightning.ai"
+msgstr ""
+
+#: ../../workflows/run_on_private_cloud.rst:23
+msgid "Run on-prem"
+msgstr ""
+
+#: ../../workflows/run_on_private_cloud.rst:24
+msgid ""
+"For enterprise-level security with full control of the Lightning AI "
+"system on your own on-prem cluster, contact our support team to get "
+"started:"
+msgstr ""
+

@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/react/create_react_template.rst:3
+msgid "Create a React Template (intermediate)"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/create_react_template.rst:4
+msgid ""
+"**Audience:** Anyone who wants to add a web user interface (UI) written "
+"in react to their app."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/create_react_template.rst:10
+msgid "What is react?"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/create_react_template.rst:11
+msgid ""
+"`React.js <https://reactjs.org/>`_ is a JavaScript library for building "
+"user interfaces. A huge number of websites are written in React.js (like "
+"Facebook)."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/create_react_template.rst:18
+msgid "Bring your own React app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/create_react_template.rst:19
+msgid ""
+"If you already have a React.js app, then you don't need the section "
+"below. However, it might be helpful to see our React template so you can "
+"understand how to connect it to a Lightning app."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/create_react_template.rst:26
+msgid "Create the react-ui template"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/create_react_template.rst:27
+msgid ""
+"Lightning can generate a react-ui template out of the box (generated with"
+" `Vite <https://github.com/vitejs/vite>`_)."
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/create_react_template.rst:29
+msgid "Run this command to set up a react-ui template for a component:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/create_react_template.rst:35
+msgid ""
+"If everything was succesful, run the example_app.py listed in the output "
+"of the command:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/react/create_react_template.rst:51
+msgid ""
+"If the command didn't work, make sure to install `npm+nodejs "
+"<https://docs.npmjs.com/downloading-and-installing-node-js-and-npm>`_, "
+"and `yarn <https://classic.yarnpkg.com/lang/en/docs/install/#mac-"
+"stable>`_."
+msgstr ""
+

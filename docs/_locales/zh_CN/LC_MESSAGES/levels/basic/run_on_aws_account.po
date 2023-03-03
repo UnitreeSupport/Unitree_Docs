@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../levels/basic/run_on_aws_account.rst:3
+msgid ""
+"To run on your own AWS account, first `create an AWS ARN "
+"<../../glossary/aws_arn.rst>`_."
+msgstr ""
+
+#: ../../levels/basic/run_on_aws_account.rst:5
+msgid "Next, set up a Lightning cluster (here we name it pikachu):"
+msgstr ""
+
+#: ../../levels/basic/run_on_aws_account.rst:12
+msgid "Run your code on the pikachu cluster by passing it into CloudCompute:"
+msgstr ""
+
+#: ../../levels/basic/run_on_aws_account.rst:21
+msgid ""
+"This feature is available only under early-access. Request access by "
+"emailing support@lightning.ai."
+msgstr ""
+

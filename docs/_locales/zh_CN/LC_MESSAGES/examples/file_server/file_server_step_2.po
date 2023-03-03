@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../examples/file_server/file_server_step_2.rst:5
+msgid "Step 2: Implement the File Server upload and list_files methods"
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_2.rst:7
+msgid "Let's dive in on how to implement these methods."
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_2.rst:11
+msgid "Implement the upload method"
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_2.rst:13
+msgid ""
+"In this method, we are creating a stream between the uploaded file and "
+"the uploaded file stored on the file server disk."
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_2.rst:15
+msgid ""
+"Once the file is uploaded, we are putting the file into the "
+":class:`~lightning_app.storage.drive.Drive`, so it becomes persistent and"
+" accessible to all Components."
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_2.rst:23
+msgid "Implement the fist_files method"
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_2.rst:25
+msgid ""
+"First, in this method, we get the file in the file server filesystem, if "
+"available in the Drive. Once done, we list the the files under the "
+"provided paths and return the results."
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_2.rst:34
+msgid "Implement utilities"
+msgstr ""
+
+#: ../../examples/file_server/file_server_step_2.rst:41
+msgid "Tutorial"
+msgstr ""
+

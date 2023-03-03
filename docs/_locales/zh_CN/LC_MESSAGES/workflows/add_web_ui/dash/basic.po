@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/dash/basic.rst:3
+msgid "Add a web UI with Dash (basic)"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:4
+msgid "**Audience:** Users who want to add a web UI with Dash by Plotly."
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:6
+msgid "**Prereqs:** Basic python knowledge."
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:12
+msgid "What is Dash?"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:13
+msgid ""
+"`Dash <https://plotly.com/dash/>`_ is the original low-code framework for"
+" rapidly building data apps in Python, R, Julia, and F# (experimental)."
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:15
+msgid "Install Dash with:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:25
+msgid "Create the dash demo app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:27
+msgid ""
+"To explain how to use Dash with Lightning, let's build a simple app with "
+"Dash."
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:37
+msgid ""
+"In the next few sections we'll build an app step-by-step. First **create "
+"a file named app.py** with the app content:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:76
+msgid "add 'dash' to a requirements.txt file:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:82
+msgid "this is a best practice to make apps reproducible."
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:88
+msgid "Run the app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:89
+msgid "Run the app locally to see it!"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:95
+msgid "Now run it on the cloud as well:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:105
+msgid "Step-by-step walkthrough"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:106
+msgid "In this section, we explain each part of this code in detail."
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:111
+msgid "0. Define a Dash app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:112
+msgid ""
+"First, find the dash app you want to integrate. In this example, that app"
+" looks like:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:132
+msgid ""
+"This dash app plots a simple line curve along with some HTMlapp. `Visit "
+"the Dash documentation for the full API <https://plotly.com/dash/>`_."
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:138
+msgid "1. Add Dash to a component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:139
+msgid ""
+"Add the dash app to the run method of a ``LightningWork`` component and "
+"run the server on that component's **host** and **port**:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:180
+msgid "2. Route the UI in the root component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:181
+msgid ""
+"The final step, is to tell the Root component in which tab to render this"
+" component's UI. In this case, we render the ``LitDash`` UI in the "
+"``home`` tab of the application."
+msgstr ""
+
+#: ../../workflows/add_web_ui/dash/basic.rst:220
+msgid ""
+"We use the ``parallel=True`` argument of ``LightningWork`` to run the "
+"server in the background while the rest of the Lightning App runs "
+"everything else."
+msgstr ""
+

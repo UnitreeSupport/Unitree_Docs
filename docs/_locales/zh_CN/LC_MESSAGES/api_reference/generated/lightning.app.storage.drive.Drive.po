@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../api_reference/generated/lightning.app.storage.drive.Drive.rst:7
+msgid "Drive"
+msgstr ""
+
+#: lightning.app.storage.drive.Drive:1 of
+msgid "Bases: :py:class:`object`"
+msgstr ""
+
+#: lightning.app.storage.drive.Drive:1 of
+msgid "The Drive object provides a shared space to write and read files from."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive:3 of
+msgid ""
+"When the drive object is passed from one component to another, a copy is "
+"made and ownership is transferred to the new component."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive lightning.app.storage.drive.Drive.delete
+#: lightning.app.storage.drive.Drive.get lightning.app.storage.drive.Drive.list
+#: lightning.app.storage.drive.Drive.put of
+msgid "Parameters"
+msgstr ""
+
+#: lightning.app.storage.drive.Drive:7 of
+msgid "Unique identifier for this Drive."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive:9 of
+msgid "Whether to enable files duplication between components."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive:11 of
+msgid ""
+"The component name which owns this drive. When not provided, it is "
+"automatically inferred by Lightning."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive:14 of
+msgid ""
+"This is the folder from where the Drive perceives the data (e.g this acts"
+" as a mount dir)."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.delete:1 of
+msgid ""
+"This method enables to delete files under the provided path from the "
+"Drive in a blocking fashion. Only the component which added a file can "
+"delete them."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.delete:5 of
+msgid "The relative path you want to delete files from the Drive."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.delete
+#: lightning.app.storage.drive.Drive.get lightning.app.storage.drive.Drive.list
+#: lightning.app.storage.drive.Drive.put of
+msgid "Return type"
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.delete:8
+#: lightning.app.storage.drive.Drive.get:14
+#: lightning.app.storage.drive.Drive.put:7 of
+msgid ":py:obj:`None`"
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.get:1 of
+msgid ""
+"This method enables to get files under the provided path from the Drive "
+"in a blocking fashion."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.get:4
+#: lightning.app.storage.drive.Drive.list:4 of
+msgid "The relative path you want to list files from the Drive."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.get:6 of
+msgid ""
+"By default, the Drive get the matching files across all components. If "
+"you provide a component name, the matching is specific to this component."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.get:9 of
+msgid "Whether to wait for the files to be available if not created yet."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.get:11 of
+msgid "Whether to override the provided path if it exists."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.list:1 of
+msgid ""
+"This method enables to list files under the provided path from the Drive "
+"in a blocking fashion."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.list:6 of
+msgid ""
+"By default, the Drive lists files across all components. If you provide a"
+" component name, the listing is specific to this component."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.list:10 of
+msgid ":py:class:`~typing.List`\\[:py:class:`str`]"
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.put:1 of
+msgid "This method enables to put a file to the Drive in a blocking fashion."
+msgstr ""
+
+#: lightning.app.storage.drive.Drive.put:4 of
+msgid "The relative path to your files to be added to the Drive."
+msgstr ""
+

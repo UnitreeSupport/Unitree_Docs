@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:3
+msgid "Add a web UI with Streamlit (basic)"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:4
+msgid "**Audience:** Users who want to add a web UI written with Python."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:6
+msgid "**Prereqs:** Basic python knowledge."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:12
+msgid "What is Streamlit?"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:13
+msgid ""
+"Streamlit is a web user interface builder for Python developers. "
+"Streamlit builds beautiful web pages directly from Python."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:16
+msgid "Install Streamlit with:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:26
+msgid "Run a basic streamlit app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:35
+msgid ""
+"In the next few sections we'll build an app step-by-step. First **create "
+"a file named app.py** with the app content:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:66
+msgid "add \"streamlit\" to a requirements.txt file:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:72
+msgid "this is a best practice to make apps reproducible."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:78
+msgid "Run the app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:79
+msgid "Run the app locally to see it!"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:85
+msgid "Now run it on the cloud as well:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:95
+msgid "Step-by-step walkthrough"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:96
+msgid "In this section, we explain each part of this code in detail."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:101
+msgid "0. Define a streamlit app"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:102
+msgid ""
+"First, find the streamlit app you want to integrate. In this example, "
+"that app looks like:"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:111
+msgid ""
+"Refer to the `Streamlit documentation <https://docs.streamlit.io/>`_ for "
+"more complex examples."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:116
+msgid "1. Add Streamlit to a component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:117
+msgid ""
+"Link this function to the Lightning App by using the "
+"``StreamlitFrontend`` class which needs to be returned from the "
+"``configure_layout`` method of the Lightning component you want to "
+"connect to Streamlit."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:149
+msgid ""
+"The ``render_fn`` argument of the ``StreamlitFrontend`` class, points to "
+"a function that runs your Streamlit app. The first argument to the "
+"function is the lightning app state. Any changes to the app state update "
+"the app."
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:155
+msgid "2. Route the UI in the root component"
+msgstr ""
+
+#: ../../workflows/add_web_ui/streamlit/basic.rst:156
+msgid ""
+"The second step, is to tell the Root component in which tab to render "
+"this component's UI. In this case, we render the ``LitStreamlit`` UI in "
+"the ``home`` tab of the application."
+msgstr ""
+

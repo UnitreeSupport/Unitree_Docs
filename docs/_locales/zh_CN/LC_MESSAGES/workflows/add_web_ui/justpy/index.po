@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-12
+# This file is distributed under the same license as the URE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: URE 1.0rc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-19 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../workflows/add_web_ui/justpy/index.rst:5
+msgid "Add a web UI with JustPy"
+msgstr ""
+
+#: ../../workflows/add_web_ui/justpy/index.rst:10
+msgid "JustPy"
+msgstr ""
+
+#: ../../workflows/add_web_ui/justpy/index.rst:12
+msgid ""
+"The `JustPy <https://github.com/justpy-org/justpy>`_  framework is an "
+"object oriented high-level Python Web Framework that requires no "
+"JavaScript programming, while at the same time providing the full "
+"flexibility of a frontend framework."
+msgstr ""
+
+#: ../../workflows/add_web_ui/justpy/index.rst:14
+msgid ""
+"Additionally, it provides a higher level API called `Quasar "
+"<https://justpy.io/quasar_tutorial/introduction/>`_ with stylized "
+"components."
+msgstr ""
+
+#: ../../workflows/add_web_ui/justpy/index.rst:17
+msgid "You can install ``justpy`` from PyPi."
+msgstr ""
+
+#: ../../workflows/add_web_ui/justpy/index.rst:25
+msgid "Example"
+msgstr ""
+
+#: ../../workflows/add_web_ui/justpy/index.rst:28
+msgid ""
+"In the following example, we are creating a simple UI with 2 buttons. "
+"When clicking the first button, the flow state ``counter`` is incremented"
+" and re-rendered on the UI."
+msgstr ""
+
+#: ../../workflows/add_web_ui/justpy/index.rst:32
+msgid ""
+"First of all, you would need to import the ``JustPyFrontend`` and return "
+"it from the ``configure_layout`` hook of the flow."
+msgstr ""
+
+#: ../../workflows/add_web_ui/justpy/index.rst:53
+msgid ""
+"Secondly, you would need to implement a ``render_fn`` that takes as input"
+" a ``get_state`` function and return a function."
+msgstr ""
+
+#: ../../workflows/add_web_ui/justpy/index.rst:82
+msgid "Finally, you can wrap your flow in a LightningAp."
+msgstr ""
+
+#: ../../workflows/add_web_ui/justpy/index.rst:88
+msgid "Now, you can run the Lightning App with:"
+msgstr ""
+
