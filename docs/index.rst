@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 ########################
-Welcome to 🎉🎉🎉 URE!
+Welcome to 🎉🎉🎉 Unitree!
 ########################
 .. Build models, ML components and full stack AI apps ⚡ *Lightning fast*.
 
@@ -111,9 +111,9 @@ The real-time confidence level of the tracking target is displayed by adjusting 
 
 .. toctree::
    :maxdepth: 1
-   :caption: Get started
+   :caption: Go1-Edu
 
-   get_started <get_started/index>
+   get_started <get_started/Go1_Edu.md>
 
 .. toctree::
    :maxdepth: 1
