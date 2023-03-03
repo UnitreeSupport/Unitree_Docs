@@ -113,7 +113,7 @@ The real-time confidence level of the tracking target is displayed by adjusting 
    :maxdepth: 1
    :caption: Go1-Edu
 
-   get_started <get_started/Go1_Edu.md>
+   get_started <get_started/Go1_Edu.rst>
 
 .. toctree::
    :maxdepth: 1
