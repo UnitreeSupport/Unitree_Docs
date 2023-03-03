@@ -29,15 +29,15 @@ SPHINX_MOCK_REQUIREMENTS = int(os.environ.get("SPHINX_MOCK_REQUIREMENTS", True))
 
 # -- Project information -----------------------------------------------------
 
-project = "URE"
+project = "Unitree_Docs"
 copyright = f"2022-{datetime.now().year}"
-author = "LJoson"
+author = "Alice"
 version = "1.0rc"
 release = version
 
 # Options for the linkcode extension
 # ----------------------------------
-github_user = "LJoson"
+github_user = "UnitreeSupport"
 github_repo = project
 
 # -- Project documents -------------------------------------------------------
