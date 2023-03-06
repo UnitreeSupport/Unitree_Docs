@@ -2,7 +2,7 @@
 
 # Go1-Edu
 
-# 1. Go1 system architecture diagram
+## 1. Go1 system architecture diagram
 
 GO1  uses  a new hardware architecture and control  system  , control  system  as follows:
 
