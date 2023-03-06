@@ -33,7 +33,7 @@ cd Unitree/autostart/02sportMode
 ./bin/Legged_sport -v   
 ```
 
-![Go1版本.png](./images/Go1版本.png)
+![Go1版本.png](./images/Go1.png)
 
 ### 2.2 SDK version selection and the running mode of the robot dog
 
@@ -41,7 +41,7 @@ According to the queried version of the motion program, we click on the link to 
 
 https://github.com/unitreerobotics/unitree_legged_sdk
 
-![img](./images/sdk选择.png)
+![img](./images/sdk1.png)
 
 ![Notice.png](./images/Notice.png)
 
@@ -140,7 +140,7 @@ Notice:
 
 #### 3.1.3 HighCmd variable initialization
 
-![Notice.png](./images/HighCmd变量初始化.png)
+![Notice.png](./images/HighCmd.png)
 
 
 
@@ -264,13 +264,13 @@ The head of Go1 integrates a 3W speaker, which we can use to play audio files to
 
   The hardware of the light strip is composed of 12 LED lamp beads, which are distributed on both sides of the head, and the hardware is connected to the Nano on the head. For the address definition of these 12 LEDs, we define them as 0-11 in the order of facing the dog head, from top to bottom, and from left to right, as shown in the figure below.
 
-  ![img](./images/灯带示意图.bmp)
+  ![img](./images/LED.bmp)
 
   
 
 The SDK package is located in the folder named faceLightSDK_Nano under the /home/unitree/Unitree/sdk/ directory of the head Nano (192.168.123.13).
 
-![img](./images/sdk包.png)
+![img](./images/sdk.png)
 
 
 
@@ -729,14 +729,14 @@ Reserved: !!opencv-matrix
 
 - Build
 
-  ```
+```
 cd UnitreecameraSDK
 mkdir build
 cd build
 cmake ..
 make
   
-  ```
+```
 
 ●Run
 After the compilation is completed, a bins folder will be generated under the UnitreecameraSDK directory, and the sending program will be run.
@@ -781,8 +781,8 @@ make
 - Run
 
 ```
-  cd ..
-  ./bins/examples_getimagetrans
+cd ..
+./bins/examples_getimagetrans
 ```
 
   Note: Do not run from cd to bins, this will lack dependencies
@@ -880,20 +880,20 @@ std::string udpstrBehindData = " ! application/x-rtp,media=video,encoding-name=H
 
 - Build
 
-  ```
+```
   cd UnitreecameraSDK
   mkdir build
   cd build
   cmake ..
   make
-  ```
+```
 
 - Run
 
-  ```
-  cd ..
-  ./bins/examples_getimagetrans
-  ```
+```
+cd ..
+./bins/examples_getimagetrans
+```
 
   Note: Do not run from cd to bins, this will lack dependencies
   The program runs fine and we can see the acquired image:
@@ -965,12 +965,6 @@ Solution: sudo apt-get install libusb-1.0-0-dev libusb-dev libudev-dev
 ### 6.4 Use python to write image receiving program
 
 ```
-# -*- coding: utf-8 -*-
-'''copyright Copyright (c) 2020-2021, Hangzhou Yushu Technology Stock CO.LTD. All Rights Reserved
-writen by Zhentao Xie
-supporter: Zhentao Xie xiezhentao_1998@163.com
-'''
-
 import cv2
 
 class camera:
@@ -1003,6 +997,7 @@ class camera:
                 break
         self.cap.release()
         cv2.destroyAllWindows()
+
 ```
 
 Note: using pip3 to install opencv-python and opencv-contrib-python will lack dependencies, and you must install opencv from source code
