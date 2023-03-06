@@ -150,40 +150,40 @@ The HighCmd structure variable needs to be initialized after applying for the va
 
 #### 3.2.1 Effective state feedback in the HighState structure
 
-| head                                        | 包头                                                         |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| levelFlag                                   | 高层模式、底层模式标志位；0x00为高层，0xff为底层             |
-| frameReserve                                | 保留位                                                       |
-| SN                                          | SN码                                                         |
-| version                                     | 版本信息                                                     |
-| bandWidth                                   | 保留位                                                       |
-| IMU **imu**                                 | 惯导信息，参考2.2 Go1 SDK HighState IMU                      |
-| MotorState**motorState**[20]                | 电机数据，20个MotorState结构体数组，其中前12个有效，各个电机的编号可以参考quadruped.hMotorState结构体参考2.4 MotorState |
-| int16_t **footForce**[4]                    | 足端传感器数值，触地检测。这个值是飘的，每个气囊的值不一样，需要实际测试，通常是通过变化量来检测是否触地。 |
-| int16_t **footForceEst**[4]                 | 估计的足端力，单位应该是N                                    |
-| uint8_t **mode**                            | 参考1.1 HighCmd中mode的注释                                  |
-| float **progress**                          | 保留位                                                       |
-| uint8_t **gaitType**                        | 参考1.1 HighCmd中gaitType的注释                              |
-| float**footRaiseHeight**(unit: m)           | 行走时的抬腿高度，默认0.08m                                  |
-| float**bodyHeight**(unit: m)                | 机身高度，默认0.28m                                          |
-| float **position**[3](unit: m)              | 机器人的位置坐标反馈，通过机器人在惯性系（世界坐标系）中里程计的数据获得的位置坐标，会漂移position[0] = xposition[1] = yposition[2] = z |
-| float **velocity**[3](unit: m/s)            | 机器人在各个方向的速度反馈velocity[0] = forwardSpeedvelocity[1] = sideSpeedvelocity[2] = updownSpeed |
-| float **yawSpeed**(unit: rad/s)             | 机器人的旋转速度                                             |
-| float **rangeObstacle**[4]                  | 避障数据                                                     |
-| Cartesian **footPosition2Body**[4](unit: m) | 足端相对于身体的位置（机身坐标系）footPosition2Body[0] = 右前腿足端的位置footPosition2Body[1] = 左前腿足端的位置footPosition2Body[2] = 右后腿足端的位置footPosition2Body[3] = 左后腿足端的位置 |
-| Cartesian **footSpeed2Body**[4](unit: m/s)  | 足端相对于身体的速度（机身坐标系）footSpeed2Body[0] = 右前腿足端的速度footSpeed2Body[1] = 左前腿足端的速度footSpeed2Body[2] = 右后腿足端的速度footSpeed2Body[3] = 左后腿足端的速度 |
-| uint8_t **wirelessRemote**[40]              | 遥控器键值的反馈，可参考提供的手柄例程源码                   |
-| reserve                                     | 保留位                                                       |
-| crc                                         | 校验位                                                       |
+| head                                            |                                                              |
+| ----------------------------------------------- | ------------------------------------------------------------ |
+| levelFlag                                       | High-level mode, low-level mode flag; 0x00 is high-level, 0xff is low-level |
+| frameReserve                                    | reserved bit                                                 |
+| SN                                              | SN code                                                      |
+| version                                         | Version Information                                          |
+| bandWidth                                       | reserved bit                                                 |
+| IMU **imu**                                     | Inertial navigation information                              |
+| MotorState**motorState**[20]                    | Motor data, 20 MotorState structure arrays, the first 12 of which are valid, and the number of each motor can refer to the quadruped.hMotorState structure |
+| int16_t **footForce**[4]                        | Foot sensor value, ground contact detection. The value of each airbag is different and requires actual testing, usually by changing the amount to detect whether it touches the ground. |
+| int16_t **footForceEst**[4]                     | Estimated foot force, the unit should be N                   |
+| uint8_t **mode**                                | Refer to the note of mode in HighCmd                         |
+| float **progress**                              | reserved bit                                                 |
+| uint8_t **gaitType**                            | Refer to the note of mode in gaitType                        |
+| float**footRaiseHeight**(unit: m)               | Leg lift height when walking, default 0.08m                  |
+| float**bodyHeight**(unit: m)                    | Body height, default 0.28m                                   |
+| float **position**[3](unit: m)                  | The position coordinate feedback of the robot, the position coordinate obtained through the data of the odometer in the inertial system (world coordinate system) of the robot, will drift<br/>position[0] = x;<br/>position[1] = y;<br/>position[2] = z |
+| float **velocity**[3](unit: m/s)                | Velocity feedback of the robot in all directions<br/>velocity[0] = forwardSpeed<br/>velocity[1] = sideSpeed<br/>velocity[2] = updownSpeed |
+| float **yawSpeed**(unit: rad/s)                 | The rotation speed of the robot                              |
+| float **rangeObstacle**[4]                      | Obstacle avoidance data                                      |
+| Cartesian **footPosition2Body**[4](unit: m)     | The position of the foot relative to the body (body coordinate system)<br/>footPosition2Body[0] = position of the foot of the right front leg<br/>footPosition2Body[1] = position of the foot of the left front leg<br/>footPosition2Body[2] = position of the foot of the right hind leg<br/>footPosition2Body[3] = position of the foot of the left rear leg |
+| Cartesian                 **footSpeed2Body**[4] | Velocity of the foot relative to the body (body coordinate system)<br/>footSpeed2Body[0] = Velocity of the foot of the right front leg<br/>footSpeed2Body[1] = Velocity of the foot of the left front leg<br/>footSpeed2Body[2] = Velocity of the foot end of the right rear leg<br/>footSpeed2Body[3] = speed e of the foot of the left rear leg |
+| uint8_t **wirelessRemote**[40]                  | For the feedback of the key value of the remote control, please refer to the provided handle routine source code |
+| reserve                                         | reserved bit                                                 |
+| crc                                             | check bit                                                    |
 
 #### 3.2.2 Go1 SDK HighState IMU
 
-| float quaternion[4]                | 归一化的四元数quaternion[0] = wquaternion[1] = xquaternion[2] = yquaternion[3] = z |
+| float quaternion[4]                | normalized quaternion<br/>quaternion[0] = w<br/>quaternion[1] = x<br/>quaternion[2] = y<br/>quaternion[3] = z |
 | ---------------------------------- | ------------------------------------------------------------ |
-| float gyroscope[3](unit: rad/s)    | 陀螺仪，角速度，原始数据gyroscope[0] = xgyroscope[1] = ygyroscope[2] = z |
-| float accelerometer[3](unit: m/s²) | 加速度计，加速度，原始数据accelerometer[0] = xaccelerometer[1] = yaccelerometer[2] = z |
-| float rpy[3](unit: rad)            | 欧拉角rpy[0] = Rollrpy[1] = Pitchrpy[2] = Yaw                |
-| int8_t temperature                 | IMU温度                                                      |
+| float gyroscope[3](unit: rad/s)    | Gyroscope, angular velocity, raw data<br/>gyroscope[0] = x<br/>gyroscope[1] = y<br/>gyroscope[2] = z |
+| float accelerometer[3](unit: m/s²) | accelerometer, acceleration, raw data<br/>accelerometer[0] = x<br/>accelerometer[1] = y<br/>accelerometer[2] = z |
+| float rpy[3](unit: rad)            | Euler angle<br/>rpy[0] = Roll<br/>rpy[1] = Pitch<br/>rpy[2] = Yaw |
+| int8_t temperature                 | IMU temperature                                              |
 
 #### 3.2.3 Coordinate System
 
@@ -469,13 +469,13 @@ Front camera Port ID=9201, Chin camera Port ID=9202, Left camera Port ID=9203, R
 
 Above, the following table:
 
-| Nano                       | dev ID | Port ID | 相机位置 |
-| -------------------------- | ------ | ------- | -------- |
-| 头部Nano（192.168.123.13） | 1      | 9201    | 前方相机 |
-| 头部Nano（192.168.123.13） | 0      | 9202    | 下巴相机 |
-| 机身Nano（192.168.123.14） | 0      | 9203    | 左侧相机 |
-| 机身Nano（192.168.123.14） | 1      | 9204    | 右侧相机 |
-| 机身Nano（192.168.123.15） | 0      | 9205    | 腹部相机 |
+| Nano                        | dev ID | Port ID | Camera Position |
+| --------------------------- | ------ | ------- | --------------- |
+| Head Nano（192.168.123.13） | 1      | 9201    | front camera    |
+| Head Nano（192.168.123.13） | 0      | 9202    | jaw camera      |
+| Body Nano（192.168.123.14） | 0      | 9203    | left camera     |
+| Body Nano（192.168.123.14） | 1      | 9204    | right camera    |
+| Body Nano（192.168.123.15） | 0      | 9205    | belly camera    |
 
 Camera hardware parameters
 
