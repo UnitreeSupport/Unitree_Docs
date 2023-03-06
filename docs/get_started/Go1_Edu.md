@@ -283,9 +283,9 @@ version.txt --sdk version
 bin -- the generated executable folder
 build -- compile folder
 
-### 4.2 Introduction to routines
+### 5.2 Introduction to routines
 
-<img src="./images/例程.png" alt="img" style="zoom:150%;" />
+<img src="./images/example.png" alt="img" style="zoom:150%;" />
 
 The picture above is the code of the routine. Two programs are provided for testing. One is to use the same color for all lamp beads, and the other is to combine different colors of different lamp beads to form a new lighting effect.
 It should be noted that we provide two control functions:
@@ -294,7 +294,7 @@ client.setLedColor(i,client.red); --A lamp bead uses a certain color, and the va
 After setting the color, you need to send the function through the command to send the set color to the light strip to take effect:
 client.sendCmd(); --Send command function to make the set color take effect
 
-### 4.3 Operation of SDK
+### 5.3 Operation of SDK
 
 First remote login to the head Nano
 
@@ -319,7 +319,7 @@ Usage
 ./../bin/faceLightClient
 ```
 
-### 4.4 Use the SDK on other boards or your own computer
+### 5.4 Use the SDK on other boards or your own computer
 
 The light strip SDK uses UDP communication method, which is convenient to control the head LED on other boards through the network. The communication part of the SDK has been written, and the address of the Nano in the head has also been solidified in it, so we don’t need to deal with the programming of communication, we just need to ensure that the board or computer can ping the Nano in the head (192.168.123.13). The method of use is the same as the direct use on the head Nano.
 Instructions:
@@ -329,7 +329,7 @@ Instructions:
 3. According to your own computer platform, modify the library file referenced in the cmake file
 4. Compile and run
 
-## 5. Development and use of Go1 ultrasonic module
+## 6. Development and use of Go1 ultrasonic module
 
 The head and body of Go1-Edu are distributed with 3 groups of ultrasonic modules, which can be developed and used with the programs we provide.
 
@@ -337,17 +337,17 @@ Ultrasonic sensors only exist in the old version of go1, the new version of go1 
 
 As the ultrasonic module feedback distance and obstacle avoidance effect in general, the subsequent hardware version, will eliminate the ultrasonic module.
 
-### 5.1 Hardware
+### 6.1 Hardware
 
 3 groups of ultrasonic modules are distributed in the front face, left and right sides of the fuselage. Hardware, forward ultrasound connected to the head Nano (192.168.123.13) on ttyTHS1, ultrasound on both sides of the body connected to the RasPi (192.168.123.161) on ttyAMA0, software design reserved for the backward ultrasound, the actual hardware is not installed.
 
 ttyTHS1, ttyAMA0 are the serial ports on Nano and RasPi respectively, which have been configured on the system, do not modify the system configuration when using, so as not to make the device unusable.
 
-### 5.2 SDK
+### 6.2 SDK
 
 There are two ways to use ultrasound on Go1, one is to use the lcm topic provided by Unitree to receive all the ultrasound data, and the other is to read the serial data directly. Unitree prefers to use the former.
 
-#### 5.2.1  Receive all ultrasound data using the lcm topic provided by Unitree
+#### 6.2.1  Receive all ultrasound data using the lcm topic provided by Unitree
 
 The path of the sample program provided in this way on the dog is ~/Unitree/autostart/utrack/ultrasonic_listener_example/, which can be compiled and run directly on the RasPi. You can also directly download the following program package and run it on RasPi.
 
@@ -390,7 +390,7 @@ The LCM message file is:
 
   
 
-#### 5.2.2 Read serial data directly
+#### 6.2.2 Read serial data directly
 
 This method is to use the serial port of the board to directly read the information of the ultrasonic module. Unitree provides the sdk for use. The sdk is located at ~/Unitree/sdk/ultraSoundSDK_RasPi (the one on Nano13 is also in the corresponding position). After the program starts, it will occupy the serial port, so before using this method, you need to kill the program that occupies the device.
 
@@ -450,11 +450,11 @@ cd bin
 ./example_UltraSoundGroup
 ```
 
-## 6. Development and use of Go1 binocular fisheye camera
+## 7. Development and use of Go1 binocular fisheye camera
 
 The head and body of Go1-Edu are distributed with 5 sets of binocular fisheye cameras, and we provide the corresponding UnitreeCameraSDK for developers to use.
 
-### 6.1 Hardware
+### 7.1 Hardware
 
 
 The 5 groups of cameras are distributed on the front face, chin, left and right sides of the fuselage and abdomen. In terms of hardware, the front camera and chin camera are connected to the Nano on the head (192.168.123.13), the cameras on both sides of the fuselage are connected to the Nano (192.168.123.14), and the belly camera is connected to the main Nano or NX (192.168 .123.15) on. 
@@ -490,7 +490,7 @@ Camera hardware parameters
 | Depth output resolution：  | adjustable（default464x400） |
 | Depth frame rate：         | ≤30fps                       |
 
-### 6.2 SDK
+### 7.2 SDK
 
 The camera SDK is hung on the Unitree GitHub warehouse, and can be downloaded and used by itself.
 
@@ -517,7 +517,7 @@ example_putImagetrans.cc -- send an image over the network
 example_share.cc -- shared memory code routines, not open to users
 Among them, the first five call the camera locally, just compile and run directly; the two transmission samples, one for sending and one for receiving, need to be run separately.
 
-### 6.3 SDK usage example
+### 7.3 SDK usage example
 
 Before using the SDK, you need to kill the built-in program that calls the camera in order to successfully obtain images. There are 4 programs related to the camera, point_cloud_node, mqttControlNode, live_human_pose, rosnode, which are used for point cloud images, transmission, human body recognition, etc., you can use the ps -aux command to query the status, kill these processes before use to release the camera occupation , Release computing power.
 
@@ -537,23 +537,23 @@ ps -aux | grep rosnode | awk '{print $2}' | xargs kill -9
 
 In order to facilitate everyone's understanding, we take several ways to obtain images as examples.
 
-#### 6.3.1 The internal board obtains the local camera image of the board
+#### 7.3.1 The internal board obtains the local camera image of the board
 
 This section takes 14 boards as an example to obtain the corrected image from the right camera. 14 boards need to be connected to devices such as HDMI monitors, mice and keyboards, and all operations are performed on the boards.
 
-##### 6.3.1.1 download camera sdk
+##### 7.3.1.1 download camera sdk
 
 Download the UnitreecameraSDK by yourself, and put it on the board connected to the camera.
 
 [unitreerobotics/UnitreecameraSDK: Unitree GO1 camera SDK (github.com)](https://github.com/unitreerobotics/UnitreecameraSDK) 
 
-If the board is connected to the Internet, you can use the git command to download the latest camera sdk.
+If the board7is connected to the Internet, you can use the git command to download the latest camera sdk.
 
 ```
 git clone https://github.com/unitreerobotics/UnitreecameraSDK.git
 ```
 
-##### 6.3.1.2 Stop the camera-related processes that come with the board
+##### 7.3.1.2 Stop the camera-related processes that come with the board
 
 ```
 ps -aux | grep point_cloud_node | awk '{print $2}' | xargs kill -9
@@ -564,7 +564,7 @@ ps -aux | grep rosnode | awk '{print $2}' | xargs kill -9
 
 As mentioned at the beginning of this section, we need to kill point_cloud_node, mqttControlNode, live_human_pose, rosnode processes (not all processes exist, for example, live_human_pose only exists on the main Nano). After killing, you can use the command to query the process, and then confirm whether the process is successfully killed.
 
-##### 6.3.1.3 Compile and run example_getRectFrame
+##### 7.3.1.3 Compile and run example_getRectFrame
 
 - Build
 
@@ -591,11 +591,11 @@ The operation is successful as shown in the figure below
 
 ![img](./images/example_getRectFrame.png)
 
-#### 6.3.2 Image transmission between internal boards
+#### 7.3.2 Image transmission between internal boards
 
 This section takes 15 boards to acquire 13 boards' forward camera images as an example. The 15 board needs to be connected to devices such as an HDMI monitor, mouse and keyboard, and all operations are performed on the 15 board.
 
-##### 6.3.2.1 Download camera sdk
+##### 7.3.2.1 Download camera sdk
 
 Download the UnitreecameraSDK by yourself, and put it on the required board.
 If the board is connected to the Internet, you can use the git command to download the latest camera sdk.
@@ -604,7 +604,7 @@ If the board is connected to the Internet, you can use the git command to downlo
 git clone https://github.com/unitreerobotics/UnitreecameraSDK.git
 ```
 
-##### 6.3.2.2 Send camera sdk to head Nano
+##### 7.3.2.2 Send camera sdk to head Nano
 
 Since the head Nano does not provide HDMI and USB for customers to use, we can use the scp tool to send the SDK folder to the head Nano.
 
@@ -612,14 +612,14 @@ Since the head Nano does not provide HDMI and USB for customers to use, we can u
 scp -r UnitreecameraSDK unitree@192.168.123.13:/home/unitree/
 ```
 
-##### 6.3.2.3 Remote connection head Nano
+##### 7.3.2.3 Remote connection head Nano
 
 ```
 ssh unitree@192.168.123.13
 password:123
 ```
 
-##### 6.3.2.4 Stop the camera-related processes that come with the Nano on the head
+##### 7.3.2.4 Stop the camera-related processes that come with the Nano on the head
 
 ```
 ps -aux | grep point_cloud_node | awk '{print $2}' | xargs kill -9
@@ -630,7 +630,7 @@ ps -aux | grep rosnode | awk '{print $2}' | xargs kill -9
 
 As mentioned at the beginning of this section, we need to kill point_cloud_node, mqttControlNode, live_human_pose, rosnode processes (not all processes exist, for example, live_human_pose only exists on the main Nano). After killing, you can use the command to query the process, and then confirm whether the process is successfully killed.
 
-##### 6.3.2.5 Modify the transmission configuration parameter file trans_rect_config.yaml
+##### 7.3.2.5 Modify the transmission configuration parameter file trans_rect_config.yaml
 
 ```
 cd UnitreecameraSDK
@@ -725,7 +725,7 @@ Reserved: !!opencv-matrix
    dt: d
 ```
 
-##### 6.3.2.6 编译运行`example_putImagetrans`
+##### 7.3.2.6 编译运行`example_putImagetrans`
 
 - Build
 
@@ -755,7 +755,7 @@ Note: When we recompile and run the sending program, sometimes an error will be 
 At this time, you can kill the following program and try again.
 ps -aux | grep send_image_client | awk '{print $2}' | xargs kill -9
 
-##### 6.3.2.7 Compile and run example_getimagetrans on 15 boards
+##### 7.3.2.7 Compile and run example_getimagetrans on 15 boards
 
 ● Edit example_getimagetrans.cc
 
@@ -792,11 +792,11 @@ Note:
 If the sender has sent, but the program cannot receive, you can enter the following command in the terminal to test:
 gst-launch-1.0 udpsrc port=9201 ! application/x-rtp, media=video, encoding-name=H264 ! rtph264depay ! h264parse ! omxh264dec ! videoconvert ! autovideosink
 
-#### 6.3.3 The client PC obtains a single image from the camera in front of the head
+#### 7.3.3 The client PC obtains a single image from the camera in front of the head
 
 This section takes the customer PC to obtain the image of the front-facing camera of the 13 boards through the network cable as an example.
 
-##### 6.3.3.1 Configure client PC network
+##### 7.3.3.1 Configure client PC network
 
 Connect the client PC and the robot dog through a network cable, and configure the PC wired network card.
 The following is an example of configuring the local IP network segment, please follow the actual situation.
@@ -807,7 +807,7 @@ sudo ifconfig eth0 up
 ifconfig
 ```
 
-##### 6.3.3.2 Download camera sdk
+##### 7.3.3.2 Download camera sdk
 
 Download the UnitreecameraSDK by yourself, and put it on the required board and PC.
 
@@ -819,11 +819,11 @@ If the board and PC are connected to the Internet, you can use the git command t
 git clone https://github.com/unitreerobotics/UnitreecameraSDK.git
 ```
 
-##### 6.3.3.3 Configure the head board to send images
+##### 7.3.3.3 Configure the head board to send images
 
 Refer to sections 6.3.2.2 - 6.3.2.6, and will not repeat them here.
 
-##### 6.3.3.4 Configure the environment dependencies of your own PC
+##### 7.3.3.4 Configure the environment dependencies of your own PC
 
 1. Install gstremer dependencies
 
@@ -860,7 +860,7 @@ sudo apt install libeigen3-dev
 2. This error is still reported after installation or after installation, you can modify the path of eigen in the source code
 Go to the file ~/opencv-4.1.1/modules/core/include/opencv2/core/private.hpp, modify # include <Eigen/Core> to # include <eigen3/Eigen/Core>, and then recompile.
 
-##### 6.3.3.5 Compile and run example_getimagetrans on your own PC
+##### 7.3.3.5 Compile and run example_getimagetrans on your own PC
 
 ● Edit example_getimagetrans.cc
 
@@ -905,7 +905,7 @@ gst-launch-1.0 udpsrc port=9201 ! application/x-rtp, media=video, encoding-name=
 PC is ARM64 platform
 gst-launch-1.0 udpsrc port=9201 ! application/x-rtp, media=video, encoding-name=H264 ! rtph264depay ! h264parse ! omxh264dec ! videoconvert ! autovideosink
 
-#### 6.3.4 Simultaneously acquire images from the front camera of the head and the camera of the chin
+#### 7.3.4 Simultaneously acquire images from the front camera of the head and the camera of the chin
 
 Sometimes we need to capture the pictures of two cameras on a Nano at the same time. At this time, we can create two transmission configuration files trans_rect_config_cam1.yaml and trans_rect_config_cam2.yaml, and then create two sending programs to run separately to send out the two cameras at the same time. Of course, it is also possible to transmit twice in the same program.
 for example:
@@ -948,21 +948,21 @@ int main(int argc, char *argv[])
 
 ```
 
-#### 6.3.5 Common errors and solutions when using UnitreecameraSDK
+#### 7.3.5 Common errors and solutions when using UnitreecameraSDK
 
-##### 6.3.5.1 Synchronize the system time first if there is any error
+##### 7.3.5.1 Synchronize the system time first if there is any error
 
 Reason for error: system time causes compilation error or compilation failure.
 Solution: https://blog.csdn.net/n_fly/article/details/123270214
 
-##### 6.3.5.2 Error cannot find -ludev when compiling
+##### 7.3.5.2 Error cannot find -ludev when compiling
 
 ![img](./images/udev.png)
 
 Reason for error: missing usb and udev related dependencies
 Solution: sudo apt-get install libusb-1.0-0-dev libusb-dev libudev-dev
 
-### 6.4 Use python to write image receiving program
+### 7.4 Use python to write image receiving program
 
 ```
 import cv2
