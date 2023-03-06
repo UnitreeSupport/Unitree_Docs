@@ -285,7 +285,7 @@ build -- compile folder
 
 ### 5.2 Introduction to routines
 
-<img src="./images/example.png" alt="img" style="zoom:150%;" />
+![img](./images/example.png)
 
 The picture above is the code of the routine. Two programs are provided for testing. One is to use the same color for all lamp beads, and the other is to combine different colors of different lamp beads to form a new lighting effect.
 It should be noted that we provide two control functions:
