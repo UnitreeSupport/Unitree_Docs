@@ -106,7 +106,7 @@ The real-time confidence level of the tracking target is displayed by adjusting 
    :caption: Home
 
    self
-   Install <install/installation>
+
 
 
 .. toctree::
