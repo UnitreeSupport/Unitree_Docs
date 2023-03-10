@@ -1,6 +1,6 @@
 
 
-# Go1-Edu
+# Go1
 
 ## 1. Go1 system architecture diagram
 
