@@ -3,14 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-############################
-Welcome to 🎉🎉🎉 Unitree!
-############################
+####################################
+Welcome to 🎉🎉🎉 Unitree Support!
+####################################
 .. Build models, ML components and full stack AI apps ⚡ *Lightning fast*.
 
 
 
-**Featured research of what you can find with Quadruped Robot:**
+**This website is about guidance and frequently asked questions about the secondary development of Unitree products. If you have any technical questions, please send them to    
+support@unitree.cc**
 
 |
 
@@ -20,29 +21,21 @@ Welcome to 🎉🎉🎉 Unitree!
       <div class="row" style="display:flex; align-items: center; justify-content: center; gap: 10px">
 
 .. app_card::
-   :title: Legged 
-   :description: Legged Locomotion in Challenging Terrains using Egocentric Vision
-   :width: 280
-   :image: _static/sources/index/1.PNG
-   :preview: https://vision-locomotion.github.io/
-   :target: https://vision-locomotion.github.io/
-   :tags: vision locomotion
+   :title: Unitree Support
+   :description: Email:support@unitree.cc 
+   :width: 300
+   :image: _static/sources/index/1.jpg
+   :preview: https://www.youtube.com/@unitreesupport5358 
+   :target: https://www.youtube.com/@unitreesupport5358
+   :tags: YouToBe
 
 .. app_card::
-   :title: Legged Locomotion
-   :description: Learning Agile Robotic Locomotion Skills by Imitating Animals
-   :width: 280
-   :image: _static/sources/index/robotic_imitation_teaser.png
-   :target: https://github.com/erwincoumans/motion_imitation
-   :tags: Motion Imitation
-
-.. app_card::
-   :title: Deep Whole-Body Control
-   :description:  Learning a Unified Policy for Manipulation and Locomotion
-   :width: 280
-   :image: _static/sources/index/3.PNG
-   :target: https://manipulation-locomotion.github.io/
-   :tags: Whole-Body Control
+   :title: Unitree Robotics
+   :description: Unitree Robotics company official channel
+   :width: 300
+   :image: _static/sources/index/2.jpg
+   :target: https://www.youtube.com/@unitreerobotics7482
+   :tags: YouToBe 
 
 .. raw:: html
 
@@ -55,9 +48,9 @@ Welcome to 🎉🎉🎉 Unitree!
 
 **Featured examples of what you can do with Quadruped Robot:**
 
-*********************************
-Vision-based Autonomous Following
-*********************************
+**********************************************************************************************
+Papers Based on Unitree's Robots From Universities and Research Insititutions around the World
+**********************************************************************************************
 Follow targets (people, specific moving objects) in the visual range in real-time.High real-time follow-up, video traffic refresh speeds up to 25-30 frames/s.
 
 Support online learning of following target characteristics with good robustness performance.
@@ -66,9 +59,8 @@ The real-time confidence level of the tracking target is displayed by adjusting 
 
 .. raw:: html
 
-   <div style="display: flex; align-items: center; justify-content: center;">
-      <img src="https://oss-global-cdn.unitree.com/2022/6/17/4edb9fcba6604dfdb60bd165d5f35f0b_640x360.gif" style="max-width: 800px"></img>
-   </div>
+    <video width="100%" max-width="800px" controls autoplay muted playsinline
+    src=""></video>
 
 |
 
@@ -117,22 +109,32 @@ The real-time confidence level of the tracking target is displayed by adjusting 
 
 .. toctree::
    :maxdepth: 1
-   :caption: Get started in ROS
+   :caption: Aliengo
 
-   install <get_started_ros/index>
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Legged Sdk API Reference
-
-   Reference <Legged_Sdk_API/index>
+   AlienGo <Aliengo/AlienGo.md>
 
 .. toctree::
    :maxdepth: 1
-   :caption: CameraSDK API Reference
+   :caption: A1
 
-   Reference <CameraSDK_API/index>
+   A1 <A1/A1.md>
 
+.. toctree::
+   :maxdepth: 1
+   :caption: B1
+
+   B1 <B1/Unitree B1 robot dog NX connects to external network.md>
+.. toctree::
+   :maxdepth: 1
+   :caption: Z1_docs
+
+   Reference <https://dev-z1.unitree.com/>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Motor_docs
+
+   Reference <https://dev-motor.unitree.com/>
 .. toctree::
    :maxdepth: 1
    :caption: More
